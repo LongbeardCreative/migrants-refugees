@@ -196,13 +196,13 @@ POSTS & CONTENT STYLES
 
 .lb_section_heading {
     h1 {
-        font-size: 3.5em;
+        font-size: 5em;
         color: $color1;
     }
     &::before {
         content: '';
-        width: 5px;
-        box-shadow: 5px 0px 0px 0 $color3;
+        width: 7px;
+        box-shadow: 7px 0px 0px 0 $color3;
         border-radius: 55px;
         float: left;
         margin-right: 25px;
@@ -212,25 +212,52 @@ POSTS & CONTENT STYLES
         height: 3.5em;
     }
     &.double::before {
-        height: 7em;
+        height: 11em;
+    }
+}
+
+.lb_section {
+    p {
+        margin-right: 200px;
     }
 }
 
 .lb_section_body {
     padding-left: 30px;
     margin-top: $heading-space;
+    p {
+        font-size: 1.3em;
+    }
 }
 
 .lb_half_section {
-    padding: 0 8%;
+    padding: 0 5%;
 }
 
 .lb_full_section {
     padding: 0 12%;
 }
 
+.lb_line_under::after {
+    content: ' ';
+    display: block;
+    height: 5px;
+    width: 60px;
+    text-align: left;
+    box-shadow: 0 5px 0px 0 #fed766;
+    border-radius: 55px;
+}
+
 .quote_row {
-    font-size: 1.5em;
+    height: 60vh;
+    display: table-cell;
+    vertical-align: middle;
+    width: 100vw;
+    h1 {
+        font-size: 3.4em;
+        font-weight: 600;
+        line-height: 1.8em;
+    }
     &::after {
         content: ' ';
         display: block;
