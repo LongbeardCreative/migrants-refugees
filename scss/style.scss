@@ -1,0 +1,109 @@
+/******************************************************************
+Site Name:
+Author: Longbeard Creative
+
+Stylesheet: Main Stylesheet
+******************************************************************/
+
+/*********************
+IMPORT ELEMENTS
+*********************/
+
+// Sass variables
+@import "elements/variables";
+
+// typography
+@import "elements/typography";
+
+// import mixin
+@import "elements/mixins";
+
+// buttons
+@import "elements/buttons";
+
+// forms (inputs & labels)
+@import "elements/forms";
+
+/*********************
+IMPORT PAGES
+*********************/
+
+// Homepage
+
+.page-id-9{
+@import "pages/homepage";
+}
+
+// Contact
+
+.page-id-21{
+@import "pages/contact";
+}
+
+// News & Stories
+
+.page-id-44{
+@import "pages/news-stories";
+}
+
+// Subscribe
+
+@import "pages/subscribe";
+
+
+/*********************
+IMPORT BREAKPOINTS
+*********************/
+
+// styles in base.scss
+@import "pages/base";
+
+@media only screen and (min-width: 481px) {
+
+	// styles in 481up.scss
+	@import "pages/481up";
+
+} // end of media query
+
+/*********************
+TABLET & SMALLER LAPTOPS
+*********************/
+
+@media only screen and (min-width: 768px) {
+
+	// styles in 768up.scss
+	@import "pages/768up";
+
+} // end of media query
+
+/*********************
+DESKTOP
+*********************/
+
+@media only screen and (min-width: 1030px) {
+
+	// styles in 1030up.scss
+	@import "pages/1030up";
+
+} // end of media query
+
+/*********************
+LARGER DESKTOPS
+*********************/
+
+@media only screen and (min-width: 1240px) {
+
+	// styles in 1240up.scss
+	@import "pages/1240up";
+
+} // end of media query
+
+/*********************
+PRINT STYLESHEET
+*********************/
+@media print {
+
+	// styles in print.scss
+	@import "elements/print";
+
+}

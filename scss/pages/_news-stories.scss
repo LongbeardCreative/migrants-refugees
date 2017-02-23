@@ -1,0 +1,57 @@
+/******************************************************************
+Stylesheet: News & Stories
+
+Styles for news stories ONLY. If the styles will be used across the site,
+use the _base.scss file.
+******************************************************************/
+
+@import '../elements/variables';
+@import '../elements/mixins';
+
+/*********************
+UNIVERSAL / STYLES FOR DESKTOP [1250px and up]
+*********************/
+.latest_post_holder.boxes>ul>li {
+	background-color: #f6f6f6;
+
+	.latest_post {
+		padding-left:0px !important;
+		padding-right:0px !important;
+
+		.latest_post_title  {
+			padding-top:10px;
+		}
+
+		.post_infos a {
+			text-transform: uppercase;
+		    font-family: "Gotham Condensed Medium", sans-serif;
+			color:$color1 !important;
+			padding-left: 11px;
+		    border-left: 7px solid $color3;
+		    line-height: 15px;
+		}
+
+		.lb_post_read_more_btn a {
+			color:$color1;
+
+		}
+	}
+}
+
+
+.latest_post {
+	.latest_post_title a {
+		color:$color1;
+		font-size:2em;
+	}
+
+	.latest_post_title a:hover {
+		color:$color-hover;
+	}
+}
+
+
+
+/*********************
+RESPONSIVE STYLES
+*********************/

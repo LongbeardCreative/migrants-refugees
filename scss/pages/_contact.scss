@@ -1,0 +1,22 @@
+/******************************************************************
+Stylesheet: Contact
+
+Styles for contact ONLY. If the styles will be used across the site,
+use the _base.scss file.
+******************************************************************/
+
+@import '../elements/variables';
+@import '../elements/mixins';
+
+/*********************
+UNIVERSAL / STYLES FOR DESKTOP [1250px and up]
+*********************/
+.lb_contact_header h1 {
+    color: $color1;
+    font-size:3.5em !important;
+}
+
+
+/*********************
+RESPONSIVE STYLES
+*********************/
