@@ -1,0 +1,446 @@
+/******************************************************************
+Stylesheet: Universal Site Styles
+
+Only put styles in here that will be used across the entire site.
+For styles only applying to one particular page, use the appropriate
+page SCSS file.
+******************************************************************/
+
+
+/*********************
+GENERAL STYLES
+*********************/
+
+body {
+    font-family: $body-font;
+    font-size: 100%;
+    line-height: 1.5;
+    color: $color-p;
+    background-color: $gray;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+/*********************
+LINK STYLES
+*********************/
+
+a,
+a:visited {
+    color: $color-active;
+    /* on hover */
+    &:hover,
+    &:focus {
+        color: $color-hover;
+    }
+    /* on click */
+    &:active {}
+    /* mobile tap color */
+    &:link {
+        /*
+        this highlights links on iPhones/iPads.
+        so it basically works like the :hover selector
+        for mobile devices.
+        */
+        -webkit-tap-highlight-color: rgba( 0, 0, 0, 0.3);
+    }
+}
+
+
+/******************************************************************
+H1, H2, H3, H4, H5 STYLES
+******************************************************************/
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5 {
+    text-rendering: optimizelegibility;
+    font-weight: 500;
+    /*
+    if you're going to use webfonts, be sure to check your weights
+    http://css-tricks.com/watch-your-font-weight/
+    */
+    /* removing text decoration from all headline links */
+    a {
+        text-decoration: none;
+    }
+}
+
+h1,
+.h1 {
+    font-size: 2.5em;
+    line-height: 1.333em;
+}
+
+h2,
+.h2 {
+    font-size: 1.75em;
+    line-height: 1.4em;
+    margin-bottom: 0.375em;
+}
+
+h3,
+.h3 {
+    font-size: 1.125em;
+}
+
+h4,
+.h4 {
+    font-size: 1.1em;
+    font-weight: 700;
+}
+
+h5,
+.h5 {
+    font-size: 0.846em;
+    line-height: 2.09em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+p {}
+
+
+/*********************
+HEADER STYLES
+*********************/
+
+
+/*
+a.side_menu_button_link.normal{
+float:left;
+line-height: 90px;
+}
+*/
+
+.popup_menu .line,
+.popup_menu .line:after,
+.popup_menu .line:before {
+    background-color: $color5 !important;
+}
+
+.header_inner_right {
+    float: left;
+}
+
+header:not(.sticky) {
+	.logo_wrapper {
+	    margin-top: 20px;
+	}
+}
+
+.header_inner_left {
+    width: 100%;
+	.logo_wrapper {
+	    width: 100%;
+	    .q_logo {
+	    	width: 285.7px;
+	    	display: block;
+	    	text-align: center;
+	    	margin: 0 auto;
+		}
+	}
+}
+
+
+
+/*********************
+NAVIGATION STYLES
+*********************/
+
+.popup_menu_holder_inner {
+    width: 1100px;
+    margin: 7% auto;
+    display: block;
+}
+
+nav.popup_menu {
+    ul {
+        li {
+            text-align: left;
+            a {
+                text-transform: none;
+                font: $body-font;
+                font-size: 1.8em;
+                font-weight: 400;
+                line-height: 1.1em;
+            }
+        }
+    }
+}
+
+
+/*********************
+POSTS & CONTENT STYLES
+*********************/
+
+.color3_row {
+    background-color: $color3;
+}
+
+.padding-top {
+    height: $padding-top !important;
+}
+
+.padding-bottom {
+    height: $padding-bottom !important;
+}
+
+.lb_section_heading {
+    h1 {
+        font-size: 3.5em;
+        color: $color1;
+    }
+    &::before {
+        content: '';
+        width: 5px;
+        box-shadow: 5px 0px 0px 0 $color3;
+        border-radius: 55px;
+        float: left;
+        margin-right: 25px;
+        margin-top: 14px;
+    }
+    &.single::before {
+        height: 3.5em;
+    }
+    &.double::before {
+        height: 7em;
+    }
+}
+
+.lb_section_body {
+    padding-left: 30px;
+    margin-top: $heading-space;
+}
+
+.lb_half_section {
+    padding: 0 8%;
+}
+
+.lb_full_section {
+    padding: 0 12%;
+}
+
+.quote_row {
+    font-size: 1.5em;
+    &::after {
+        content: ' ';
+        display: block;
+        margin: 0 auto;
+        height: 5px;
+        width: 100px;
+        text-align: center;
+        box-shadow: 0 5px 0px 0 #fed766;
+        border-radius: 55px;
+    }
+}
+
+.lb_call_to_action h2 {
+    font-size: 2em;
+    color: $color1;
+}
+
+/*** IMAGE LAYOVER STYLES ***/
+.lb_behind img {
+    z-index: 0;
+    position: relative;
+    margin-bottom: -100px;
+}
+
+.pull-up img {
+    position: relative;
+    z-index: 99;
+}
+
+
+/******************************************************************
+COMMENT SECTION STYLES
+******************************************************************/
+
+
+/******************************************************************
+COMMENT FORM STYLES
+******************************************************************/
+
+.gform_wrapper input:not([type=radio])::-webkit-input-placeholder,
+.gform_wrapper textarea::-webkit-input-placeholder {
+    color: #a88e43 !important;
+    font-size: 16px !important;
+    transition: all .1s linear;
+}
+
+.gform_wrapper input:not([type=radio]):focus,
+.gform_wrapper textarea:focus {
+    border-bottom-color: #a88e43 !important;
+    transition: all .1s linear;
+}
+
+.gform_wrapper input:not([type=radio]):focus::-webkit-input-placeholder,
+.gform_wrapper textarea:focus::-webkit-input-placeholder {
+    color: $color1 !important;
+    transition: all .1s linear;
+}
+
+body .gform_wrapper .chzn-container,
+body .gform_wrapper input[type=email],
+body .gform_wrapper input[type=number],
+body .gform_wrapper input[type=password],
+body .gform_wrapper input[type=tel],
+body .gform_wrapper input[type=text],
+body .gform_wrapper input[type=url],
+body .gform_wrapper select,
+body .gform_wrapper textarea {
+    padding: 0 !important;
+    border: none !important;
+    border-bottom: 2px solid $color1 !important;
+    border-radius: 0px !important;
+    max-width: 1400px !important;
+    transition: all .1s linear;
+}
+
+.gfield_required {
+    display: none !important;
+}
+
+.gform_wrapper .gform_footer input.button,
+.gform_wrapper .gform_footer input[type=submit],
+.gform_wrapper .gform_page_footer input.button,
+.gform_wrapper .gform_page_footer input[type=submit] {
+    font-size: 1em;
+    width: auto;
+    margin: 0 auto !important;
+    display: block !important;
+}
+
+body .gform_wrapper input[type=submit]:hover,
+body .gform_wrapper input[type=button]:hover,
+body .gform_wrapper input[type=reset]:hover {
+    background-color: $color2;
+    border-color: $color2;
+    color: #fff;
+    text-decoration: none;
+}
+
+.lb_footer_form .gform_wrapper {
+    .chzn-container,
+    input[type=email],
+    input[type=number],
+    input[type=password],
+    input[type=tel],
+    input[type=text],
+    input[type=url],
+    select,
+    textarea {
+        color:#a88e43 !important;
+    }
+
+    .gform_footer input.button,
+    .gform_footer input[type=submit],
+    .gform_page_footer input.button,
+    .gform_page_footer input[type=submit] {
+        font-size: 1em;
+        color:#a88e43 ;
+        border-color:#a88e43;
+        width: auto;
+        margin: 0 auto !important;
+        display: block !important;
+    }
+
+    .gform_footer input.button:hover,
+    .gform_footer input[type=submit]:hover,
+    .gform_page_footer input.button:hover,
+    .gform_page_footer input[type=submit]:hover {
+        font-size: 1em;
+        color:#ffffff ;
+        border-color:$color2;
+        width: auto;
+        margin: 0 auto !important;
+        display: block !important;
+    }
+}
+
+
+
+
+/*********************
+SIDEBARS & ASIDES
+*********************/
+
+
+/*********************
+FOOTER STYLES
+*********************/
+
+.footer_top {
+    padding: 40px 0 15px;
+    .container .container_inner {
+        #text-2 {
+            margin: 2.2em 0 0.7em 0;
+            .textwidget {
+                .footer-logo-wrap {
+                    width: 100%;
+                    display: block;
+                    #footer-logo {
+                        display: inline-block;
+                        text-align: center;
+                        width: 200px;
+                        padding-bottom: 40px;
+                    }
+                }
+                a {
+                    display: inline-block;
+                    h5 {
+                        display: inline-block !important;
+                        padding: 0 20px;
+                        transition: $transition;
+                        font-size: 1em;
+                    }
+                    h5:hover {
+                        color: $color3;
+                    }
+                }
+            }
+        }
+    }
+}
+
+#newsletter-footer {
+    padding-top: 20px;
+    i {
+        color: #fff;
+        width: 30px;
+        height: 30px;
+        font-size: 1.5em;
+        transition: $transition;
+    }
+    h5 {
+        font-size: 0.8em !important;
+        letter-spacing: 0;
+        transition: $transition;
+    }
+}
+
+#newsletter-footer a:hover i,
+#newsletter-footer a:hover h5 {
+    color: $color3;
+}
+
+.footer_bottom {
+    padding-bottom: 50px;
+}
+
+.q_social_icon_holder.normal_social {
+    margin: 0 20px !important;
+}
+
+.lb_footer_form {
+    display: none;
+}
