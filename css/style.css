@@ -341,6 +341,9 @@ body {
   background-color: #eff1f3;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
+
+.mobile-hide {
+  display: none; }
 /*********************
  LINK STYLES
  *********************/
@@ -440,8 +443,12 @@ nav.popup_menu ul li {
 /*********************
  POSTS & CONTENT STYLES
  *********************/
+.lb_section, .lb_section_body, .lb_section_heading {
+  text-align: center; }
+
 .color3_row {
-  background-color: #fed766; }
+  background-color: #fed766;
+  padding: 0 10%; }
 
 .padding-top {
   height: 90px !important; }
@@ -449,34 +456,53 @@ nav.popup_menu ul li {
 .padding-bottom {
   height: 90px !important; }
 
-.lb_section_heading h1 {
-  font-size: 3.5em;
-  color: #272727; }
-  .lb_section_heading::before {
-    content: '';
-    width: 5px;
-    box-shadow: 5px 0px 0px 0 #fed766;
-    border-radius: 55px;
-    float: left;
-    margin-right: 25px;
-    margin-top: 14px; }
+.lb_section_heading {
+  padding: 90px 0 90px 0 !important; }
+  .lb_section_heading h1 {
+    font-size: 3em;
+    color: #272727; }
   .lb_section_heading.single::before {
-    height: 3.5em; }
+    height: 2em; }
   .lb_section_heading.double::before {
-    height: 7em; }
+    height: 6.5em; }
+  .lb_section_heading.desktop-hide {
+    padding: 0; }
 
 .lb_section_body {
-  padding-left: 30px;
-  margin-top: 30px; }
+  margin: 25px 0 !important; }
 
-.lb_half_section {
-  padding: 0 8%; }
+.lb_line_under::after {
+  content: ' ';
+  display: block;
+  height: 5px;
+  width: 60px;
+  text-align: left;
+  box-shadow: 0 5px 0px 0 #fed766;
+  border-radius: 55px; }
 
-.lb_full_section {
-  padding: 0 12%; }
+.lb_last_row::before {
+  content: ' ';
+  display: block;
+  height: 5px;
+  width: 60px;
+  text-align: left;
+  box-shadow: 0 5px 0px 0 #fed766;
+  border-radius: 55px;
+  margin: 50px auto 60px; }
+
+.lb_call_to_action h2 {
+  font-size: 1.5em;
+  color: #272727; }
 
 .quote_row {
-  font-size: 1.5em; }
+  height: 60vh;
+  display: table-cell;
+  vertical-align: middle;
+  width: 100vw; }
+  .quote_row h1 {
+    font-size: 3.4em;
+    font-weight: 600;
+    line-height: 1.8em; }
   .quote_row::after {
     content: ' ';
     display: block;
@@ -486,19 +512,6 @@ nav.popup_menu ul li {
     text-align: center;
     box-shadow: 0 5px 0px 0 #fed766;
     border-radius: 55px; }
-
-.lb_call_to_action h2 {
-  font-size: 2em;
-  color: #272727; }
-/*** IMAGE LAYOVER STYLES ***/
-.lb_behind img {
-  z-index: 0;
-  position: relative;
-  margin-bottom: -100px; }
-
-.pull-up img {
-  position: relative;
-  z-index: 99; }
 /******************************************************************
  COMMENT SECTION STYLES
  ******************************************************************/
@@ -701,6 +714,9 @@ body .gform_wrapper input[type=submit]:hover, body .gform_wrapper input[type=but
    *********************/
   /* end .nav */
   /*********************
+   POSTS & CONTENT STYLES
+   *********************/
+  /*********************
    SIDEBARS & ASIDES
    *********************/
   /* links widget */
@@ -778,8 +794,17 @@ body .gform_wrapper input[type=submit]:hover, body .gform_wrapper input[type=but
         .nav li:hover > ul {
           top: auto;
           visibility: visible; }
-    .sidebar {
-      margin-top: 2.2em; }
+    .lb_section_heading::before {
+      content: '';
+      width: 7px;
+      box-shadow: 7px 0px 0px 0 #fed766;
+      border-radius: 55px;
+      float: left;
+      margin-right: 25px;
+      margin-top: 14px; }
+
+  .sidebar {
+    margin-top: 2.2em; }
 
   .widgettitle {
     border-bottom: 2px solid #444;
@@ -812,19 +837,82 @@ body .gform_wrapper input[type=submit]:hover, body .gform_wrapper input[type=but
    This is the desktop size. It's larger than an iPad so it will only
    be seen on the Desktop.
    ******************************************************************/
+  /*********************
+   POSTS & CONTENT STYLES
+   *********************/
   .wrap {
-    width: 1040px; } }
+    width: 1040px; }
+
+  .mobile-hide {
+    display: initial; }
+
+  .desktop-hide {
+    display: none; }
+
+  .lb_call_to_action h2 {
+    font-size: 2em; }
+
+  .lb_last_row {
+    margin-top: 160px; }
+    .lb_last_row::before {
+      display: none; } }
 /*********************
  LARGER DESKTOPS
  *********************/
 @media only screen and (min-width: 1240px) {
   /******************************************************************
-   Site Name: 
-   Author: 
+   Site Name:
+   Author:
    Stylesheet: Super Large Monitor Stylesheet
    You can add some advanced styles here if you like. This kicks in
    on larger screens.
-   ******************************************************************/ }
+   ******************************************************************/
+  /*********************
+   POSTS & CONTENT STYLES
+   *********************/
+  /*** IMAGE LAYOVER STYLES ***/
+  .color3_row {
+    padding: initial; }
+
+  .lb_section_heading h1 {
+    font-size: 5em;
+    color: #272727; }
+    .lb_section_heading::before {
+      content: '';
+      width: 7px;
+      box-shadow: 7px 0px 0px 0 #fed766;
+      border-radius: 55px;
+      float: left;
+      margin-right: 25px;
+      margin-top: 14px; }
+    .lb_section_heading.single::before {
+      height: 3.5em; }
+    .lb_section_heading.double::before {
+      height: 11em; }
+
+  .lb_section p {
+    margin-right: 200px; }
+
+  .lb_section_body {
+    padding-left: 30px;
+    margin-top: 30px; }
+    .lb_section_body p {
+      font-size: 1.3em; }
+
+  .lb_half_section {
+    padding: 0 5%; }
+
+  .lb_full_section {
+    padding: 0 12%; }
+
+  .lb_behind img {
+    z-index: 0;
+    position: relative;
+    margin-bottom: -100px; }
+
+  .pull-up img {
+    position: relative;
+    z-index: 99; } }
 /*********************
  PRINT STYLESHEET
  *********************/

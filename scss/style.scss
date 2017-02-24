@@ -1,5 +1,6 @@
 /******************************************************************
-Site Name:
+†JMJ
+Site Name: Migrants and Refugees
 Author: Longbeard Creative
 
 Stylesheet: Main Stylesheet
@@ -58,10 +59,25 @@ IMPORT BREAKPOINTS
 // styles in base.scss
 @import "pages/base";
 
-@media only screen and (min-width: 481px) {
+/********************
+PHONES PORTRAIT
+*********************/
+
+@media only screen and (max-width: 320px) {
 
 	// styles in 481up.scss
-	@import "pages/481up";
+	@import "pages/320down";
+
+} // end of media query
+
+/*******************
+LARGER PHONES AND LANDSCAPE
+********************/
+
+@media only screen and (max-width: 480px) {
+
+	// styles in 481up.scss
+	@import "pages/480down";
 
 } // end of media query
 
@@ -69,10 +85,10 @@ IMPORT BREAKPOINTS
 TABLET & SMALLER LAPTOPS
 *********************/
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 767px) {
 
 	// styles in 768up.scss
-	@import "pages/768up";
+	@import "pages/767down";
 
 } // end of media query
 
@@ -80,10 +96,10 @@ TABLET & SMALLER LAPTOPS
 DESKTOP
 *********************/
 
-@media only screen and (min-width: 1030px) {
+@media only screen and (max-width: 1030px) {
 
 	// styles in 1030up.scss
-	@import "pages/1030up";
+	@import "pages/1030down";
 
 } // end of media query
 

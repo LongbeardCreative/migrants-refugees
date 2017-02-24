@@ -2,12 +2,17 @@
 Site Name:
 Author:
 
-Stylesheet: 481px and Up Stylesheet
+Stylesheet: 480px and Down Stylesheet
 
-This stylesheet is loaded for larger devices. It's set to
-481px because at 480px it would load on a landscaped iPhone.
+This stylesheet is loaded for Smartphones. It's set to
+480px because at 481px it would load on a landscaped iPhone.
 This isn't ideal because then you would be loading all those
 extra styles on that same mobile connection.
+
+CONTENTS:
+	1. General 480down
+	2. Portrait Only
+	3. Landscape Only
 
 ******************************************************************/
 
@@ -111,3 +116,20 @@ do they need tweaking?
 	}
 } /* end .footer-links */
 
+/*********************
+PORTRAIT ONLY
+*********************/
+@media (orientation: portrait) {
+
+
+
+}
+
+/*********************
+LANDSCAPE ONLY
+*********************/
+@media (orientation: landscape) {
+
+
+	
+}
