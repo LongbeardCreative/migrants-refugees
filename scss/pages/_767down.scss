@@ -16,6 +16,14 @@ GENERAL STYLES
 
 body {}
 
+.mobile-hide {
+	display: none;
+}
+
+.desktop-hide {
+	display: initial;
+}
+
 /*********************
 LAYOUT & GRID STYLES
 *********************/

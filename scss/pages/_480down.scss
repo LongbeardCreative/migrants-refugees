@@ -23,56 +23,26 @@ anymore, so just be aware that if you drop
 them in here, they won't work.
 */
 
+.lb_padding_150 {
+	height: 30px!important;
+}
 
 /*********************
 NAVIGATION STYLES
 *********************/
 
-.nav {}
+#menu-main {
+    margin-left: 20px;
+}
 
-	/* .menu is clearfixed inside mixins.scss */
-	.menu {
-		ul {
-			li {
-				a {
+.header_inner_left .logo_wrapper .q_logo {
+    position: absolute;
+    left: 0;
+    margin-top: -10px;
+    width: 70%;
+}
 
-					/*
-					you can use hover styles here even though this size
-					has the possibility of being a mobile device.
-					*/
-					&:hover, &:focus {
-
-					}
-				}
-
-				&:first-child {}
-				&:last-child {}
-
-				/*
-				plan your menus and drop-downs wisely.
-				*/
-				ul.sub-menu,
-				ul.children {
-					li {
-						a {
-							&:hover,
-							&:focus {}
-							&:link {}
-						}
-						&:first-child {}
-						&:last-child {}
-					}
-				}
-			} /* end .menu ul li */
-
-			/* highlight current page */
-			li.current-menu-item,
-			li.current_page_item,
-			li.current_page_ancestor {
-				a {}
-			}  /* end current highlighters */
-		} /* end .menu ul */
-	} /* end .menu */
+/* end .menu */
 
 /*********************
 POSTS & CONTENT STYLES
@@ -101,6 +71,55 @@ POSTS & CONTENT STYLES
 	}
 
 } /* end .entry-content */
+
+.lb_behind {
+	margin-bottom: $padding-bottom;
+}
+
+.lb_mobile_divider {
+	padding-bottom: 0;
+	&::after {
+		content: ' ';
+	    display: block;
+	    height: 5px;
+	    width: 60px;
+	    text-align: center;
+	    box-shadow: 0 5px 0px 0 #fed766;
+	    border-radius: 55px;
+		margin: $padding-bottom auto 0;
+	}
+}
+
+.lb_section_heading {
+	padding-top: $padding-top;
+    h1 {
+        font-size: 3em;
+    }
+    &.single::before {
+        height: 2.5em;
+    }
+    &.double::before {
+        height: 6.5em;
+    }
+}
+
+.lb_section_body {
+	padding-bottom: 25px;
+	p {
+		font-size: 1em;
+	}
+}
+
+.lb_call_to_action h2 {
+	font-size: 1.5em;
+}
+
+.quote_row {
+	height: initial;
+	h1 {
+		font-size: 1.7em;
+	}
+}
 
 /*********************
 FOOTER STYLES
@@ -131,5 +150,5 @@ LANDSCAPE ONLY
 @media (orientation: landscape) {
 
 
-	
+
 }

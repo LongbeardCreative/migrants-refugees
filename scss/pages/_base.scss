@@ -21,6 +21,14 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+.desktop-hide {
+    display: none;
+}
+
+.mobile-hide {
+    display: initial;
+}
+
 
 /*********************
 LINK STYLES
