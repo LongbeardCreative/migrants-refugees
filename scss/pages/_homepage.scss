@@ -9,12 +9,50 @@ use the _base.scss file.
 @import '../elements/mixins';
 
 /*********************
-UNIVERSAL / STYLES FOR DESKTOP [1250px and up]
+UNIVERSAL / STYLES FOR DESKTOP
 *********************/
-.pull-up img {
-    margin-top: -150
+.lb_title_two .eh_two_columns_33_66 {
+    margin: 0 auto!important;
+    display: block;
+    width: auto!important;
+    margin-bottom: -100px!important;
+}
+
+.lb_title_two .q_elements_item_content:last-child {
+    margin-left: 10%;
+}
+
+.lb_mobile_divider {
+    margin-top: 220px;
+}
+
+.lb_stretch {
+    img {
+        position: absolute;
+        width: calc(50%);
+    }
+    &.lb_right img {
+        top: -75px;
+        margin-left: -50px;
+    }
+    &.lb_left img {
+        margin-top: -245px;
+        margin-left: 0px;
+    }
+}
+
+/* GRAVITY FORMS */
+#gform_submit_button_1 {
+    text-align: left!important;
+    display: inline!important;
 }
 
 /*********************
 RESPONSIVE STYLES
 *********************/
+
+@media screen and (min-width: 1500px) {
+    .section_inner.clearfix {
+        width: 1500px!important;
+    }
+}

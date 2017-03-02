@@ -1,5 +1,6 @@
 /******************************************************************
- Site Name:
+ †JMJ
+ Site Name: Migrants and Refugees
  Author: Longbeard Creative
  Stylesheet: Main Stylesheet
  ******************************************************************/
@@ -187,13 +188,36 @@ footer form {
    BUTTONS
    *********************/
   /*********************
-   UNIVERSAL / STYLES FOR DESKTOP [1250px and up]
+   UNIVERSAL / STYLES FOR DESKTOP
    *********************/
+  /* GRAVITY FORMS */
   /*********************
    RESPONSIVE STYLES
    *********************/ }
-  .page-id-9 .pull-up img {
-    margin-top: -150; }
+  .page-id-9 .lb_title_two .eh_two_columns_33_66 {
+    margin: 0 auto !important;
+    display: block;
+    width: auto !important;
+    margin-bottom: -100px !important; }
+  .page-id-9 .lb_title_two .q_elements_item_content:last-child {
+    margin-left: 10%; }
+  .page-id-9 .lb_mobile_divider {
+    margin-top: 220px; }
+  .page-id-9 .lb_stretch img {
+    position: absolute;
+    width: calc(50%); }
+    .page-id-9 .lb_stretch.lb_right img {
+      top: -75px;
+      margin-left: -50px; }
+    .page-id-9 .lb_stretch.lb_left img {
+      margin-top: -245px;
+      margin-left: 0px; }
+  .page-id-9 #gform_submit_button_1 {
+    text-align: left !important;
+    display: inline !important; }
+  @media screen and (min-width: 1500px) {
+  .page-id-9 .section_inner.clearfix {
+    width: 1500px !important; } }
 
 .page-id-21 {
   /******************************************************************
@@ -341,9 +365,6 @@ body {
   background-color: #eff1f3;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
-
-.mobile-hide {
-  display: none; }
 /*********************
  LINK STYLES
  *********************/
@@ -412,8 +433,9 @@ h5, .h5 {
 .header_inner_right {
   float: left; }
 
-header:not(.sticky) .logo_wrapper {
-  margin-top: 20px; }
+.header_bottom {
+  padding-top: 10px;
+  padding-bottom: 10px; }
 
 .header_inner_left {
   width: 100%; }
@@ -424,11 +446,14 @@ header:not(.sticky) .logo_wrapper {
       display: block;
       text-align: center;
       margin: 0 auto; }
+
+.sticky .q_logo {
+  width: 185px !important; }
 /*********************
  NAVIGATION STYLES
  *********************/
 .popup_menu_holder_inner {
-  width: 1100px;
+  width: 1300px;
   margin: 7% auto;
   display: block; }
 
@@ -443,12 +468,8 @@ nav.popup_menu ul li {
 /*********************
  POSTS & CONTENT STYLES
  *********************/
-.lb_section, .lb_section_body, .lb_section_heading {
-  text-align: center; }
-
 .color3_row {
-  background-color: #fed766;
-  padding: 0 10%; }
+  background-color: #fed766; }
 
 .padding-top {
   height: 90px !important; }
@@ -456,20 +477,36 @@ nav.popup_menu ul li {
 .padding-bottom {
   height: 90px !important; }
 
-.lb_section_heading {
-  padding: 90px 0 90px 0 !important; }
-  .lb_section_heading h1 {
-    font-size: 3em;
-    color: #272727; }
+.lb_section_heading h1 {
+  font-size: 4em;
+  color: #272727; }
+  .lb_section_heading::before {
+    content: '';
+    width: 7px;
+    box-shadow: 7px 0px 0px 0 #fed766;
+    border-radius: 55px;
+    float: left;
+    margin-right: 25px;
+    margin-top: 14px; }
   .lb_section_heading.single::before {
-    height: 2em; }
+    height: 3.5em; }
   .lb_section_heading.double::before {
-    height: 6.5em; }
-  .lb_section_heading.desktop-hide {
-    padding: 0; }
+    height: 8.5em; }
+
+.lb_section p {
+  margin-right: 200px; }
 
 .lb_section_body {
-  margin: 25px 0 !important; }
+  padding-left: 30px;
+  margin-top: 30px; }
+  .lb_section_body p {
+    font-size: 1.1em; }
+
+.lb_half_section {
+  padding: 0 5%; }
+
+.lb_full_section {
+  padding: 0 12%; }
 
 .lb_line_under::after {
   content: ' ';
@@ -479,20 +516,6 @@ nav.popup_menu ul li {
   text-align: left;
   box-shadow: 0 5px 0px 0 #fed766;
   border-radius: 55px; }
-
-.lb_last_row::before {
-  content: ' ';
-  display: block;
-  height: 5px;
-  width: 60px;
-  text-align: left;
-  box-shadow: 0 5px 0px 0 #fed766;
-  border-radius: 55px;
-  margin: 50px auto 60px; }
-
-.lb_call_to_action h2 {
-  font-size: 1.5em;
-  color: #272727; }
 
 .quote_row {
   height: 60vh;
@@ -512,6 +535,19 @@ nav.popup_menu ul li {
     text-align: center;
     box-shadow: 0 5px 0px 0 #fed766;
     border-radius: 55px; }
+
+.lb_call_to_action h2 {
+  font-size: 2em;
+  color: #272727; }
+/*** IMAGE LAYOVER STYLES ***/
+.lb_behind img {
+  z-index: 0;
+  position: relative;
+  margin-bottom: -100px; }
+
+.pull-up img {
+  position: relative;
+  z-index: 99; }
 /******************************************************************
  COMMENT SECTION STYLES
  ******************************************************************/
@@ -622,16 +658,32 @@ body .gform_wrapper input[type=submit]:hover, body .gform_wrapper input[type=but
 
 .lb_footer_form {
   display: none; }
-
-@media only screen and (min-width: 481px) {
+/********************
+ PHONES PORTRAIT
+ *********************/
+@media only screen and (max-width: 320px) {
+  /******************************************************************
+   Site Name: Migrants and Refugees
+   Author:
+   Stylesheet: Portrait Smartphone Stylsheet
+   Should be able to capture any non-mega-huge smartphones in portrait here
+   ******************************************************************/ }
+/*******************
+ LARGER PHONES AND LANDSCAPE
+ ********************/
+@media only screen and (max-width: 480px) {
   /******************************************************************
    Site Name:
    Author:
-   Stylesheet: 481px and Up Stylesheet
-   This stylesheet is loaded for larger devices. It's set to
-   481px because at 480px it would load on a landscaped iPhone.
+   Stylesheet: 480px and Down Stylesheet
+   This stylesheet is loaded for Smartphones. It's set to
+   480px because at 481px it would load on a landscaped iPhone.
    This isn't ideal because then you would be loading all those
    extra styles on that same mobile connection.
+   CONTENTS:
+   1. General 480down
+   2. Portrait Only
+   3. Landscape Only
    ******************************************************************/
   /*
    IMPORTANT NOTE ABOUT SASS 3.3 & UP
@@ -642,7 +694,6 @@ body .gform_wrapper input[type=submit]:hover, body .gform_wrapper input[type=but
   /*********************
    NAVIGATION STYLES
    *********************/
-  /* .menu is clearfixed inside mixins.scss */
   /* end .menu */
   /*********************
    POSTS & CONTENT STYLES
@@ -657,22 +708,26 @@ body .gform_wrapper input[type=submit]:hover, body .gform_wrapper input[type=but
    do they need tweaking?
    */
   /* end .footer-links */
-  .menu {
-    /* end .menu ul */ }
-    .menu ul {
-      /* end .menu ul li */
-      /* highlight current page */
-      /* end current highlighters */ }
-      .menu ul li {
-        /*
-         you can use hover styles here even though this size
-         has the possibility of being a mobile device.
-         */
-        /*
-         plan your menus and drop-downs wisely.
-         */ }
-        .entry-content {
-          /* at this larger size, we can start to align images */ }
+  /*********************
+   PORTRAIT ONLY
+   *********************/
+  /*********************
+   LANDSCAPE ONLY
+   *********************/
+  .lb_padding_150 {
+    height: 30px !important; }
+
+  #menu-main {
+    margin-left: 20px; }
+
+  .header_inner_left .logo_wrapper .q_logo {
+    position: absolute;
+    left: 0;
+    margin-top: -10px;
+    width: 70%; }
+
+  .entry-content {
+    /* at this larger size, we can start to align images */ }
     .entry-content .alignleft, .entry-content img.alignleft {
       margin-right: 1.5em;
       display: inline;
@@ -685,20 +740,55 @@ body .gform_wrapper input[type=submit]:hover, body .gform_wrapper input[type=but
       margin-right: auto;
       margin-left: auto;
       display: block;
-      clear: both; } }
-/*********************
- TABLET & SMALLER LAPTOPS
- *********************/
-@media only screen and (min-width: 768px) {
+      clear: both; }
+
+  .lb_behind {
+    margin-bottom: 90px; }
+
+  .lb_mobile_divider {
+    padding-bottom: 0; }
+    .lb_mobile_divider::after {
+      content: ' ';
+      display: block;
+      height: 5px;
+      width: 60px;
+      text-align: center;
+      box-shadow: 0 5px 0px 0 #fed766;
+      border-radius: 55px;
+      margin: 90px auto 0; }
+
+  .lb_section_heading {
+    padding-top: 90px; }
+    .lb_section_heading h1 {
+      font-size: 3em; }
+    .lb_section_heading.single::before {
+      height: 2.5em; }
+    .lb_section_heading.double::before {
+      height: 6.5em; }
+
+  .lb_section_body {
+    padding-bottom: 25px; }
+    .lb_section_body p {
+      font-size: 1em; }
+
+  .lb_call_to_action h2 {
+    font-size: 1.5em; }
+
+  .quote_row {
+    height: initial; }
+    .quote_row h1 {
+      font-size: 1.7em; } }
+  /*********************
+   TABLET & SMALLER LAPTOPS
+   *********************/
+
+@media only screen and (max-width: 767px) {
   /******************************************************************
    Site Name:
    Author:
    Stylesheet: Tablet & Small Desktop Stylesheet
    Here's where you can start getting into the good stuff.
-   This size will work on iPads, other tablets, and desktops.
-   So you can start working with more styles, background images,
-   and other resources. You'll also notice the grid starts to
-   come into play. Have fun!
+   This is for iPad Portrait and other tablet sizes
    ******************************************************************/
   /*********************
    GENERAL STYLES
@@ -713,9 +803,6 @@ body .gform_wrapper input[type=submit]:hover, body .gform_wrapper input[type=but
    NAVIGATION STYLES
    *********************/
   /* end .nav */
-  /*********************
-   POSTS & CONTENT STYLES
-   *********************/
   /*********************
    SIDEBARS & ASIDES
    *********************/
@@ -739,6 +826,12 @@ body .gform_wrapper input[type=submit]:hover, body .gform_wrapper input[type=but
    mobile. Make sure to double check these!
    */
   /* end .footer-links */
+  .mobile-hide {
+    display: none; }
+
+  .desktop-hide {
+    display: initial; }
+
   .wrap {
     width: 760px; }
 
@@ -794,17 +887,8 @@ body .gform_wrapper input[type=submit]:hover, body .gform_wrapper input[type=but
         .nav li:hover > ul {
           top: auto;
           visibility: visible; }
-    .lb_section_heading::before {
-      content: '';
-      width: 7px;
-      box-shadow: 7px 0px 0px 0 #fed766;
-      border-radius: 55px;
-      float: left;
-      margin-right: 25px;
-      margin-top: 14px; }
-
-  .sidebar {
-    margin-top: 2.2em; }
+    .sidebar {
+      margin-top: 2.2em; }
 
   .widgettitle {
     border-bottom: 2px solid #444;
@@ -829,33 +913,16 @@ body .gform_wrapper input[type=submit]:hover, body .gform_wrapper input[type=but
 /*********************
  DESKTOP
  *********************/
-@media only screen and (min-width: 1030px) {
+@media only screen and (max-width: 1030px) {
   /******************************************************************
-   Site Name:
+   Site Name: Migrants and Refugees
    Author:
    Stylesheet: Desktop Stylsheet
    This is the desktop size. It's larger than an iPad so it will only
-   be seen on the Desktop.
+   devices lower than that.
    ******************************************************************/
-  /*********************
-   POSTS & CONTENT STYLES
-   *********************/
   .wrap {
-    width: 1040px; }
-
-  .mobile-hide {
-    display: initial; }
-
-  .desktop-hide {
-    display: none; }
-
-  .lb_call_to_action h2 {
-    font-size: 2em; }
-
-  .lb_last_row {
-    margin-top: 160px; }
-    .lb_last_row::before {
-      display: none; } }
+    width: 1040px; } }
 /*********************
  LARGER DESKTOPS
  *********************/
@@ -866,53 +933,7 @@ body .gform_wrapper input[type=submit]:hover, body .gform_wrapper input[type=but
    Stylesheet: Super Large Monitor Stylesheet
    You can add some advanced styles here if you like. This kicks in
    on larger screens.
-   ******************************************************************/
-  /*********************
-   POSTS & CONTENT STYLES
-   *********************/
-  /*** IMAGE LAYOVER STYLES ***/
-  .color3_row {
-    padding: initial; }
-
-  .lb_section_heading h1 {
-    font-size: 5em;
-    color: #272727; }
-    .lb_section_heading::before {
-      content: '';
-      width: 7px;
-      box-shadow: 7px 0px 0px 0 #fed766;
-      border-radius: 55px;
-      float: left;
-      margin-right: 25px;
-      margin-top: 14px; }
-    .lb_section_heading.single::before {
-      height: 3.5em; }
-    .lb_section_heading.double::before {
-      height: 11em; }
-
-  .lb_section p {
-    margin-right: 200px; }
-
-  .lb_section_body {
-    padding-left: 30px;
-    margin-top: 30px; }
-    .lb_section_body p {
-      font-size: 1.3em; }
-
-  .lb_half_section {
-    padding: 0 5%; }
-
-  .lb_full_section {
-    padding: 0 12%; }
-
-  .lb_behind img {
-    z-index: 0;
-    position: relative;
-    margin-bottom: -100px; }
-
-  .pull-up img {
-    position: relative;
-    z-index: 99; } }
+   ******************************************************************/ }
 /*********************
  PRINT STYLESHEET
  *********************/
