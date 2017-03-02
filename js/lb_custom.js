@@ -14,7 +14,11 @@ $(function langSwitcher() {
     $('header .container_inner').append('<div class="lang_switcher"></div>');
 
     $.each(arr, function( index, value ) {
-        $('.lang_switcher').prepend('<a href="' + path + value + '/index.php?p=' + pageId + '">' + value + '</a>');
+        if ( index == lang ) {
+            $('.lang_switcher').prepend('<a class="lb_active" href="javascript:void(0)">' + value + '</a>');
+        } else {
+            $('.lang_switcher').prepend('<a href="' + path + value + '/index.php?p=' + pageId + '">' + value + '</a>');
+        }
     });
 
 });

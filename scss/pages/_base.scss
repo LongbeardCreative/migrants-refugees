@@ -179,8 +179,35 @@ a.popup_menu {
 	}
 }
 
-.sticky .q_logo {
-    width: 185px!important;
+.lang_switcher {
+    z-index: 99999;
+    position: absolute;
+    right: 0px;
+    top: 40px;
+    a {
+        color: $color5;
+        font: $body-font;
+        text-transform: uppercase;
+        padding: 0 6px;
+        font-size: 20px;
+        opacity: 0.7;
+        transition: opacity 250ms;
+        &.lb_active {
+            opacity: 1;
+        }
+        &:hover {
+            opacity: 1;
+        }
+    }
+}
+
+.sticky {
+    .lang_switcher {
+        top: 20px;
+    }
+    .q_logo {
+        width: 185px!important;
+    }
 }
 
 .lb_drive_icon span::after {
@@ -301,9 +328,9 @@ POSTS & CONTENT STYLES
     vertical-align: middle;
     width: 100vw;
     h1 {
-        font-size: 3.4em;
-        font-weight: 600;
-        line-height: 1.8em;
+        font-size: 3.2em;
+        font-weight: bold;
+        line-height: 1.4em;
     }
     &::after {
         content: ' ';
@@ -332,6 +359,15 @@ POSTS & CONTENT STYLES
 .pull-up img {
     position: relative;
     z-index: 99;
+}
+
+/*** BLOG POSTS ***/
+.title_holder {
+    display: none!important;
+}
+
+.title {
+    height: 120px!important;
 }
 
 

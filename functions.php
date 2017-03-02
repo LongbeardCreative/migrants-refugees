@@ -10,6 +10,9 @@ add_action( 'wp_enqueue_scripts', 'wp_schools_enqueue_scripts', 11);
 
 define('WP_SCSS_ALWAYS_RECOMPILE', true);
 
+//Add GForms advanced fields
+add_filter( 'gform_enable_field_label_visibility_settings', '__return_true' );
+
 // enqueue the child theme customJS script
 function lb_enqueue_scripts() {
 wp_register_script('childjs', get_stylesheet_directory_uri() . '/js/lb_custom.js', array('jquery'), true);
