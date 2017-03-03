@@ -212,6 +212,8 @@ footer form {
     .page-id-9 .lb_stretch.lb_left img {
       margin-top: -245px;
       margin-left: 0px; }
+  .page-id-9 .lb_overlap {
+    margin-bottom: -50px !important; }
   .page-id-9 #gform_submit_button_1 {
     text-align: left !important;
     display: inline !important; }
@@ -365,6 +367,12 @@ body {
   background-color: #eff1f3;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
+
+.desktop-hide {
+  display: none; }
+
+.mobile-hide {
+  display: initial; }
 /*********************
  LINK STYLES
  *********************/
@@ -428,7 +436,22 @@ h5, .h5 {
  }
  */
 .popup_menu .line, .popup_menu .line:after, .popup_menu .line:before {
-  background-color: #eff1f3 !important; }
+  background-color: #eff1f3 !important;
+  height: 1px;
+  width: 24px; }
+
+a.popup_menu:after {
+  content: 'MENU';
+  display: inline-block;
+  color: #eff1f3;
+  margin-left: 18px;
+  font-size: 22px;
+  top: -9px;
+  position: absolute; }
+  a.popup_menu .line:after {
+    top: 7px; }
+    a.popup_menu .line:before {
+      top: -7px; }
 
 .header_inner_right {
   float: left; }
@@ -447,8 +470,37 @@ h5, .h5 {
       text-align: center;
       margin: 0 auto; }
 
-.sticky .q_logo {
-  width: 185px !important; }
+.lang_switcher {
+  z-index: 99999;
+  position: absolute;
+  right: 0px;
+  top: 40px; }
+  .lang_switcher a {
+    color: #eff1f3;
+    font: 400 1em/1.2em 'Gotham Rounded Book', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    padding: 0 6px;
+    font-size: 20px;
+    opacity: 0.7;
+    transition: opacity 250ms; }
+    .lang_switcher a.lb_active {
+      opacity: 1; }
+    .lang_switcher a:hover {
+      opacity: 1; }
+
+.sticky .lang_switcher {
+  top: 20px; }
+  .sticky .q_logo {
+    width: 185px !important; }
+
+.lb_drive_icon span::after {
+  content: '';
+  background: url('/wp-content/uploads/2017/03/google-drive-logo.svg') no-repeat;
+  background-size: 50px 48px;
+  height: 46px;
+  width: 50px;
+  margin-left: 25px;
+  display: inline-block; }
 /*********************
  NAVIGATION STYLES
  *********************/
@@ -468,6 +520,9 @@ nav.popup_menu ul li {
 /*********************
  POSTS & CONTENT STYLES
  *********************/
+.content {
+  margin-top: -120px; }
+
 .color3_row {
   background-color: #fed766; }
 
@@ -523,9 +578,9 @@ nav.popup_menu ul li {
   vertical-align: middle;
   width: 100vw; }
   .quote_row h1 {
-    font-size: 3.4em;
-    font-weight: 600;
-    line-height: 1.8em; }
+    font-size: 3.2em;
+    font-weight: bold;
+    line-height: 1.4em; }
   .quote_row::after {
     content: ' ';
     display: block;
@@ -548,6 +603,12 @@ nav.popup_menu ul li {
 .pull-up img {
   position: relative;
   z-index: 99; }
+/*** BLOG POSTS ***/
+.title_holder {
+  display: none !important; }
+
+.title {
+  height: 120px !important; }
 /******************************************************************
  COMMENT SECTION STYLES
  ******************************************************************/
@@ -658,6 +719,12 @@ body .gform_wrapper input[type=submit]:hover, body .gform_wrapper input[type=but
 
 .lb_footer_form {
   display: none; }
+
+form#gform_3 {
+  background-color: rgba(255, 255, 255, 0.07); }
+
+select#input_3_3.medium.gfield_select {
+  margin-top: 22px !important; }
 /********************
  PHONES PORTRAIT
  *********************/

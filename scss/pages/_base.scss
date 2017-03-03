@@ -241,7 +241,7 @@ nav.popup_menu {
                 font: $body-font;
                 font-size: 1.8em;
                 font-weight: 400;
-                line-height: 1.1em;
+                line-height: 12vh;
             }
         }
     }
@@ -290,26 +290,11 @@ POSTS & CONTENT STYLES
     }
 }
 
-.lb_section {
-    p {
-        margin-right: 200px;
-    }
-}
-
 .lb_section_body {
-    padding-left: 30px;
     margin-top: $heading-space;
     p {
         font-size: 1.1em;
     }
-}
-
-.lb_half_section {
-    padding: 0 5%;
-}
-
-.lb_full_section {
-    padding: 0 12%;
 }
 
 .lb_line_under::after {
@@ -380,64 +365,7 @@ COMMENT SECTION STYLES
 COMMENT FORM STYLES
 ******************************************************************/
 
-.gform_wrapper input:not([type=radio])::-webkit-input-placeholder,
-.gform_wrapper textarea::-webkit-input-placeholder {
-    color: #a88e43 !important;
-    font-size: 16px !important;
-    transition: all .1s linear;
-}
 
-.gform_wrapper input:not([type=radio]):focus,
-.gform_wrapper textarea:focus {
-    border-bottom-color: #a88e43 !important;
-    transition: all .1s linear;
-}
-
-.gform_wrapper input:not([type=radio]):focus::-webkit-input-placeholder,
-.gform_wrapper textarea:focus::-webkit-input-placeholder {
-    color: $color1 !important;
-    transition: all .1s linear;
-}
-
-body .gform_wrapper .chzn-container,
-body .gform_wrapper input[type=email],
-body .gform_wrapper input[type=number],
-body .gform_wrapper input[type=password],
-body .gform_wrapper input[type=tel],
-body .gform_wrapper input[type=text],
-body .gform_wrapper input[type=url],
-body .gform_wrapper select,
-body .gform_wrapper textarea {
-    padding: 0 !important;
-    border: none !important;
-    border-bottom: 2px solid $color1 !important;
-    border-radius: 0px !important;
-    max-width: 1400px !important;
-    transition: all .1s linear;
-}
-
-.gfield_required {
-    display: none !important;
-}
-
-.gform_wrapper .gform_footer input.button,
-.gform_wrapper .gform_footer input[type=submit],
-.gform_wrapper .gform_page_footer input.button,
-.gform_wrapper .gform_page_footer input[type=submit] {
-    font-size: 1em;
-    width: auto;
-    margin: 0 auto !important;
-    display: block !important;
-}
-
-body .gform_wrapper input[type=submit]:hover,
-body .gform_wrapper input[type=button]:hover,
-body .gform_wrapper input[type=reset]:hover {
-    background-color: $color2;
-    border-color: $color2;
-    color: #fff;
-    text-decoration: none;
-}
 
 .lb_footer_form .gform_wrapper {
     .chzn-container,
@@ -554,3 +482,11 @@ FOOTER STYLES
 .lb_footer_form {
     display: none;
 }
+
+form#gform_3{
+    background-color: rgba(255, 255, 255, 0.07);
+    }
+
+select#input_3_3.medium.gfield_select{
+    margin-top:22px !important;
+    }

@@ -4,57 +4,114 @@ Stylesheet: Home Page
 Styles for homepage ONLY. If the styles will be used across the site,
 use the _base.scss file.
 ******************************************************************/
-
 @import '../elements/variables';
 @import '../elements/mixins';
-
 /*********************
 UNIVERSAL / STYLES FOR DESKTOP
 *********************/
-.lb_title_two .eh_two_columns_33_66 {
-    margin: 0 auto!important;
-    display: block;
-    width: auto!important;
-    margin-bottom: -100px!important;
-}
-
-.lb_title_two .q_elements_item_content:last-child {
-    margin-left: 10%;
-}
-
 .lb_mobile_divider {
     margin-top: 220px;
 }
 
-.lb_stretch {
-    img {
-        position: absolute;
-        width: calc(50%);
-    }
-    &.lb_right img {
-        top: -75px;
-        margin-left: -50px;
-    }
-    &.lb_left img {
-        margin-top: -245px;
-        margin-left: 0px;
-    }
+.flex-next i,
+.flex-prev i {
+    font-size: 70px!important;
 }
-
+/* IMAGES */
 .lb_overlap {
-    margin-bottom: -50px!important;
+    margin-bottom: -50px !important;
 }
 
+.lb_stretch.lb_left img {
+    position: absolute;
+    width: 105%!important;
+    max-width: initial;
+}
+
+.lb_stretch.lb_right img {
+    position: relative;
+    width: 105%!important;
+    max-width: initial!important;
+    margin-left: -5%;
+}
+
+.lb_pope_img img {
+    width: 80%!important;
+}
 /* GRAVITY FORMS */
-#gform_submit_button_1 {
-    text-align: left!important;
-    display: inline!important;
-}
+.subscribe_form {
+    .lb_column_inner {
+        max-width: 1000px;
+        margin-left: 6%;
+    }
 
+    #gform_submit_button_1 {
+        height: 65px;
+        padding: 0 45px;
+        border-radius: 6px;
+    }
+
+    .gform_wrapper .gform_fields .gfield:first-child {
+        margin-bottom: -15px!important;
+    }
+
+    .gfield {
+        height: 76px;
+    }
+
+    .ginput_container.ginput_container_select {
+        margin-top: 32px!important;
+    }
+
+    .gform_wrapper input:not([type=radio])::-webkit-input-placeholder,
+    .gform_wrapper textarea::-webkit-input-placeholder {
+        color: #a88e43 !important;
+        font-size: 16px !important;
+        transition: all 0.1s linear;
+    }
+
+    .gform_wrapper input:not([type=radio]):focus,
+    .gform_wrapper textarea:focus {
+        border-bottom-color: $color1 !important;
+        transition: all 0.1s linear;
+    }
+
+    .gform_wrapper .chzn-container,
+    .gform_wrapper input[type=email],
+    .gform_wrapper input[type=number],
+    .gform_wrapper input[type=password],
+    .gform_wrapper input[type=tel],
+    .gform_wrapper input[type=text],
+    .gform_wrapper input[type=url],
+    .gform_wrapper select,
+    .gform_wrapper textarea {
+        height: 65px!important;
+        border-bottom: 2px solid $color1 !important;
+        border-radius: 7px!important;
+        max-width: 1000px !important;
+        transition: all 0.1s linear;
+    }
+
+    .gform_wrapper input[type=button],
+    .gform_wrapper input[type=reset],
+    .gform_wrapper input[type=submit] {
+        height: 50px;
+        background-color: $color1;
+        border-color: $color1;
+        color: $color5;
+    }
+
+    .gform_wrapper input[type=button]:hover,
+    .gform_wrapper input[type=reset]:hover,
+    .gform_wrapper input[type=submit]:hover {
+        background-color: transparent;
+        color: $color1;
+        text-decoration: none;
+    }
+}
 /*********************
 RESPONSIVE STYLES
 *********************/
-
 @media screen and (min-width: 1500px) {
     .section_inner.clearfix {
         width: 1500px!important;
