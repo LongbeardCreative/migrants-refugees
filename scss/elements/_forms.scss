@@ -46,7 +46,6 @@ textarea,
   border-radius: 3px;
   vertical-align: middle;
   box-shadow: none;
-  border: 2px solid $color1 !important;
   color: $color1 !important;
   width: 100%;
   max-width: 400px;
@@ -56,7 +55,7 @@ textarea,
   // a focused input (or hovered on)
   &:focus,
   &:active {
-    outline: none; 
+    outline: none;
   } // end hover or focus
 
   // error notification
@@ -88,7 +87,7 @@ textarea,
     } // end disabled focus
 
   } // end disabled input
-  
+
   // placeholder
   &::-webkit-input-placeholder,
   &::-moz-placeholder,

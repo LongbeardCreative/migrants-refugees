@@ -4,56 +4,96 @@ Stylesheet: News & Stories
 Styles for news stories ONLY. If the styles will be used across the site,
 use the _base.scss file.
 ******************************************************************/
-
 @import '../elements/variables';
 @import '../elements/mixins';
-
 /*********************
 UNIVERSAL / STYLES FOR DESKTOP [1250px and up]
 *********************/
-.latest_post_holder.boxes>ul>li {
+/* Q_SLIDER GRADIENT OVERLAY */
+#qode-stories .image::after {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0));
+	height: 100vh;
+	width: 100vw;
+}
+
+.q_slide_title {
+	font-size: 120px!important;
+	transform: translateY(-30px);
+}
+
+.q_slide_subtitle {
+	font-size: 45px!important;
+	line-height: 50px;
+	transform: translateY(-60px)!important;
+}
+
+.latest_post_holder li:hover {
+	cursor: pointer;
+
+	.latest_post_title > a {
+		color: $color2 !important;
+	}
+}
+
+.latest_post_holder.boxes .boxes_image a:hover {
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-ms-transform: scale(1);
+	-o-transform: scale(1);
+	transform: scale(1);
+}
+
+.latest_post_holder.boxes > ul > li {
 	background-color: #f6f6f6;
 
-	.latest_post {
-		padding-left:0px !important;
-		padding-right:0px !important;
+	.date_hour_holder {
+		color: $color1;
+	}
 
-		.latest_post_title  {
-			padding-top:10px;
+	.latest_post {
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+
+		.latest_post_title {
+			padding-top: 10px;
 			font-weight: 600;
 			font-size: 12px;
 		}
 
 		.post_infos a {
 			text-transform: uppercase;
-		    font-family: "Gotham Condensed Medium", sans-serif;
-			color:$color1 !important;
+			font-family: "Gotham Condensed Medium", sans-serif;
+			color: $color1 !important;
 			padding-left: 11px;
-		    border-left: 7px solid $color3;
-		    line-height: 15px;
+			border-left: 7px solid $color3;
+			line-height: 15px;
 		}
 
-		.lb_post_read_more_btn a {
-			color:$color1;
+		.lb_post_read_more_btn {
+			margin-top: 15px;
 
+			a {
+				color: $color1;
+			}
 		}
 	}
 }
-
 
 .latest_post {
 	.latest_post_title a {
-		color:$color1;
-		font-size:2em;
+		color: $color1;
+		font-size: 2em;
 	}
 
 	.latest_post_title a:hover {
-		color:$color-hover;
+		color: $color-hover;
 	}
 }
-
-
-
 /*********************
 RESPONSIVE STYLES
 *********************/

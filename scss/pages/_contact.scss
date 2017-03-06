@@ -18,14 +18,16 @@ UNIVERSAL / STYLES FOR DESKTOP [1250px and up]
 
 .gform_wrapper input:not([type=radio])::-webkit-input-placeholder,
 .gform_wrapper textarea::-webkit-input-placeholder {
-    color: #a88e43 !important;
+    color: $color1 !important;
     font-size: 16px !important;
     transition: all .1s linear;
+    border: none!important;
+    border-bottom: solid 2px $color1;
 }
 
 .gform_wrapper input:not([type=radio]):focus,
 .gform_wrapper textarea:focus {
-    border-bottom-color: #a88e43 !important;
+    border-bottom-color: $color3 !important;
     transition: all .1s linear;
 }
 
@@ -35,21 +37,19 @@ UNIVERSAL / STYLES FOR DESKTOP [1250px and up]
     transition: all .1s linear;
 }
 
-body .gform_wrapper .chzn-container,
-body .gform_wrapper input[type=email],
-body .gform_wrapper input[type=number],
-body .gform_wrapper input[type=password],
-body .gform_wrapper input[type=tel],
-body .gform_wrapper input[type=text],
-body .gform_wrapper input[type=url],
-body .gform_wrapper select,
-body .gform_wrapper textarea {
-    padding: 0 !important;
-    border: none !important;
-    border-bottom: 2px solid $color1 !important;
-    border-radius: 0px !important;
-    max-width: 1400px !important;
-    transition: all .1s linear;
+#field_2_4 label {
+    display: none;
+}
+
+.gform_wrapper .chzn-container,
+.gform_wrapper input:not([type=radio]),
+.gform_wrapper select,
+.gform_wrapper textarea {
+	height: 65px!important;
+	border-bottom: 2px solid $color1 !important;
+	border-radius: 0px!important;
+	max-width: 1400px !important;
+	transition: all 0.1s linear;
 }
 
 .gfield_required {
@@ -64,15 +64,22 @@ body .gform_wrapper textarea {
     width: auto;
     margin: 0 auto !important;
     display: block !important;
+    border-radius: 7px!important;
+    height: 47px!important;
 }
 
-body .gform_wrapper input[type=submit]:hover,
-body .gform_wrapper input[type=button]:hover,
-body .gform_wrapper input[type=reset]:hover {
+.gform_wrapper input[type=submit]:hover,
+.gform_wrapper input[type=button]:hover,
+.gform_wrapper input[type=reset]:hover {
     background-color: $color2;
     border-color: $color2;
+    border-bottom-color: $color2!important;
     color: #fff;
     text-decoration: none;
+}
+
+.lb_column_text p {
+    padding: 7px 0 0!important;
 }
 
 

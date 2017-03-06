@@ -247,6 +247,61 @@ nav.popup_menu {
     }
 }
 
+/*********************
+HERO STYLES
+*********************/
+.slide_anchor_holder {
+    margin-top: 66vh!important;
+    animation: float 3s infinite;
+    -webkit-animation: float 3s infinite;
+    &:hover {
+    animation: none;
+    -webkit-animation: none;
+    }
+}
+
+.slide_anchor_holder i {
+    transition: 250ms;
+    &:before {
+        content: "\e019";
+        font-family: "linea-arrows-10";
+        font-size: 70px;
+    }
+    &:hover {
+        transform: translateY(5px);
+        -webkit-transform: translateY(5px);
+    }
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(5px);
+    }
+    50% {
+        transform: translateY(0px);
+    }
+    66% {
+        transform: translateY(5px);
+    }
+    100% {
+        transform: translateY(5px);
+    }
+}
+
+@-webkit-keyframes float {
+    0% {
+        -webkit-transform: translateY(5px);
+    }
+    50% {
+        -webkit-transform: translateY(0px);
+    }
+    66% {
+        -webkit-transform: translateY(5px);
+    }
+    100% {
+        -webkit-transform: translateY(5px);
+    }
+}
 
 /*********************
 POSTS & CONTENT STYLES

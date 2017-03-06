@@ -190,33 +190,63 @@ footer form {
   /*********************
    UNIVERSAL / STYLES FOR DESKTOP
    *********************/
+  /* IMAGES */
   /* GRAVITY FORMS */
   /*********************
    RESPONSIVE STYLES
    *********************/ }
-  .page-id-9 .lb_title_two .eh_two_columns_33_66 {
-    margin: 0 auto !important;
-    display: block;
-    width: auto !important;
-    margin-bottom: -100px !important; }
-  .page-id-9 .lb_title_two .q_elements_item_content:last-child {
-    margin-left: 10%; }
   .page-id-9 .lb_mobile_divider {
     margin-top: 220px; }
-  .page-id-9 .lb_stretch img {
-    position: absolute;
-    width: calc(50%); }
-    .page-id-9 .lb_stretch.lb_right img {
-      top: -75px;
-      margin-left: -50px; }
-    .page-id-9 .lb_stretch.lb_left img {
-      margin-top: -245px;
-      margin-left: 0px; }
+  .page-id-9 .flex-next i, .page-id-9 .flex-prev i {
+    font-size: 70px !important; }
   .page-id-9 .lb_overlap {
     margin-bottom: -50px !important; }
-  .page-id-9 #gform_submit_button_1 {
-    text-align: left !important;
-    display: inline !important; }
+  .page-id-9 .lb_stretch.lb_left img {
+    position: absolute;
+    width: 105% !important;
+    max-width: initial; }
+  .page-id-9 .lb_stretch.lb_right img {
+    position: relative;
+    width: 105% !important;
+    max-width: initial !important;
+    margin-left: -5%; }
+  .page-id-9 .lb_pope_img img {
+    width: 80% !important; }
+  .page-id-9 .subscribe_form .lb_column_inner {
+    max-width: 1000px;
+    margin-left: 6%; }
+    .page-id-9 .subscribe_form #gform_submit_button_1 {
+      height: 65px;
+      padding: 0 45px;
+      border-radius: 6px; }
+    .page-id-9 .subscribe_form .gform_wrapper .gform_fields .gfield:first-child {
+      margin-bottom: -15px !important; }
+    .page-id-9 .subscribe_form .gfield {
+      height: 76px; }
+    .page-id-9 .subscribe_form .ginput_container.ginput_container_select {
+      margin-top: 32px !important; }
+    .page-id-9 .subscribe_form .gform_wrapper input:not([type=radio])::-webkit-input-placeholder, .page-id-9 .subscribe_form .gform_wrapper textarea::-webkit-input-placeholder {
+      color: #a88e43 !important;
+      font-size: 16px !important;
+      transition: all 0.1s linear; }
+    .page-id-9 .subscribe_form .gform_wrapper input:not([type=radio]):focus, .page-id-9 .subscribe_form .gform_wrapper textarea:focus {
+      border-bottom-color: #272727 !important;
+      transition: all 0.1s linear; }
+    .page-id-9 .subscribe_form .gform_wrapper .chzn-container, .page-id-9 .subscribe_form .gform_wrapper input[type=email], .page-id-9 .subscribe_form .gform_wrapper input[type=number], .page-id-9 .subscribe_form .gform_wrapper input[type=password], .page-id-9 .subscribe_form .gform_wrapper input[type=tel], .page-id-9 .subscribe_form .gform_wrapper input[type=text], .page-id-9 .subscribe_form .gform_wrapper input[type=url], .page-id-9 .subscribe_form .gform_wrapper select, .page-id-9 .subscribe_form .gform_wrapper textarea {
+      height: 65px !important;
+      border-bottom: 2px solid #272727 !important;
+      border-radius: 7px !important;
+      max-width: 1000px !important;
+      transition: all 0.1s linear; }
+    .page-id-9 .subscribe_form .gform_wrapper input[type=button], .page-id-9 .subscribe_form .gform_wrapper input[type=reset], .page-id-9 .subscribe_form .gform_wrapper input[type=submit] {
+      height: 50px;
+      background-color: #272727;
+      border-color: #272727;
+      color: #eff1f3; }
+    .page-id-9 .subscribe_form .gform_wrapper input[type=button]:hover, .page-id-9 .subscribe_form .gform_wrapper input[type=reset]:hover, .page-id-9 .subscribe_form .gform_wrapper input[type=submit]:hover {
+      background-color: transparent;
+      color: #272727;
+      text-decoration: none; }
   @media screen and (min-width: 1500px) {
   .page-id-9 .section_inner.clearfix {
     width: 1500px !important; } }
@@ -258,6 +288,35 @@ footer form {
   .page-id-21 .lb_contact_header h1 {
     color: #272727;
     font-size: 3.5em !important; }
+  .page-id-21 .gform_wrapper input:not([type=radio])::-webkit-input-placeholder, .page-id-21 .gform_wrapper textarea::-webkit-input-placeholder {
+    color: #a88e43 !important;
+    font-size: 16px !important;
+    transition: all 0.1s linear; }
+  .page-id-21 .gform_wrapper input:not([type=radio]):focus, .page-id-21 .gform_wrapper textarea:focus {
+    border-bottom-color: #a88e43 !important;
+    transition: all 0.1s linear; }
+  .page-id-21 .gform_wrapper input:not([type=radio]):focus::-webkit-input-placeholder, .page-id-21 .gform_wrapper textarea:focus::-webkit-input-placeholder {
+    color: #272727 !important;
+    transition: all 0.1s linear; }
+  .page-id-21 body .gform_wrapper .chzn-container, .page-id-21 body .gform_wrapper input[type=email], .page-id-21 body .gform_wrapper input[type=number], .page-id-21 body .gform_wrapper input[type=password], .page-id-21 body .gform_wrapper input[type=tel], .page-id-21 body .gform_wrapper input[type=text], .page-id-21 body .gform_wrapper input[type=url], .page-id-21 body .gform_wrapper select, .page-id-21 body .gform_wrapper textarea {
+    padding: 0 !important;
+    border: none !important;
+    border-bottom: 2px solid #272727 !important;
+    border-radius: 0px !important;
+    max-width: 1400px !important;
+    transition: all 0.1s linear; }
+  .page-id-21 .gfield_required {
+    display: none !important; }
+  .page-id-21 .gform_wrapper .gform_footer input.button, .page-id-21 .gform_wrapper .gform_footer input[type=submit], .page-id-21 .gform_wrapper .gform_page_footer input.button, .page-id-21 .gform_wrapper .gform_page_footer input[type=submit] {
+    font-size: 1em;
+    width: auto;
+    margin: 0 auto !important;
+    display: block !important; }
+  .page-id-21 body .gform_wrapper input[type=submit]:hover, .page-id-21 body .gform_wrapper input[type=button]:hover, .page-id-21 body .gform_wrapper input[type=reset]:hover {
+    background-color: #009fb7;
+    border-color: #009fb7;
+    color: #fff;
+    text-decoration: none; }
 
 .page-id-44 {
   /******************************************************************
@@ -299,7 +358,9 @@ footer form {
       padding-left: 0px !important;
       padding-right: 0px !important; }
       .page-id-44 .latest_post_holder.boxes > ul > li .latest_post .latest_post_title {
-        padding-top: 10px; }
+        padding-top: 10px;
+        font-weight: 600;
+        font-size: 12px; }
       .page-id-44 .latest_post_holder.boxes > ul > li .latest_post .post_infos a {
         text-transform: uppercase;
         font-family: "Gotham Condensed Medium", sans-serif;
@@ -516,7 +577,7 @@ nav.popup_menu ul li {
     font: 400 1em/1.2em 'Gotham Rounded Book', "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 1.8em;
     font-weight: 400;
-    line-height: 1.1em; }
+    line-height: 12vh; }
 /*********************
  POSTS & CONTENT STYLES
  *********************/
@@ -548,20 +609,10 @@ nav.popup_menu ul li {
   .lb_section_heading.double::before {
     height: 8.5em; }
 
-.lb_section p {
-  margin-right: 200px; }
-
 .lb_section_body {
-  padding-left: 30px;
   margin-top: 30px; }
   .lb_section_body p {
     font-size: 1.1em; }
-
-.lb_half_section {
-  padding: 0 5%; }
-
-.lb_full_section {
-  padding: 0 12%; }
 
 .lb_line_under::after {
   content: ' ';
@@ -615,42 +666,6 @@ nav.popup_menu ul li {
 /******************************************************************
  COMMENT FORM STYLES
  ******************************************************************/
-.gform_wrapper input:not([type=radio])::-webkit-input-placeholder, .gform_wrapper textarea::-webkit-input-placeholder {
-  color: #a88e43 !important;
-  font-size: 16px !important;
-  transition: all 0.1s linear; }
-
-.gform_wrapper input:not([type=radio]):focus, .gform_wrapper textarea:focus {
-  border-bottom-color: #a88e43 !important;
-  transition: all 0.1s linear; }
-
-.gform_wrapper input:not([type=radio]):focus::-webkit-input-placeholder, .gform_wrapper textarea:focus::-webkit-input-placeholder {
-  color: #272727 !important;
-  transition: all 0.1s linear; }
-
-body .gform_wrapper .chzn-container, body .gform_wrapper input[type=email], body .gform_wrapper input[type=number], body .gform_wrapper input[type=password], body .gform_wrapper input[type=tel], body .gform_wrapper input[type=text], body .gform_wrapper input[type=url], body .gform_wrapper select, body .gform_wrapper textarea {
-  padding: 0 !important;
-  border: none !important;
-  border-bottom: 2px solid #272727 !important;
-  border-radius: 0px !important;
-  max-width: 1400px !important;
-  transition: all 0.1s linear; }
-
-.gfield_required {
-  display: none !important; }
-
-.gform_wrapper .gform_footer input.button, .gform_wrapper .gform_footer input[type=submit], .gform_wrapper .gform_page_footer input.button, .gform_wrapper .gform_page_footer input[type=submit] {
-  font-size: 1em;
-  width: auto;
-  margin: 0 auto !important;
-  display: block !important; }
-
-body .gform_wrapper input[type=submit]:hover, body .gform_wrapper input[type=button]:hover, body .gform_wrapper input[type=reset]:hover {
-  background-color: #009fb7;
-  border-color: #009fb7;
-  color: #fff;
-  text-decoration: none; }
-
 .lb_footer_form .gform_wrapper .chzn-container, .lb_footer_form .gform_wrapper input[type=email], .lb_footer_form .gform_wrapper input[type=number], .lb_footer_form .gform_wrapper input[type=password], .lb_footer_form .gform_wrapper input[type=tel], .lb_footer_form .gform_wrapper input[type=text], .lb_footer_form .gform_wrapper input[type=url], .lb_footer_form .gform_wrapper select, .lb_footer_form .gform_wrapper textarea {
   color: #a88e43 !important; }
   .lb_footer_form .gform_wrapper .gform_footer input.button, .lb_footer_form .gform_wrapper .gform_footer input[type=submit], .lb_footer_form .gform_wrapper .gform_page_footer input.button, .lb_footer_form .gform_wrapper .gform_page_footer input[type=submit] {

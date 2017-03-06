@@ -16,6 +16,37 @@ UNIVERSAL / STYLES FOR DESKTOP
 .flex-next i,
 .flex-prev i {
     font-size: 70px!important;
+    border: 1px rgba(255, 255, 255, 0.6) solid;
+    border-radius: 50%;
+    width: 73px;
+    height: 60px;
+    padding-top: 13px;
+    text-align: center;
+}
+
+.fa.fa-angle-right:before {
+    content: "\e04b";
+    font-family: "linea-arrows-10" !important;
+}
+
+.fa.fa-angle-left:before {
+    content: "\e03f";
+    font-family: "linea-arrows-10" !important;
+}
+
+.caroufredsel-direction-nav a, .flex-direction-nav a {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%!important;
+    line-height: 75px;
+}
+
+.flex-next {
+    right: 18%!important;
+}
+
+.flex-prev {
+    left: 18%!important;
 }
 /* IMAGES */
 .lb_overlap {
@@ -87,6 +118,7 @@ UNIVERSAL / STYLES FOR DESKTOP
     .gform_wrapper textarea {
         height: 65px!important;
         border-bottom: 2px solid $color1 !important;
+        border: 2px solid $color1 !important;
         border-radius: 7px!important;
         max-width: 1000px !important;
         transition: all 0.1s linear;
@@ -104,8 +136,9 @@ UNIVERSAL / STYLES FOR DESKTOP
     .gform_wrapper input[type=button]:hover,
     .gform_wrapper input[type=reset]:hover,
     .gform_wrapper input[type=submit]:hover {
-        background-color: transparent;
-        color: $color1;
+        background-color: $color2;
+        color: $color5;
+        border-color: $color2;
         text-decoration: none;
     }
 }
