@@ -34,7 +34,8 @@ UNIVERSAL / STYLES FOR DESKTOP
     font-family: "linea-arrows-10" !important;
 }
 
-.caroufredsel-direction-nav a, .flex-direction-nav a {
+.caroufredsel-direction-nav a,
+.flex-direction-nav a {
     width: 75px;
     height: 75px;
     border-radius: 50%!important;
@@ -83,7 +84,7 @@ UNIVERSAL / STYLES FOR DESKTOP
     }
 
     .gform_wrapper .gform_fields .gfield:first-child {
-        margin-bottom: -15px!important;
+        margin-bottom: -15px !important;
     }
 
     .gfield {
@@ -91,7 +92,7 @@ UNIVERSAL / STYLES FOR DESKTOP
     }
 
     .ginput_container.ginput_container_select {
-        margin-top: 32px!important;
+        margin-top: 32px !important;
     }
 
     .gform_wrapper input:not([type=radio])::-webkit-input-placeholder,
@@ -145,8 +146,80 @@ UNIVERSAL / STYLES FOR DESKTOP
 /*********************
 RESPONSIVE STYLES
 *********************/
+/* 1500px and UP */
 @media screen and (min-width: 1500px) {
     .section_inner.clearfix {
         width: 1500px!important;
+    }
+}
+/* 1499px and DOWN */
+@media screen and (max-width: 1499px) {
+    .lb_section_heading {
+        margin-bottom: -20px !important;
+
+        h1 {
+            font-size: 3em;
+            display: inline;
+        }
+
+        &.double::before {
+            height: 6em;
+        }
+
+        &.single::before {
+            height: 2.5em;
+        }
+    }
+}
+
+@media screen and (max-width: 1399px) {
+    .section_inner {
+        width: 1300px;
+    }
+    .popup_menu_holder_inner {
+        width: 1100px;
+    }
+    .quote_row {
+        height: 40vh;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .section_inner {
+        width: 1200px;
+    }
+    .vc_custom_1488559916987, .vc_custom_1488559927506 {
+        padding-bottom: 5%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .lb_mobile_divider {
+        margin-top: 75px!important;
+    }
+    .lb_empty_space.lb_padding_150 {
+        height: 100px!important;
+    }
+    .section_inner {
+        width: 1100px!important;
+    }
+    .lb_pope_img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .section_inner {
+        width: 1100px!important;
+    }
+    .popup_menu_holder_inner {
+        width: 1000px;
+    }
+    .vc_custom_1488559916987, .vc_custom_1488559927506 {
+        padding-left: 5%!important;
+        padding-right: 5%!important;
+    }
+    .lb_mobile_divider {
+        margin-top: 150px!important;
     }
 }
