@@ -30,12 +30,11 @@ $('.boxes_image').each(function(){
 	$(this).closest('li').children('.latest_post').wrap('<a href="' + href + '"></a>');
 });
 
-$('#popup_menu').click(function(){
-    if (pageId == 9) {
-        $('.menu-main li:first-child').hide();
-    }else if (pageId == 21) {
-        $('.menu-main li:nth-child(2)').hide();
-    }
-});
+// Add Back Button to Single Blog Posts
+$(function(){
+    var backButton = '<a class="lb_back_button" href="/stories/" target="_self">Back</a>';
+
+    $('.single_top_part_inner .grid_section .section_inner').prepend(backButton);
+})
 
 });

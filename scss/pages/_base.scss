@@ -5,12 +5,9 @@ Only put styles in here that will be used across the entire site.
 For styles only applying to one particular page, use the appropriate
 page SCSS file.
 ******************************************************************/
-
-
 /*********************
 GENERAL STYLES
 *********************/
-
 body {
     font-family: $body-font;
     font-size: 100%;
@@ -28,18 +25,15 @@ body {
 .mobile-hide {
     display: initial;
 }
-
-
 /*********************
 LINK STYLES
 *********************/
-
 a,
 a:visited {
     color: $color-active;
     /* on hover */
-    &:hover,
-    &:focus {
+    &:focus,
+    &:hover {
         color: $color-hover;
     }
     /* on click */
@@ -54,22 +48,19 @@ a:visited {
         -webkit-tap-highlight-color: rgba( 0, 0, 0, 0.3);
     }
 }
-
-
 /******************************************************************
 H1, H2, H3, H4, H5 STYLES
 ******************************************************************/
-
-h1,
 .h1,
-h2,
 .h2,
-h3,
 .h3,
-h4,
 .h4,
-h5,
-.h5 {
+.h5,
+h1,
+h2,
+h3,
+h4,
+h5 {
     text-rendering: optimizelegibility;
     font-weight: 500;
     /*
@@ -82,32 +73,32 @@ h5,
     }
 }
 
-h1,
-.h1 {
+.h1,
+h1 {
     font-size: 2.5em;
     line-height: 1.333em;
 }
 
-h2,
-.h2 {
+.h2,
+h2 {
     font-size: 1.75em;
     line-height: 1.4em;
     margin-bottom: 0.375em;
 }
 
-h3,
-.h3 {
+.h3,
+h3 {
     font-size: 1.125em;
 }
 
-h4,
-.h4 {
+.h4,
+h4 {
     font-size: 1.1em;
     font-weight: 700;
 }
 
-h5,
-.h5 {
+.h5,
+h5 {
     font-size: 0.846em;
     line-height: 2.09em;
     text-transform: uppercase;
@@ -115,20 +106,15 @@ h5,
 }
 
 p {}
-
-
 /*********************
 HEADER STYLES
 *********************/
-
-
 /*
 a.side_menu_button_link.normal{
 float:left;
 line-height: 90px;
 }
 */
-
 .popup_menu .line,
 .popup_menu .line:after,
 .popup_menu .line:before {
@@ -147,10 +133,12 @@ a.popup_menu {
         top: -9px;
         position: absolute;
     }
+
     .line {
         &:after {
             top: 7px;
         }
+
         &:before {
             top: -7px;
         }
@@ -168,22 +156,25 @@ a.popup_menu {
 
 .header_inner_left {
     width: 100%;
-	.logo_wrapper {
-	    width: 100%;
-	    .q_logo {
-	    	width: 285.7px;
-	    	display: block;
-	    	text-align: center;
-	    	margin: 0 auto;
-		}
-	}
+
+    .logo_wrapper {
+        width: 100%;
+
+        .q_logo {
+            width: 285.7px;
+            display: block;
+            text-align: center;
+            margin: 0 auto;
+        }
+    }
 }
 
 .lang_switcher {
     z-index: 99999;
     position: absolute;
-    right: 0px;
+    right: 0;
     top: 40px;
+
     a {
         color: $color5;
         font: $body-font;
@@ -192,9 +183,11 @@ a.popup_menu {
         font-size: 20px;
         opacity: 0.7;
         transition: opacity 250ms;
+
         &.lb_active {
             opacity: 1;
         }
+
         &:hover {
             opacity: 1;
         }
@@ -205,6 +198,7 @@ a.popup_menu {
     .lang_switcher {
         top: 20px;
     }
+
     .q_logo {
         width: 185px!important;
     }
@@ -220,15 +214,21 @@ a.popup_menu {
     display: inline-block;
 }
 
-
-
+.lb_photos_icon span::after {
+    content: '';
+    background: url('/wp-content/uploads/2017/03/google-photos.svg') no-repeat;
+    background-size: 50px 48px;
+    height: 46px;
+    width: 50px;
+    margin-left: 25px;
+    display: inline-block;
+}
 /*********************
 NAVIGATION STYLES
-*********************/
-
+**********************/
 .popup_menu_holder_inner {
     width: 1300px;
-    margin: 7% auto;
+    margin: 3% auto;
     display: block;
 }
 
@@ -236,6 +236,7 @@ nav.popup_menu {
     ul {
         li {
             text-align: left;
+
             a {
                 text-transform: none;
                 font: $body-font;
@@ -246,67 +247,71 @@ nav.popup_menu {
         }
     }
 }
-
 /*********************
 HERO STYLES
 *********************/
 .slide_anchor_holder {
-    margin-top: 66vh!important;
+    margin-top: 66vh !important;
     animation: float 3s infinite;
     -webkit-animation: float 3s infinite;
+
     &:hover {
-    animation: none;
-    -webkit-animation: none;
+        animation: none;
+        -webkit-animation: none;
     }
 }
 
 .slide_anchor_holder i {
     transition: 250ms;
+
     &:before {
         content: "\e019";
         font-family: "linea-arrows-10";
         font-size: 70px;
     }
+
     &:hover {
         transform: translateY(5px);
         -webkit-transform: translateY(5px);
     }
 }
-
 @keyframes float {
     0% {
         transform: translateY(5px);
     }
+
     50% {
         transform: translateY(0px);
     }
+
     66% {
         transform: translateY(5px);
     }
+
     100% {
         transform: translateY(5px);
     }
 }
-
 @-webkit-keyframes float {
     0% {
         -webkit-transform: translateY(5px);
     }
+
     50% {
         -webkit-transform: translateY(0px);
     }
+
     66% {
         -webkit-transform: translateY(5px);
     }
+
     100% {
         -webkit-transform: translateY(5px);
     }
 }
-
 /*********************
 POSTS & CONTENT STYLES
 *********************/
-
 .content {
     margin-top: -120px;
 }
@@ -328,18 +333,21 @@ POSTS & CONTENT STYLES
         font-size: 4em;
         color: $color1;
     }
+
     &::before {
         content: '';
         width: 7px;
-        box-shadow: 7px 0px 0px 0 $color3;
+        box-shadow: 7px 0 0 0 $color3;
         border-radius: 55px;
         float: left;
         margin-right: 25px;
         margin-top: 14px;
     }
+
     &.single::before {
         height: 3.5em;
     }
+
     &.double::before {
         height: 8.5em;
     }
@@ -347,6 +355,7 @@ POSTS & CONTENT STYLES
 
 .lb_section_body {
     margin-top: $heading-space;
+
     p {
         font-size: 1.1em;
     }
@@ -358,7 +367,7 @@ POSTS & CONTENT STYLES
     height: 5px;
     width: 60px;
     text-align: left;
-    box-shadow: 0 5px 0px 0 $color3;
+    box-shadow: 0 5px 0 0 $color3;
     border-radius: 55px;
 }
 
@@ -367,11 +376,13 @@ POSTS & CONTENT STYLES
     display: table-cell;
     vertical-align: middle;
     width: 100vw;
+
     h1 {
         font-size: 3.2em;
         font-weight: bold;
         line-height: 1.4em;
     }
+
     &::after {
         content: ' ';
         display: block;
@@ -379,7 +390,7 @@ POSTS & CONTENT STYLES
         height: 5px;
         width: 100px;
         text-align: center;
-        box-shadow: 0 5px 0px 0 $color3;
+        box-shadow: 0 5px 0 0 $color3;
         border-radius: 55px;
     }
 }
@@ -388,7 +399,6 @@ POSTS & CONTENT STYLES
     font-size: 2em;
     color: $color1;
 }
-
 /*** IMAGE LAYOVER STYLES ***/
 .lb_behind img {
     z-index: 0;
@@ -400,7 +410,6 @@ POSTS & CONTENT STYLES
     position: relative;
     z-index: 99;
 }
-
 /*** BLOG POSTS ***/
 .title_holder {
     display: none!important;
@@ -409,19 +418,139 @@ POSTS & CONTENT STYLES
 .title {
     height: 120px!important;
 }
-
-
 /******************************************************************
-COMMENT SECTION STYLES
+SINGLE BLOG POST STYLES
 ******************************************************************/
+.ccfic-source {
+    text-align: right;
+    right: 0;
+    margin-top: -23px;
+    z-index: 999;
+    position: absolute;
+    background: rgba(0,0,0,0.6);
+    padding: 2.5px 10px;
+    font-size: 12px;
+}
 
+.ccfic-source a {
+    color: $color4;
+}
 
+.blog_holder article {
+    .post_text h2 .date {
+        color: $color4;
+    }
+
+    .post_info {
+        display: none;
+    }
+
+    .post_image {
+        max-height: 75vh;
+
+        img {
+            object-fit: cover;
+            max-height: 75vh;
+        }
+    }
+
+    .post_text_inner {
+        padding: 50px 0 !important;
+    }
+}
+
+.single-post {
+    .full_width_inner {
+        max-width: 1300px;
+        margin: 0 auto;
+    }
+
+    .post_author,
+    .vertical_separator {
+        display: none;
+    }
+}
+
+.blog_holder.single_image_title_post article {
+    .section_inner {
+        position: absolute;
+        left: 6.4%;
+        text-align: left;
+        bottom: 6.4%;
+    }
+
+    .post_category {
+        font-size: 18px;
+        margin-bottom: 0;
+        margin-left: 5px;
+    }
+
+    .entry_title {
+        font-size: 56px;
+    }
+
+    .post_info {
+        margin-left: 5px;
+        font-size: 16px;
+    }
+
+    .post_text_inner p {
+        line-height: 24px;
+    }
+
+    .itp_post_text {
+        padding: 0 6.4%;
+    }
+
+    .single_bottom_part {
+        border-bottom: none;
+    }
+
+    .single_top_part_holder {
+        background-color: none;
+        background: linear-gradient(transparent 50%,rgba(0, 0, 0, 0.6));
+    }
+}
+
+.lb_back_button {
+    top: -150px;
+    position: absolute;
+    color: white!important;
+    text-transform: uppercase;
+    z-index: 99;
+
+    &:hover::after {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    &::after {
+        content: '';
+        position: absolute;
+        display: block;
+        margin-top: -29px;
+        background: rgba(0,0,0,0.52);
+        border-radius: 3px;
+        width: 84px;
+        height: 30px;
+        transform: scale(0.8);
+        opacity: 0;
+        z-index: -1;
+        transition: 350ms cubic-bezier(0.68, -0.55, 0.27, 1.55);
+        -webkit-backdrop-filter: blur(20px) saturate(180%);
+    }
+
+    &::before {
+        content: '\f104';
+        font-family: 'FontAwesome';
+        font-size: 18px;
+        margin-right: 10px;
+        padding-left: 10px;
+    }
+}
 /******************************************************************
 COMMENT FORM STYLES
 ******************************************************************/
-
-
-
 .lb_footer_form .gform_wrapper {
     .chzn-container,
     input[type=email],
@@ -432,7 +561,7 @@ COMMENT FORM STYLES
     input[type=url],
     select,
     textarea {
-        color:#a88e43 !important;
+        color: #a88e43 !important;
     }
 
     .gform_footer input.button,
@@ -440,8 +569,8 @@ COMMENT FORM STYLES
     .gform_page_footer input.button,
     .gform_page_footer input[type=submit] {
         font-size: 1em;
-        color:#a88e43 ;
-        border-color:#a88e43;
+        color: #a88e43;
+        border-color: #a88e43;
         width: auto;
         margin: 0 auto !important;
         display: block !important;
@@ -452,35 +581,31 @@ COMMENT FORM STYLES
     .gform_page_footer input.button:hover,
     .gform_page_footer input[type=submit]:hover {
         font-size: 1em;
-        color:#ffffff ;
-        border-color:$color2;
+        color: #ffffff;
+        border-color: $color2;
         width: auto;
         margin: 0 auto !important;
         display: block !important;
     }
 }
-
-
-
-
 /*********************
 SIDEBARS & ASIDES
 *********************/
-
-
 /*********************
 FOOTER STYLES
 *********************/
-
 .footer_top {
     padding: 40px 0 15px;
+
     .container .container_inner {
         #text-2 {
-            margin: 2.2em 0 0.7em 0;
+            margin: 2.2em 0 0.7em;
+
             .textwidget {
                 .footer-logo-wrap {
                     width: 100%;
                     display: block;
+
                     #footer-logo {
                         display: inline-block;
                         text-align: center;
@@ -488,14 +613,17 @@ FOOTER STYLES
                         padding-bottom: 40px;
                     }
                 }
+
                 a {
                     display: inline-block;
+
                     h5 {
                         display: inline-block !important;
                         padding: 0 20px;
                         transition: $transition;
                         font-size: 1em;
                     }
+
                     h5:hover {
                         color: $color3;
                     }
@@ -507,6 +635,7 @@ FOOTER STYLES
 
 #newsletter-footer {
     padding-top: 20px;
+
     i {
         color: #fff;
         width: 30px;
@@ -514,6 +643,7 @@ FOOTER STYLES
         font-size: 1.5em;
         transition: $transition;
     }
+
     h5 {
         font-size: 0.8em !important;
         letter-spacing: 0;
@@ -521,8 +651,8 @@ FOOTER STYLES
     }
 }
 
-#newsletter-footer a:hover i,
-#newsletter-footer a:hover h5 {
+#newsletter-footer a:hover h5,
+#newsletter-footer a:hover i {
     color: $color3;
 }
 
@@ -538,10 +668,10 @@ FOOTER STYLES
     display: none;
 }
 
-form#gform_3{
+form#gform_3 {
     background-color: rgba(255, 255, 255, 0.07);
-    }
+}
 
-select#input_3_3.medium.gfield_select{
-    margin-top:22px !important;
-    }
+select#input_3_3.medium.gfield_select {
+    margin-top: 22px !important;
+}
