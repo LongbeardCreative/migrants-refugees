@@ -265,9 +265,13 @@ HERO STYLES
     transition: 250ms;
 
     &:before {
-        content: "\e019";
-        font-family: "linea-arrows-10";
-        font-size: 70px;
+        display: block;
+        content: ' ';
+        height: 35px;
+        width: 35px;
+        border: solid 1px;
+        border-width: 0 2px 2px 0;
+        transform: rotate(45deg);
     }
 
     &:hover {
@@ -513,7 +517,7 @@ SINGLE BLOG POST STYLES
 }
 
 .lb_back_button {
-    top: -150px;
+    bottom: -22px;
     position: absolute;
     color: white!important;
     text-transform: uppercase;
@@ -548,6 +552,45 @@ SINGLE BLOG POST STYLES
         padding-left: 10px;
     }
 }
+/*********************************
+RELATED POSTS STYLES
+**********************************/
+.crp_related {
+    ul {
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    li {
+        display: block;
+        float: left;
+        width: 31%;
+        margin-left: 2%;
+    }
+}
+
+.crp_title {
+    font: $h5;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30px;
+    color: $color1;
+    text-transform: uppercase;
+}
+
+.crp_date {
+    font: $h6;
+    font-family: 'Raleway', $sans-serif;
+    display: block;
+    line-height: 15px;
+    color: $color1;
+    text-transform: uppercase;
+    border-left: $color3 solid 5px;
+    margin: 10px 0;
+    padding-left: 10px;
+}
+
 /******************************************************************
 COMMENT FORM STYLES
 ******************************************************************/

@@ -1,40 +1,80 @@
-jQuery(function customJS(){ //Run when DOM is loaded
-var $ = jQuery,
-    raw = $('body').attr('class'),
-    regex = /.+(?:postid-|page-id-)(\d{1,}).+/g,
-    pageId = raw.replace(regex, "$1");
+jQuery(function() { //Run when DOM is loaded
+    langSwitcher.init();
+    wrapBoxes();
+    backButton();
+});
 
-$(function langSwitcher() {
-    var path = window.location.protocol + "//" + window.location.host + "/",
-        lang = $('html').attr('lang'),
-        arr = { "pt": "pt", "es": "es", "it-IT": "it", "fr": "fr", "en-US": "en" }
+function lbInit() { //Run when AJAX completes See bridge/js/ajax.mi.js
+    langSwitcher.update();
+    wrapBoxes();
+    backButton();
+}
 
-    console.log("RegEx Page ID: " + pageId);
+//Add Language Switch Options via html-lang-attr and subfolders dynamically
+// Two Methods init() and update()
+langSwitcher = {
+    init: function() {
+        var raw = jQuery('body').attr('class'),
+            regex = /.+(?:postid-|page-id-)(\d{1,}).+/g,
+            pageId = raw.replace(regex, "$1"),
+            path = window.location.protocol + "//" + window.location.host + "/",
+            lang = jQuery('html').attr('lang'),
+            arr = {
+                "pt": "pt",
+                "es": "es",
+                "it-IT": "it",
+                "fr": "fr",
+                "en-US": "en"
+            };
 
-    $('header .container_inner').append('<div class="lang_switcher"></div>');
+        jQuery('header .container_inner').append('<div class="lang_switcher"></div>');
+        jQuery.each(arr, function(index, value) {
+            var raw = jQuery('body').attr('class'),
+                regex = /.+(?:postid-|page-id-)(\d{1,}).+/g,
+                pageId = raw.replace(regex, "$1");
+            if (index == lang) {
+                jQuery('.lang_switcher').prepend('<a class="lb_active" href="javascript:void(0)">' + value + '</a>');
+            } else {
+                jQuery('.lang_switcher').prepend('<a href="' + path + value + '/index.php?p=' + pageId + '">' + value + '</a>');
+            }
+        });
+    },
+    update: function() {
+        jQuery('.lang_switcher a').each(function() {
+            var raw = jQuery('body').attr('class'),
+                regex = /.+(?:postid-|page-id-)(\d{1,}).+/g,
+                pageId = raw.replace(regex, "$1"),
+                rawHREF = jQuery(this).attr('href'),
+                regexHREF = /(http:\/\/socrates\.longbeardsrevenge\.com\/\w{2}\/index\.php\?p=)(\d+)/g,
+                baseHREF = rawHREF.replace(regex, '$1');
+            if (!jQuery(this).attr('href') == 'javascript:void(0)') {
+                jQuery(this).attr('href', baseHREF + pageId);
+            }
+        });
+    }
+};
 
-    $.each(arr, function( index, value ) {
-        if ( index == lang ) {
-            $('.lang_switcher').prepend('<a class="lb_active" href="javascript:void(0)">' + value + '</a>');
-        } else {
-            $('.lang_switcher').prepend('<a href="' + path + value + '/index.php?p=' + pageId + '">' + value + '</a>');
-        }
+function wrapBoxes() {
+    // Wrap Stories Articles in HREFs
+    jQuery('.boxes_image').each(function() {
+        var href = jQuery('a', this).attr('href');
+
+        jQuery(this).closest('li').children('.latest_post').wrap('<a href="' + href + '"></a>');
     });
-
-});
-
-// Wrap Stories Articles in HREFs
-$('.boxes_image').each(function(){
-	var href = $('a', this).attr('href');
-
-	$(this).closest('li').children('.latest_post').wrap('<a href="' + href + '"></a>');
-});
-
+}
 // Add Back Button to Single Blog Posts
-$(function(){
-    var backButton = '<a class="lb_back_button" href="/stories/" target="_self">Back</a>';
-
-    $('.single_top_part_inner .grid_section .section_inner').prepend(backButton);
-})
-
+function backButton() {
+    var path = window.location.protocol + '//' + window.location.host,
+        backButton = '<a class="lb_back_button" href="' + path + '/stories/" target="_self">Back</a>';
+    jQuery('.single_top_part_inner .grid_section .section_inner').append(backButton);
+    //Rearrange Related Posts Date element to be above the Title
+    jQuery('.crp_date').each(function() {
+        var loc = jQuery(this).parent().children('a').children('span');
+        jQuery(this).insertBefore(loc);
+    });
+}
+// Call Bridge's AJAX loadResource function on backButton.click
+jQuery('.lb_back_button').click(function(e) {
+    loadResource('http://socrates.longbeardsrevenge.com/stories');
+    e.preventDefault();
 });

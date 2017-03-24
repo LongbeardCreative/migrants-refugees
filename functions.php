@@ -15,7 +15,7 @@ add_filter( 'gform_enable_field_label_visibility_settings', '__return_true' );
 
 // enqueue the child theme customJS script
 function lb_enqueue_scripts() {
-wp_register_script('childjs', get_stylesheet_directory_uri() . '/js/lb_custom.js', array('jquery'), true);
+wp_register_script('childjs', get_stylesheet_directory_uri() . '/js/lb_custom.js', array('jquery'), '1.1', true);
 wp_enqueue_script('childjs');
 }
 add_action( 'wp_enqueue_scripts', 'lb_enqueue_scripts' );

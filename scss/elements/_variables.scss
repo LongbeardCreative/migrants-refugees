@@ -31,3 +31,10 @@ $padding:           90px 136px;
 $heading-space:     30px;
 
 $transition: 0.14s ease-in-out;
+
+.opacity-hover {
+    transition: opacity $transition;
+    &:hover {
+        opacity: 0.8;
+    }
+}
