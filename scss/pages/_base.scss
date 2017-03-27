@@ -491,6 +491,7 @@ SINGLE BLOG POST STYLES
 
     .entry_title {
         font-size: 56px;
+        width: calc(100% - 6.4%);
     }
 
     .post_info {
@@ -517,11 +518,11 @@ SINGLE BLOG POST STYLES
 }
 
 .lb_back_button {
-    bottom: -22px;
-    position: absolute;
-    color: white!important;
+    color: $color1!important;
     text-transform: uppercase;
     z-index: 99;
+    font-weight: 600;
+    margin-bottom: 10px;
 
     &:hover::after {
         transform: scale(1);
@@ -533,7 +534,7 @@ SINGLE BLOG POST STYLES
         position: absolute;
         display: block;
         margin-top: -29px;
-        background: rgba(0,0,0,0.52);
+        background: $color4;
         border-radius: 3px;
         width: 84px;
         height: 30px;
@@ -556,6 +557,16 @@ SINGLE BLOG POST STYLES
 RELATED POSTS STYLES
 **********************************/
 .crp_related {
+    padding-top: 15px;
+
+    img {
+        border-radius: 6px;
+    }
+
+    h5 {
+        margin-bottom: 10px;
+    }
+
     ul {
         width: 100%;
         margin: 0 auto;
@@ -565,8 +576,12 @@ RELATED POSTS STYLES
     li {
         display: block;
         float: left;
-        width: 31%;
+        width: 32%;
         margin-left: 2%;
+
+        &:first-child {
+            margin-left: 0;
+        }
     }
 }
 
@@ -586,11 +601,19 @@ RELATED POSTS STYLES
     line-height: 15px;
     color: $color1;
     text-transform: uppercase;
-    border-left: $color3 solid 5px;
     margin: 10px 0;
-    padding-left: 10px;
-}
 
+    &::before {
+        content: '';
+        box-shadow: 5px 0 $color3;
+        display: inline-block;
+        height: 14px;
+        border-radius: 5px;
+        width: 5px;
+        margin-right: 10px;
+        margin-left: -3px;
+    }
+}
 /******************************************************************
 COMMENT FORM STYLES
 ******************************************************************/

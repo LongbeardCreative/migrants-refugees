@@ -4,7 +4,7 @@ jQuery(function() { //Run when DOM is loaded
     backButton();
 });
 
-function lbInit() { //Run when AJAX completes See bridge/js/ajax.mi.js
+function lbInit() { //Run when AJAX completes See bridge/js/ajax.min.js
     langSwitcher.update();
     wrapBoxes();
     backButton();
@@ -66,7 +66,7 @@ function wrapBoxes() {
 function backButton() {
     var path = window.location.protocol + '//' + window.location.host,
         backButton = '<a class="lb_back_button" href="' + path + '/stories/" target="_self">Back</a>';
-    jQuery('.single_top_part_inner .grid_section .section_inner').append(backButton);
+    jQuery(backButton).insertBefore('.crp_related');
     //Rearrange Related Posts Date element to be above the Title
     jQuery('.crp_date').each(function() {
         var loc = jQuery(this).parent().children('a').children('span');
