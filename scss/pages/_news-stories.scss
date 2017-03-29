@@ -21,6 +21,59 @@ UNIVERSAL / STYLES FOR DESKTOP [1250px and up]
 	width: 100vw;
 }
 
+article {
+	height: 500px;
+
+	img {
+		height: 250px;
+	}
+
+	&:hover .entry_title a {
+		color: $color2!important;
+	}
+
+	.post_text_inner {
+		padding-top: 15px !important;
+	}
+
+	.post_category {
+		text-transform: uppercase;
+		font-family: "Gotham Condensed Medium", sans-serif;
+		color: $color1 !important;
+		line-height: 15px;
+
+		&::before {
+			content: '';
+			box-shadow: 5px 0 $color3;
+			display: inline-block;
+			height: 14px;
+			border-radius: 5px;
+			width: 5px;
+			margin-right: 10px;
+			margin-left: -3px;
+		}
+
+		a {
+			color: $color1;
+
+			&:hover {
+				color: $color2;
+			}
+		}
+	}
+}
+
+.entry_title {
+	margin-top: 10px!important;
+}
+
+.filter {
+	&.active span,
+	&:hover span {
+		color: $color2!important;
+	}
+}
+
 .q_slide_title {
 	font-size: 120px!important;
 	transform: translateY(-30px);

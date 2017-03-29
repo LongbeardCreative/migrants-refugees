@@ -78,3 +78,75 @@ jQuery('.lb_back_button').click(function(e) {
     loadResource('http://socrates.longbeardsrevenge.com/stories');
     e.preventDefault();
 });
+
+/*
+ * YOUTUBE IFRAME LOADER
+ */
+var prev = jQuery('a[href="#lb_prev"]'),
+    next = jQuery('a[href="#lb_next"]'),
+    videoWrapper = jQuery('#lb_video'),
+    vidArr = [];
+
+jQuery('#lb_video_list li').each(function() {
+    var vidVal = jQuery(this).text();
+    vidArr.push(vidVal);
+});
+
+var videoCount = vidArr.length - 1;
+
+//click Next button
+next.click(function(e) {
+    //Get current video number
+    var currVideo = videoWrapper.data('num');
+    //if is not last video
+    if (currVideo < videoCount) {
+        switchVideo(currVideo + 1);
+    } else if (currVideo == videoCount) {
+        switchVideo(0);
+    }
+    e.preventDefault();
+});
+
+//click Prev button
+prev.click(function(e) {
+    //Get current video number
+    var currVideo = videoWrapper.data('num');
+    if (currVideo > 0) {
+        switchVideo(currVideo - 1);
+    } else {
+        switchVideo(videoCount);
+    }
+    e.preventDefault();
+});
+
+function switchVideo(a) {
+    //move to new video
+    videoWrapper.data('num', a);
+    //Set src of iframe to new video
+    var newSrc = "//youtube.com/embed/" + vidArr[a] + "?feature=oembed&color=white&disablekb=1&rel=0&showinfo=0";
+    jQuery('#lb_video').attr('src', newSrc);
+}
+
+jQuery('.lb_pageable_links a').click(function(e){
+    var target = jQuery(this).attr('href');
+
+    jQuery('.vc_tta-panel').removeClass('vc_active').fadeOut(300);
+    jQuery(target).addClass('vc_active').fadeIn(300);
+    e.preventDefault();
+});
+
+
+jQuery('#lb_video').ready(function() {
+    jQuery('#lb_loading').css('display', 'none');
+});
+jQuery('#lb_video').load(function() {
+    jQuery('#lb_loading').css('display', 'block');
+});
+
+
+// Filter Active State
+jQuery(function(){ jQuery('.filter:first-child').addClass('active');});
+jQuery('.filter').click(function(){
+    jQuery('.filter').removeClass('active');
+    jQuery(this).addClass('active');
+});
