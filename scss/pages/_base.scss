@@ -126,12 +126,10 @@ line-height: 90px;
 a.popup_menu {
     &:after {
         content: 'MENU';
-        display: inline-block;
+        display: inline;
         color: $color5;
         margin-left: 18px;
         font-size: 22px;
-        top: -9px;
-        position: absolute;
     }
 
     .line {
@@ -143,6 +141,10 @@ a.popup_menu {
             top: -7px;
         }
     }
+}
+
+.popup_menu_inner {
+    top: -3px;
 }
 
 .header_inner_right {

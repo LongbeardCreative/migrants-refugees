@@ -64,13 +64,18 @@ article {
 }
 
 .entry_title {
-	margin-top: 10px!important;
+	margin-top: 10px !important;
 }
 
 .filter {
 	&.active span,
 	&:hover span {
 		color: $color2!important;
+	}
+
+	&:not(:last-child)::after {
+		content: '';
+		border-right: 1px solid $color4;
 	}
 }
 

@@ -1,3 +1,6 @@
+@import 'variables';
+@import 'typography';
+
 #lb_video_list {
     display: none;
 }
@@ -34,12 +37,51 @@
     }
 }
 
-.lb_pageable_links a {
-    font-weight: bold;
-    color: white;
-    margin: 0 10px;
-
-    &.active {
-        border-bottom: 1px solid white;
+.lb_yt_external a {
+    &::before, &::after {
+        color: white;
+        font: $body-font;
+        line-height: 47px;
     }
+    &::before {
+        content: 'View Our ';
+    }
+    &::after {
+        content: ' Channel';
+        padding-right: 18px;
+    }
+}
+
+.lb_pageable_links {
+
+    .divider {
+        color: white;
+    }
+
+    hr {
+        border: 1px solid white;
+        width: 70px;
+    }
+
+    p {
+        width: 855px;
+        margin: 0 auto;
+    }
+
+    a {
+    font-weight: bold;
+    color: white!important;
+    margin: 0 10px;
+    transition: $transition;
+    padding-bottom: 4px;
+    width: 25%;
+
+    &.active ~ hr{
+
+    }
+
+    &:first-child.active ~ hr{
+        margin-left: 25%;
+    }
+}
 }

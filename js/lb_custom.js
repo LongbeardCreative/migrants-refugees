@@ -8,6 +8,7 @@ function lbInit() { //Run when AJAX completes See bridge/js/ajax.min.js
     langSwitcher.update();
     wrapBoxes();
     stories();
+    smoothUnderline();
 }
 
 //Add Language Switch Options via html-lang-attr and subfolders dynamically
@@ -47,7 +48,7 @@ langSwitcher = {
                 rawHREF = jQuery(this).attr('href'),
                 regexHREF = /(http:\/\/socrates\.longbeardsrevenge\.com\/\w{2}\/index\.php\?p=)(\d+)/g,
                 baseHREF = rawHREF.replace(regex, '$1');
-            if (!jQuery(this).attr('href') == 'javascript:void(0)') {
+            if (! jQuery(this).attr('href') == 'javascript:void(0)') {
                 jQuery(this).attr('href', baseHREF + pageId);
             }
         });
@@ -62,7 +63,7 @@ function wrapBoxes() {
         jQuery(this).closest('li').children('.latest_post').wrap('<a href="' + href + '"></a>');
     });
 }
-// Add Back Button to Single Blog Posts
+
 function stories() {
     //Rearrange Related Posts Date element to be above the Title
     jQuery('.crp_date').each(function() {
@@ -71,6 +72,7 @@ function stories() {
     });
     jQuery(function() {
         jQuery('.filter:first-child').addClass('active');
+        jQuery('.lb_pageable_links a:first-child').addClass('active');
     });
 }
 // Filter Active State
@@ -78,3 +80,27 @@ jQuery('.filter').click(function() {
     jQuery('.filter').removeClass('active');
     jQuery(this).addClass('active');
 });
+
+// Pageable Container Active State
+jQuery('.lb_video_container .lb_pageable_links a').click(function(e){
+    var activePanel = jQuery('.lb_video_container .vc_tta-panel.vc_active'),
+        linkRel = jQuery(this).attr('href');
+
+    jQuery('.lb_video_container .lb_pageable_links a').removeClass('active');
+    jQuery(this).addClass('active');
+    jQuery('.lb_video_container .vc_tta-panel').removeClass('vc_active').fadeOut(300);
+    jQuery(linkRel).addClass('vc_active').fadeIn(500);
+
+    smoothUnderline();
+
+    e.preventDefault();
+});
+
+function smoothUnderline() {
+    var linkWidth = jQuery('.lb_pageable_links a.active').width(),
+        linkLeft = jQuery('.lb_pageable_links a.active').position().left;
+    jQuery('.lb_pageable_links hr').animate({
+        'width': linkWidth + 'px',
+        'margin-left' : (linkLeft - 7) + 'px'
+    }, 300);
+}
