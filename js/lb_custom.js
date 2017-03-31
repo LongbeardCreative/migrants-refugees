@@ -78,36 +78,3 @@ jQuery('.filter').click(function() {
     jQuery('.filter').removeClass('active');
     jQuery(this).addClass('active');
 });
-
-// Interpret URL Parameters
-function getParameterByName(name, url) {
-    if (!url) {
-        url = window.location.href;
-    }
-    name = name.replace(/[\[\]]/g, "\\$&");
-    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
-        results = regex.exec(url);
-    if (!results) return null;
-    if (!results[2]) return '';
-    return decodeURIComponent(results[2].replace(/\+/g, " "));
-}
-
-jQuery(function() {
-    if (getParameterByName('category').length && jQuery('body').hasClass('page-id-44')) {
-        jQuery('html, body').animate({
-            scrollTop: jQuery(window).height()
-        }, 1000);
-    }
-});
-
-jQuery('.lb_more_videos a').click(function(){
-    var link = jQuery(this).attr('href');
-    loadResource(link);
-});
-
-function catParam() {
-    var category = getParameterByName('category');
-    if (category == 'interviews' && jQuery('body').hasClass('page-id-44')) {
-        jQuery('li[data-filter=".category-interviews"]').click();
-    }
-}
