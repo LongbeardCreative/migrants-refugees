@@ -70,6 +70,22 @@ UNIVERSAL / STYLES FOR DESKTOP
 .lb_pope_img img {
     width: 80%!important;
 }
+
+.lb_more_videos {
+    width: 1380px;
+    color: white;
+
+    .lb_more_link {
+        color: white;
+        &:hover {
+            opacity: 0.8;
+        }
+        &::after {
+            content: ' ';
+            font-family: 'FontAwesome';
+        }
+    }
+}
 /* GRAVITY FORMS */
 .subscribe_form {
     .lb_column_inner {
@@ -171,55 +187,62 @@ RESPONSIVE STYLES
         }
     }
 }
-
 @media screen and (max-width: 1399px) {
     .section_inner {
         width: 1300px;
     }
+
     .popup_menu_holder_inner {
         width: 1100px;
     }
+
     .quote_row {
         height: 40vh;
     }
 }
-
 @media screen and (max-width: 1250px) {
     .section_inner {
         width: 1200px;
     }
-    .vc_custom_1488559916987, .vc_custom_1488559927506 {
+
+    .vc_custom_1488559916987,
+    .vc_custom_1488559927506 {
         padding-bottom: 5%;
     }
 }
-
 @media screen and (max-width: 1200px) {
     .lb_mobile_divider {
-        margin-top: 75px!important;
+        margin-top: 75px !important;
     }
+
     .lb_empty_space.lb_padding_150 {
         height: 100px!important;
     }
+
     .section_inner {
         width: 1100px!important;
     }
+
     .lb_pope_img {
         display: none;
     }
 }
-
 @media screen and (max-width: 1199px) {
     .section_inner {
         width: 1100px!important;
     }
+
     .popup_menu_holder_inner {
         width: 1000px;
     }
-    .vc_custom_1488559916987, .vc_custom_1488559927506 {
-        padding-left: 5%!important;
-        padding-right: 5%!important;
+
+    .vc_custom_1488559916987,
+    .vc_custom_1488559927506 {
+        padding-left: 5% !important;
+        padding-right: 5% !important;
     }
+
     .lb_mobile_divider {
-        margin-top: 150px!important;
+        margin-top: 150px !important;
     }
 }

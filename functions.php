@@ -43,3 +43,13 @@ function add_lb_custom_class() {
         vc_update_shortcode_param( $oldEl, $param );
     }
 }
+
+// hook in late to make sure the parent theme's registration
+// has fired so you can undo it. Otherwise the parent will simply
+// enqueue its script anyway.
+add_action('wp_enqueue_scripts', 'lb_script_fix', 100);
+function lb_script_fix()
+{
+    wp_dequeue_script('default');
+    wp_enqueue_script('default_child', get_stylesheet_directory_uri().'/js/default.min.js', array(), false, true);
+}

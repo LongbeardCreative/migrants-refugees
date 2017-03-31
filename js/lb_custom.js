@@ -1,13 +1,13 @@
 jQuery(function() { //Run when DOM is loaded
     langSwitcher.init();
     wrapBoxes();
-    backButton();
+    stories();
 });
 
 function lbInit() { //Run when AJAX completes See bridge/js/ajax.min.js
     langSwitcher.update();
     wrapBoxes();
-    backButton();
+    stories();
 }
 
 //Add Language Switch Options via html-lang-attr and subfolders dynamically
@@ -63,90 +63,51 @@ function wrapBoxes() {
     });
 }
 // Add Back Button to Single Blog Posts
-function backButton() {
-    var path = window.location.protocol + '//' + window.location.host,
-        backButton = '<a class="lb_back_button" href="' + path + '/stories/" target="_self">Back</a>';
-    jQuery(backButton).insertBefore('.crp_related');
+function stories() {
     //Rearrange Related Posts Date element to be above the Title
     jQuery('.crp_date').each(function() {
         var loc = jQuery(this).parent().children('a').children('span');
         jQuery(this).insertBefore(loc);
     });
+    jQuery(function() {
+        jQuery('.filter:first-child').addClass('active');
+    });
 }
-// Call Bridge's AJAX loadResource function on backButton.click
-jQuery('.lb_back_button').click(function(e) {
-    loadResource('http://socrates.longbeardsrevenge.com/stories');
-    e.preventDefault();
-});
-
-/*
- * YOUTUBE IFRAME LOADER
- */
-var prev = jQuery('a[href="#lb_prev"]'),
-    next = jQuery('a[href="#lb_next"]'),
-    videoWrapper = jQuery('#lb_video'),
-    vidArr = [];
-
-jQuery('#lb_video_list li').each(function() {
-    var vidVal = jQuery(this).text();
-    vidArr.push(vidVal);
-});
-
-var videoCount = vidArr.length - 1;
-
-//click Next button
-next.click(function(e) {
-    //Get current video number
-    var currVideo = videoWrapper.data('num');
-    //if is not last video
-    if (currVideo < videoCount) {
-        switchVideo(currVideo + 1);
-    } else if (currVideo == videoCount) {
-        switchVideo(0);
-    }
-    e.preventDefault();
-});
-
-//click Prev button
-prev.click(function(e) {
-    //Get current video number
-    var currVideo = videoWrapper.data('num');
-    if (currVideo > 0) {
-        switchVideo(currVideo - 1);
-    } else {
-        switchVideo(videoCount);
-    }
-    e.preventDefault();
-});
-
-function switchVideo(a) {
-    //move to new video
-    videoWrapper.data('num', a);
-    //Set src of iframe to new video
-    var newSrc = "//youtube.com/embed/" + vidArr[a] + "?feature=oembed&color=white&disablekb=1&rel=0&showinfo=0";
-    jQuery('#lb_video').attr('src', newSrc);
-}
-
-jQuery('.lb_pageable_links a').click(function(e){
-    var target = jQuery(this).attr('href');
-
-    jQuery('.vc_tta-panel').removeClass('vc_active').fadeOut(300);
-    jQuery(target).addClass('vc_active').fadeIn(300);
-    e.preventDefault();
-});
-
-
-jQuery('#lb_video').ready(function() {
-    jQuery('#lb_loading').css('display', 'none');
-});
-jQuery('#lb_video').load(function() {
-    jQuery('#lb_loading').css('display', 'block');
-});
-
-
 // Filter Active State
-jQuery(function(){ jQuery('.filter:first-child').addClass('active');});
-jQuery('.filter').click(function(){
+jQuery('.filter').click(function() {
     jQuery('.filter').removeClass('active');
     jQuery(this).addClass('active');
 });
+
+// Interpret URL Parameters
+function getParameterByName(name, url) {
+    if (!url) {
+        url = window.location.href;
+    }
+    name = name.replace(/[\[\]]/g, "\\$&");
+    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, " "));
+}
+
+jQuery(function() {
+    if (getParameterByName('category').length && jQuery('body').hasClass('page-id-44')) {
+        jQuery('html, body').animate({
+            scrollTop: jQuery(window).height()
+        }, 1000);
+    }
+});
+
+jQuery('.lb_more_videos a').click(function(){
+    var link = jQuery(this).attr('href');
+    loadResource(link);
+});
+
+function catParam() {
+    var category = getParameterByName('category');
+    if (category == 'interviews' && jQuery('body').hasClass('page-id-44')) {
+        jQuery('li[data-filter=".category-interviews"]').click();
+    }
+}
