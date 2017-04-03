@@ -142,6 +142,10 @@ article {
 	}
 }
 
+.blog_holder article .post_image img {
+	border-radius: 6px;
+}
+
 .latest_post {
 	.latest_post_title a {
 		color: $color1;

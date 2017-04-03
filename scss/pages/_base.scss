@@ -271,7 +271,7 @@ HERO STYLES
         content: ' ';
         height: 35px;
         width: 35px;
-        border: solid 1px;
+        border: solid 1px $color1;
         border-width: 0 2px 2px 0;
         transform: rotate(45deg);
     }
@@ -332,6 +332,10 @@ POSTS & CONTENT STYLES
 
 .padding-bottom {
     height: $padding-bottom !important;
+}
+
+.vc_tta-tabs.vc_tta-has-pagination:not(.vc_tta-tabs-position-bottom) {
+    padding-bottom: 0px!important;
 }
 
 .lb_section_heading {
@@ -461,7 +465,7 @@ SINGLE BLOG POST STYLES
     }
 
     .post_text_inner {
-    //    padding: 50px 0 !important;
+        //    padding: 50px 0 !important;
     }
 }
 
@@ -516,6 +520,26 @@ SINGLE BLOG POST STYLES
     .single_top_part_holder {
         background-color: none;
         background: linear-gradient(transparent 50%,rgba(0, 0, 0, 0.6));
+    }
+}
+
+.single_video_top_part_holder {
+    padding-top: 45px;
+
+    .entry_title,
+    .post_category a,
+    .post_info {
+        color: $color1!important;
+    }
+
+    .section_inner {
+        position: relative!important;
+    }
+}
+
+.single-format-video {
+    .post_text_inner {
+        padding-top: 15px !important;
     }
 }
 

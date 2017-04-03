@@ -34,6 +34,17 @@ UNIVERSAL / STYLES FOR DESKTOP
     font-family: "linea-arrows-10" !important;
 }
 
+.q_slider .image::after {
+    content: ' ';
+    display: block;
+    width:  100vw;
+    height:  100vh;
+    position: absolute;
+    top:  0;
+    left:  0;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0) 30%);
+}
+
 .caroufredsel-direction-nav a,
 .flex-direction-nav a {
     width: 75px;
