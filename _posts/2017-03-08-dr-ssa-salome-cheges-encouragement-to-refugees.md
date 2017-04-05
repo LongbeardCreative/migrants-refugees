@@ -22,7 +22,7 @@ qode_post_style_masonry_date_image:
   - full
 qode_post_style_masonry_gallery:
   - default
+video_format_link:
+  - nTfEEmChMZo
 ---
 Dr.ssa Salome Chege shares her personal story; a message of hope and encouragement to migrants and refugees throughout the world.
-
-<a href="https://youtu.be/nTfEEmChMZo" target="_blank">To watch the full interview click here</a>
