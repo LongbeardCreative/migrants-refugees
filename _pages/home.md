@@ -60,8 +60,7 @@ In Jesus’ own words, "Do to others as you would have them do to you" (Luke 6:3
 &nbsp;
 
 [/vc_column_text][/vc_column_inner][vc_column_inner width="1/2"][vc_single_image image="55" img_size="full" qode_css_animation="" el_class="lb_overlap"][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row][vc_row css_animation="" el_class="color3_row lb_full_section" row_type="row" use_row_as_full_screen_section="no" type="full_width" anchor="subscribe" angled_section="no" text_align="left" background_image_as_pattern="without_pattern" el_id="subscribe"][vc_column][vc_row_inner el_class="lb_row_inner subscribe_form" row_type="row" type="grid" text_align="left" css_animation=""][vc_column_inner][vc_empty_space el_class="padding-top"][vc_empty_space el_class="padding-top"][vc_column_text el_class="lb_call_to_action"]
-<h2>GET THE LATEST MIGRANTS &amp; REFUGEES UPDATES
-STRAIGHT TO YOUR INBOX</h2>
+<h2>GET THE LATEST MIGRANTS &amp; REFUGEES UPDATE STRAIGHT INTO YOUR INBOX</h2>
 [/vc_column_text][gravityform id="1" title="false" description="false" ajax="true"][vc_empty_space el_class="padding-bottom"][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row][vc_row css_animation="" row_type="row" use_row_as_full_screen_section="no" type="grid" angled_section="no" text_align="center" background_image="54" background_image_as_pattern="without_pattern"][vc_column][vc_empty_space el_class="padding-top"][vc_column_text el_class="quote_row"]
 <h1 style="text-align: center;"><span style="color: #ffffff;">MIGRANTS ARE OUR
 BROTHERS AND SISTERS IN SEARCH
