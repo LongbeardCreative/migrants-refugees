@@ -25,7 +25,7 @@ qode_post_style_masonry_date_image:
   - full
 qode_post_style_masonry_gallery:
   - default
+video_format_link:
+  - j_hXaFjNwPs
 ---
 His Eminence, John Cardinal Ribat, Archbishop of Port Moresby, reflects on the struggle of migrants and refugees in Papua New Guinea and the effects of climate change.
-
-<a href="https://youtu.be/j_hXaFjNwPs" target="_blank">To watch the full interview click here</a>
