@@ -1,12 +1,12 @@
 ---
 ID: 229
-post_title: 'Ordinato ma non documentata: una testimonianza personale'
+post_title: 'Ordenado pero indocumentado: un testimonio personal'
 author: mr_admin
 post_date: 2017-03-23 08:25:03
 post_excerpt: ""
 layout: post
 permalink: >
-  http://migrants-refugees.org/it/blog/2017/03/23/ordained-but-undocumented-a-personal-testimony/
+  http://migrants-refugees.org/es/blog/2017/03/23/ordained-but-undocumented-a-personal-testimony/
 published: true
 video_format_choose:
   - youtube
@@ -23,16 +23,16 @@ qode_post_style_masonry_date_image:
 qode_post_style_masonry_gallery:
   - default
 ---
-Ordinato, ma clandestino: una testimonianza personale-Le nuove leggi sull’immigrazione che sono in fase di stesura in questo Paese stanno generando molta paura e incertezza tra coloro che non hanno documenti, i clandestini. Molti di loro vivono nella mia diocesi e nella mia parrocchia, e, a dire la verità, io sono uno di loro.
+Ordenado pero indocumentado: un testimonio personal- Las nuevas leyes en materia de inmigración que se están redactando en este país, están provocando un enorme miedo e incertidumbre en las muchas personas que viven indocumentadas. Algunas de estas personas residen en mi diócesis y también en mi parroquia. De hecho, yo soy una de ellas.
 
-Negli ultimi 10 anni ho vissuto in questo Paese e ho provato sulla mia pelle cosa vuol dire essere un immigrato senza gli adeguati documenti. Non sono mai potuto tornare a casa, nel mio paese, che mi manca moltissimo.
+Durante los últimos 10 años que he vivido en este país lo he hecho solo como inmigrante que carece de los documentos necesarios. Como consecuencia, nunca he podido regresar a mi país, algo que extraño mucho.
 
-Quando sono arrivato qui, su invito del vescovo della diocesi, per studiare da sacerdote, avevo tutto in regola. Ma il seminario dove ho studiato ha fatto confusione con i miei documenti.
+Cuando llegué a este país, invitado por el obispo de la diócesis para que estudiara y me convirtiera en sacerdote aquí, tenía todos los documentos en regla. Pero el seminario donde fui a estudiar los extravió.
 
-Con l’aiuto di alcuni avvocati, il mio vescovo ha tentato di correggere il mio status, ma in quasi 10 anni, non sono riusciti a fare nulla. Il risultato di tutto questo è che dovrei lasciare il Paese spontaneamente. Altrimenti, le autorità verranno a cercarmi, come stanno facendo ora, oppure mi arresteranno per strada, mentre sto guidando. Vivere così snatura la vita stessa.
+Con la ayuda de abogados, mi obispo ha intentado corregir mi situación, pero en estos casi diez años no lo ha conseguido. El resultado final es que debo salir del país por mi propia voluntad. De lo contrario, las autoridades pertinentes vendrán a por mí como lo están haciendo ahora, o tal vez me encuentren mientras voy conduciendo. Ésta no es una manera significativa de vivir.
 
-Ora so cosa provano gli immigrati, perché questa è la vita che vivo ogni giorno. Quando esco dalla casa parrocchiale e vado dai malati in ospedale o visito gli ammalati nelle case della parrocchia o partecipo a qualche incontro, so perfettamente che potrei non tornare a casa. Vivo alla giornata.
+Ahora sé lo que padecen los inmigrantes, puesto que es la vida que vivo yo todos los días. Cuando dejo la casa parroquial para ir a visitar a pacientes en el hospital o enfermos en sus hogares o asistir a cualquier reunión, siempre soy consciente de que tal vez no pueda regresar a casa. Vivo al día.
 
-Se mai tornassi nel mio Paese, mi piacerebbe molto lavorare con gli immigrati, poiché so cosa hanno dovuto passare. Credo di potermi identificare con le loro sofferenze e so capire il loro linguaggio fatto di paura, incertezze e speranze per un futuro migliore.
+Si logro encontrar el camino de regreso a mi país, me encantaría trabajar con inmigrantes ya que sé qué es lo que han tenido que soportar. Creo que puedo identificarme con sus sufrimientos y entender su lenguaje del miedo, de la incertidumbre y confiar en que todo salga bien.
 
-Lavorare con gli immigrati è un dono del Signore per le persone come noi. Continuate a svolgere questo lavoro prezioso che alimenta la speranza. Il vostro amico e fratello nel sacerdozio, Padre XYZ
+Trabajar con inmigrantes es un don de Dios para las personas como nosotros. Sigan llevando a cabo esta buena obra de esperanza. Su amigo y hermano sacerdote, P. XYZ
