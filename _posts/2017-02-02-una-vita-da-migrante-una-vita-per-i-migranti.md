@@ -4,11 +4,11 @@ post_title: >
   Una vita da migrante, una vita per i
   migranti
 author: mr_admin
-post_date: 2017-04-06 11:14:55
+post_date: 2017-02-02 11:14:55
 post_excerpt: ""
 layout: post
 permalink: >
-  http://migrants-refugees.org/it/blog/2017/04/06/una-vita-da-migrante-una-vita-per-i-migranti/
+  http://migrants-refugees.org/it/blog/2017/02/02/una-vita-da-migrante-una-vita-per-i-migranti/
 published: true
 video_format_choose:
   - youtube
