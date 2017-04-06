@@ -5,7 +5,8 @@ author: mr_admin
 post_date: 2017-02-09 20:31:23
 post_excerpt: ""
 layout: page
-permalink: http://migrants-refugees.org/it/contact/
+permalink: >
+  http://migrants-refugees.org/it/contatti/
 published: true
 qode_animate-page-title:
   - 'no'
