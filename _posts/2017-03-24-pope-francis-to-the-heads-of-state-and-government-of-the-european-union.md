@@ -1,6 +1,6 @@
 ---
 ID: 222
-post_title: 'DISCOURS DU PAPE FRANÇOIS  AUX CHEFS D&#8217;ÉTAT ET DE GOUVERNEMENT DE L&#8217;UNION EUROPÉENNE'
+post_title: 'Discours du Pape François  aux chefs d&#8217;état et de gouvernement de L&#8217;union Européenne'
 author: mr_admin
 post_date: 2017-03-24 08:21:27
 post_excerpt: ""
