@@ -13,7 +13,7 @@ published: true
 video_format_choose:
   - youtube
 video_format_link:
-  - https://youtu.be/hnM4Ee-GSqU
+  - hnM4Ee-GSqU
 gallery_type:
   - slider
 qode_animate-page-title:
