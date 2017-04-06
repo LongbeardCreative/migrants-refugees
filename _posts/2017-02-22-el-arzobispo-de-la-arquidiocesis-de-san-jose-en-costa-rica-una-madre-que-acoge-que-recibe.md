@@ -2,11 +2,11 @@
 ID: 357
 post_title: 'El Arzobispo de la Arquidiócesis de San José en Costa Rica: &#8220;una madre que acoge, que recibe&#8221;'
 author: mr_admin
-post_date: 2017-04-06 09:31:58
+post_date: 2017-02-22 09:31:58
 post_excerpt: ""
 layout: post
 permalink: >
-  http://migrants-refugees.org/es/blog/2017/04/06/el-arzobispo-de-la-arquidiocesis-de-san-jose-en-costa-rica-una-madre-que-acoge-que-recibe/
+  http://migrants-refugees.org/es/blog/2017/02/22/el-arzobispo-de-la-arquidiocesis-de-san-jose-en-costa-rica-una-madre-que-acoge-que-recibe/
 published: true
 video_format_choose:
   - youtube
