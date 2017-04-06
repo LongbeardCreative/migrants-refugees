@@ -1,12 +1,12 @@
 ---
 ID: 44
-post_title: Historias
+post_title: Histórias
 author: mr_admin
 post_date: 2017-02-10 15:25:08
 post_excerpt: ""
 layout: page
 permalink: >
-  http://migrants-refugees.org/es/historias/
+  http://migrants-refugees.org/pt/historias/
 published: true
 qode_animate-page-title:
   - 'no'
