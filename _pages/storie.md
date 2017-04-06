@@ -5,7 +5,7 @@ author: mr_admin
 post_date: 2017-02-10 15:25:08
 post_excerpt: ""
 layout: page
-permalink: http://migrants-refugees.org/it/stories/
+permalink: http://migrants-refugees.org/it/storie/
 published: true
 qode_animate-page-title:
   - 'no'
