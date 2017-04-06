@@ -1,12 +1,12 @@
 ---
 ID: 229
-post_title: 'Ordonné mais sans papiers: un témoignage personnel'
+post_title: 'Ordinato ma non documentata: una testimonianza personale'
 author: mr_admin
 post_date: 2017-03-23 08:25:03
 post_excerpt: ""
 layout: post
 permalink: >
-  http://migrants-refugees.org/fr/blog/2017/03/23/ordained-but-undocumented-a-personal-testimony/
+  http://migrants-refugees.org/it/blog/2017/03/23/ordained-but-undocumented-a-personal-testimony/
 published: true
 video_format_choose:
   - youtube
@@ -23,16 +23,16 @@ qode_post_style_masonry_date_image:
 qode_post_style_masonry_gallery:
   - default
 ---
-Ordonné mais sans papiers: un témoignage personnel- Les nouvelles lois sur l’immigration écrites dans ce pays provoquent beaucoup d’appréhension et d’incertitude chez tous ceux qui n’ont pas de papiers. Il y en a un certain nombre dans mon diocèse, ainsi que dans ma propre paroisse. Et, de fait, je suis l’un d’entre eux.
+Ordinato, ma clandestino: una testimonianza personale-Le nuove leggi sull’immigrazione che sono in fase di stesura in questo Paese stanno generando molta paura e incertezza tra coloro che non hanno documenti, i clandestini. Molti di loro vivono nella mia diocesi e nella mia parrocchia, e, a dire la verità, io sono uno di loro.
 
-J’ai vécu dans ce pays ces 10 dernières années, j’ai simplement vécu comme migrant sans papiers. Par conséquent, je ne suis jamais retourné chez moi, ce qui me manque énormément.
+Negli ultimi 10 anni ho vissuto in questo Paese e ho provato sulla mia pelle cosa vuol dire essere un immigrato senza gli adeguati documenti. Non sono mai potuto tornare a casa, nel mio paese, che mi manca moltissimo.
 
-Quand je suis venu ici, à l’invitation de l’évêque de ce diocèse, pour étudier et devenir prêtre, j’étais en règle. Mais le séminaire où je suis allé étudier a fait une erreur au niveau de mes papiers.
+Quando sono arrivato qui, su invito del vescovo della diocesi, per studiare da sacerdote, avevo tutto in regola. Ma il seminario dove ho studiato ha fatto confusione con i miei documenti.
 
-Avec l’aide d’avocats, mon évêque a tenté de faire corriger mon statut mais sans succès depuis dix ans désormais. Le résultat, c’est que je devrais quitter le pays de mon plein gré. Sinon les autorités viendront comme elles ont coutume de le faire ou bien elles m’arrêteront un jour que je conduis sur la route. Ce n’est pas une bonne façon de vivre ma vie.
+Con l’aiuto di alcuni avvocati, il mio vescovo ha tentato di correggere il mio status, ma in quasi 10 anni, non sono riusciti a fare nulla. Il risultato di tutto questo è che dovrei lasciare il Paese spontaneamente. Altrimenti, le autorità verranno a cercarmi, come stanno facendo ora, oppure mi arresteranno per strada, mentre sto guidando. Vivere così snatura la vita stessa.
 
-Maintenant je sais ce qu’endurent les migrants, car c’est la vie que je mène chaque jour. Quand je quitte le presbytère pour aller rendre visite à des malades à l’hôpital ou chez eux, ou pour aller participer à des réunions, je suis toujours conscient que je ne rentrerai peut-être pas à la maison. Je vis au jour le jour.
+Ora so cosa provano gli immigrati, perché questa è la vita che vivo ogni giorno. Quando esco dalla casa parrocchiale e vado dai malati in ospedale o visito gli ammalati nelle case della parrocchia o partecipo a qualche incontro, so perfettamente che potrei non tornare a casa. Vivo alla giornata.
 
-Si je retrouve le chemin de mon pays, j’aimerais travailler avec les migrants car je sais ce qu’ils vivent. Je pense que je pourrai m’identifier à leurs souffrances et comprendre leur langage de peur, d’incertitude et d’espoir d’amélioration.
+Se mai tornassi nel mio Paese, mi piacerebbe molto lavorare con gli immigrati, poiché so cosa hanno dovuto passare. Credo di potermi identificare con le loro sofferenze e so capire il loro linguaggio fatto di paura, incertezze e speranze per un futuro migliore.
 
-Travailler avec les migrants est un don de Dieu envoyé aux gens comme nous. Continuez à accomplir ce bon travail. Votre ami et votre frère, P. XYZ
+Lavorare con gli immigrati è un dono del Signore per le persone come noi. Continuate a svolgere questo lavoro prezioso che alimenta la speranza. Il vostro amico e fratello nel sacerdozio, Padre XYZ
