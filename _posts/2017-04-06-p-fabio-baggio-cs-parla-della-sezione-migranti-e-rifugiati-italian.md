@@ -1,6 +1,8 @@
 ---
 ID: 344
-post_title: 'P. Fabio Baggio, CS, parla della Sezione Migranti e Rifugiati &#8211; Italian'
+post_title: >
+  P. Fabio Baggio, CS, parla della Sezione
+  Migranti e Rifugiati
 author: mr_admin
 post_date: 2017-04-06 09:00:58
 post_excerpt: ""
