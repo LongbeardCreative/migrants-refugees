@@ -1,6 +1,6 @@
 ---
 ID: 9
-post_title: Home
+post_title: Inicio
 author: Evan Hennessy
 post_date: 2017-02-09 14:55:22
 post_excerpt: ""
