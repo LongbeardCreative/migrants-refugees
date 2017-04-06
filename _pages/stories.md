@@ -12,7 +12,7 @@ qode_animate-page-title:
 qode_show-sidebar:
   - default
 qode_revolution-slider:
-  - "[qode_slider slider='stories' auto_start='true' animation_type='slide' slide_animation='6000' height='' responsive_height='yes' anchor='' show_navigation_arrows='no']"
+  - "[qode_slider slider='Stories' auto_start='true' animation_type='slide' slide_animation='6000' height='' responsive_height='yes' anchor='' show_navigation_arrows='no']"
 qode_header_color_transparency_per_page:
   - "0"
 qode_show-page-title:
