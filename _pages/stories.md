@@ -1,12 +1,11 @@
 ---
 ID: 44
-post_title: Stories
+post_title: Historias
 author: mr_admin
 post_date: 2017-02-10 15:25:08
 post_excerpt: ""
 layout: page
-permalink: >
-  http://socrates.longbeardsrevenge.com/stories/
+permalink: http://migrants-refugees.org/es/stories/
 published: true
 qode_animate-page-title:
   - 'no'
@@ -19,4 +18,4 @@ qode_header_color_transparency_per_page:
 qode_show-page-title:
   - 'yes'
 ---
-[vc_row css_animation="" row_type="row" use_row_as_full_screen_section="no" type="full_width" angled_section="no" text_align="left" background_image_as_pattern="without_pattern"][vc_column][/vc_column][/vc_row]
+[vc_row css_animation="" row_type="row" use_row_as_full_screen_section="no" type="full_width" angled_section="no" text_align="left" background_image_as_pattern="without_pattern"][vc_column][vc_empty_space height="23"][/vc_column][/vc_row]
