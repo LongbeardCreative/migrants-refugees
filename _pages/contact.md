@@ -17,10 +17,10 @@ qode_show-page-title:
 [vc_row css_animation="" row_type="row" use_row_as_full_screen_section="no" type="full_width" angled_section="no" text_align="left" background_image_as_pattern="without_pattern" padding_top="32" padding_bottom="64"][vc_column width="1/4"][/vc_column][vc_column width="1/2"][vc_column_text el_class="lb_contact_header"]
 <h1 style="text-align: center;">CONTACTEZ NOUS</h1>
 [/vc_column_text][vc_empty_space][gravityform id="3" title="false" description="false" ajax="false"][vc_empty_space][vc_column_text]
-<p style="text-align: center;"><strong>Migrants &amp; Refugees Section</strong></p>
-<p style="text-align: center;"><strong>Integral Human Development</strong></p>
+<p style="text-align: center;"><strong>Section Migrants et Refugiés</strong></p>
+<p style="text-align: center;"><strong>Développement Humain Integral</strong></p>
 <p style="text-align: center;">Palazzo San Calisto</p>
-<p style="text-align: center;">00120 Vatican City</p>
+<p style="text-align: center;">00120 Città del Vaticano</p>
 [/vc_column_text][vc_empty_space][vc_column_text]
 <p style="text-align: center;">Office +39 06 698 87379</p>
 [/vc_column_text][/vc_column][vc_column width="1/4"][/vc_column][/vc_row]
