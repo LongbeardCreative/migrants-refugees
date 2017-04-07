@@ -22,5 +22,5 @@ qode_show-page-title:
 <p style="text-align: center;">Palazzo San Calisto</p>
 <p style="text-align: center;">00120 Città del Vaticano</p>
 [/vc_column_text][vc_empty_space][vc_column_text]
-<p style="text-align: center;">Office +39 06 698 87379</p>
+<p style="text-align: center;">Bureau +39 06 698 87379</p>
 [/vc_column_text][/vc_column][vc_column width="1/4"][/vc_column][/vc_row]
