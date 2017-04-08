@@ -47,12 +47,10 @@ The M&amp;R Section helps the Church worldwide to support those who are forcibly
 to accompany those who are departing and fleeing, those in transit or waiting, those who are arriving and seek to integrate, and those who return. What does to accompany mean?
 
 &nbsp;
-
-To see, to listen, to welcome
+<p style="padding-left: 30px;">To see, to listen, to welcome
 To protect
 To assist and integrate
-To pursue long-term solutions
-
+To pursue long-term solutions</p>
 &nbsp;
 
 In Jesus’ own words, "Do to others as you would have them do to you" (Luke 6:31).[/vc_column_text][/vc_column_inner][/vc_row_inner][vc_empty_space height="130px" el_class="lb_empty_space lb_padding_150"][vc_row_inner row_type="row" type="full_width" text_align="left" css_animation=""][vc_column_inner el_class="lb_column_inner lb_title_two" width="1/2" css=".vc_custom_1488559945158{padding-right: 15% !important;padding-left: 15% !important;}"][vc_column_text el_class="lb_section_body lb_line_under"]Despite the enormous challenges, progress is being made to make for a more welcoming world. Fr Fabio Baggio C.S. and Fr Michael Czerny S.J. manage the M&amp;R Section on behalf of Pope Francis. They see many opportunities for substantive change. We encourage everyone to join the Pope in solidarity, in building compassionate and welcoming communities around the world. This website is full of resources, and a good first step is getting the latest Migrants and Refugees Update straight into your inbox. Please sign-up and join the M&amp;R mailing-list, below.[/vc_column_text][/vc_column_inner][vc_column_inner width="1/2"][vc_single_image image="55" img_size="full" qode_css_animation="" el_class="lb_overlap"][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row][vc_row css_animation="" el_class="color3_row lb_full_section" row_type="row" use_row_as_full_screen_section="no" type="full_width" anchor="subscribe" angled_section="no" text_align="left" background_image_as_pattern="without_pattern" el_id="subscribe"][vc_column][vc_row_inner el_class="lb_row_inner subscribe_form" row_type="row" type="grid" text_align="left" css_animation=""][vc_column_inner][vc_empty_space el_class="padding-top"][vc_empty_space el_class="padding-top"][vc_column_text el_class="lb_call_to_action"]
