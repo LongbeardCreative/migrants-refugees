@@ -21,7 +21,8 @@ qode_header_color_transparency_per_page:
   - "0"
 ---
 [vc_row css_animation="" row_type="row" use_row_as_full_screen_section="no" type="grid" anchor="lb_main" angled_section="no" text_align="left" background_image_as_pattern="without_pattern"][vc_column][vc_empty_space height="150px" el_class="lb_empty_space lb_padding_150"][vc_row_inner row_type="row" type="full_width" text_align="left" css_animation=""][vc_column_inner width="1/2"][vc_single_image image="14" img_size="full" qode_css_animation="" el_class="lb_behind mobile-hide"][/vc_column_inner][vc_column_inner width="1/2" css=".vc_custom_1488559916987{padding-right: 15% !important;padding-left: 15% !important;}"][vc_column_text el_class="lb_section_heading double es-only"]
-<h1>LA SECCIÓN DEL PAPA</h1>
+<h1>LA SECCIÓN</h1>
+<h1>DEL PAPA</h1>
 [/vc_column_text][vc_column_text el_class="lb_section_body"]La Sección Migrantes y Refugiados (M y R) es un departamento de la curia vaticana orientado a la acción pastoral y dirigido personalmente por el Papa Francisco a raíz de su convicción de que son necesarios esfuerzos y una atención especial para asegurar que los que se encuentran forzados a migrar no sean excluidos u olvidados.
 
 &nbsp;
@@ -57,7 +58,8 @@ significa buscar soluciones a largo plazo</p>
 &nbsp;
 
 Jesucristo diría: “Hagan ustedes con los demás como quieren que los demás hagan con ustedes.” (Lc 6, 31)[/vc_column_text][/vc_column_inner][/vc_row_inner][vc_empty_space height="130px" el_class="lb_empty_space lb_padding_150"][vc_row_inner row_type="row" type="full_width" text_align="left" css_animation=""][vc_column_inner el_class="lb_column_inner lb_title_two" width="1/2" css=".vc_custom_1488559945158{padding-right: 15% !important;padding-left: 15% !important;}"][vc_column_text el_class="lb_section_heading double es-only"]
-<h1>TU TAMBIÉN PUEDES HACER ALGO</h1>
+<h1>TU TAMBIÉN</h1>
+<h1>PUEDES HACER ALGO</h1>
 [/vc_column_text][vc_column_text el_class="lb_section_body lb_line_under"]A pesar de los tremendos desafíos, hay que reconocer un cierto progreso en la edificación de un mundo más acogedor. P. Fabio Baggio C.S. y P. Michael Czerny S.J. conducen la Sección M y R bajo la dirección del Papa Francisco. Ambos creen que hay muchas oportunidades para un cambio sustantivo: “Invitamos a todo el mundo a sumarse al Papa, en solidaridad, para la edificación de comunidades de compasión y acogedoras en todos los continentes. Este sitio web ofrece varios recursos y por eso les invitamos a registrarse en nuestra mailing list.[/vc_column_text][/vc_column_inner][vc_column_inner width="1/2"][vc_single_image image="55" img_size="full" qode_css_animation="" el_class="lb_overlap"][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row][vc_row css_animation="" el_class="color3_row lb_full_section" row_type="row" use_row_as_full_screen_section="no" type="full_width" anchor="suscribir" angled_section="no" text_align="left" background_image_as_pattern="without_pattern" el_id="suscribir"][vc_column][vc_row_inner el_class="lb_row_inner subscribe_form" row_type="row" type="grid" text_align="left" css_animation=""][vc_column_inner][vc_empty_space el_class="padding-top"][vc_empty_space el_class="padding-top"][vc_column_text el_class="lb_call_to_action"]
 <h2>SUSCRÍBASE A NUESTRA LISTA DE CORREO</h2>
 [/vc_column_text][gravityform id="1" title="false" description="false" ajax="true"][vc_empty_space el_class="padding-bottom"][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row][vc_row css_animation="" row_type="row" use_row_as_full_screen_section="no" type="grid" angled_section="no" text_align="center" background_image="54" background_image_as_pattern="without_pattern"][vc_column][vc_empty_space el_class="padding-top"][vc_column_text el_class="quote_row"]
