@@ -64,6 +64,6 @@ ANCHE TU</h1>
 <h2>SOTTOSCRIVI LA NOSTRA MAILING LIST</h2>
 [/vc_column_text][gravityform id="1" title="false" description="false" ajax="true"][vc_empty_space el_class="padding-bottom"][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row][vc_row css_animation="" row_type="row" use_row_as_full_screen_section="no" type="grid" angled_section="no" text_align="center" background_image="54" background_image_as_pattern="without_pattern"][vc_column][vc_empty_space el_class="padding-top"][vc_column_text el_class="quote_row"]
 <h1 style="text-align: center;"><span style="color: #ffffff;">MIGRANTI SONO
-NOSTRI FRATELLI E SORELLE IN
-CERCA DI UNA VITA MIGLIORE</span></h1>
+NOSTRI FRATELLI E SORELLE </span></h1>
+<h1 style="text-align: center;"><span style="color: #ffffff;">IN CERCA DI UNA VITA MIGLIORE</span></h1>
 [/vc_column_text][vc_empty_space el_class="padding-bottom"][/vc_column][/vc_row][vc_row css_animation="" row_type="row" use_row_as_full_screen_section="no" type="full_width" angled_section="no" text_align="left" background_image_as_pattern="without_pattern"][vc_column offset="vc_hidden-lg vc_hidden-md vc_hidden-sm vc_hidden-xs"][icons icon_pack="linea_icons" linea_icon="icon-arrows-left" size="fa-lg" type="normal" target="_self"][/vc_column][/vc_row]
