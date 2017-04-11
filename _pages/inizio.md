@@ -21,7 +21,8 @@ qode_header_color_transparency_per_page:
   - "0"
 ---
 [vc_row css_animation="" row_type="row" use_row_as_full_screen_section="no" type="grid" anchor="lb_main" angled_section="no" text_align="left" background_image_as_pattern="without_pattern"][vc_column][vc_empty_space height="150px" el_class="lb_empty_space lb_padding_150"][vc_row_inner row_type="row" type="full_width" text_align="left" css_animation=""][vc_column_inner width="1/2"][vc_single_image image="14" img_size="full" qode_css_animation="" el_class="lb_behind mobile-hide"][/vc_column_inner][vc_column_inner width="1/2" css=".vc_custom_1488559916987{padding-right: 15% !important;padding-left: 15% !important;}"][vc_column_text el_class="lb_section_heading double"]
-<h1>LA SEZIONE DEL PAPA</h1>
+<h1>LA SEZIONE</h1>
+<h1>DEL PAPA</h1>
 [/vc_column_text][vc_column_text el_class="lb_section_body"]La Sezione Migranti e Rifugiati è un piccolo e dinamico reparto vaticano diretto personalmente da Papa Francesco. Egli crede che siano necessari sforzi ed attenzioni particolari per garantire che chi è costretto a fuggire non sia chiuso fuori o lasciato indietro.
 
 &nbsp;
