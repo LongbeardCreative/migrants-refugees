@@ -33,16 +33,16 @@ A Secção M. e R. ajuda a Igreja universal a acompanhar quem foi forçado a des
 <p style="text-align: right;"><a class="lb_more_link" href="http://migrants-refugees.org/pt/historias?category=interviews">Mais Vídeos</a></p>
 [/vc_column_text][/vc_tta_section][vc_tta_section title="About the Section" tab_id="about_the_section_page"][vc_column_text]<iframe id="lb_video" src="https://www.youtube.com/embed/AjrR4uF_r8A?feature=oembed&amp;color=white&amp;disablekb=1&amp;rel=0&amp;showinfo=0" width="855" height="480" frameborder="0" data-num="0"></iframe>[/vc_column_text][vc_column_text el_class="lb_column_text lb_more_videos"]
 <p style="text-align: right;"><a class="lb_more_link" href="http://migrants-refugees.org/pt/historias?category=interviews">View More Videos</a></p>
-[/vc_column_text][/vc_tta_section][/vc_tta_pageable][vc_single_image image="219" img_size="100x42" alignment="center" onclick="custom_link" img_link_target="_blank" qode_css_animation="" link="https://www.youtube.com/channel/UCl2EWji335jtLM4J1xP_vEQ" el_class="opacity-hover lb_yt_external"][vc_empty_space height="45px" el_class=""][/vc_column][/vc_row][vc_row css_animation="" row_type="row" use_row_as_full_screen_section="no" type="grid" angled_section="no" text_align="left" background_image_as_pattern="without_pattern"][vc_column][vc_empty_space height="130px" el_class="lb_empty_space lb_padding_150"][vc_row_inner row_type="row" type="full_width" text_align="left" css_animation=""][vc_column_inner width="1/2" css=".vc_custom_1488559927506{padding-right: 15% !important;padding-left: 15% !important;}"][vc_column_text el_class="lb_section_heading double"]
-<h1>CHORAR, E
-DEPOIS AGIR</h1>
+[/vc_column_text][/vc_tta_section][/vc_tta_pageable][vc_single_image image="219" img_size="100x42" alignment="center" onclick="custom_link" img_link_target="_blank" qode_css_animation="" link="https://www.youtube.com/channel/UCl2EWji335jtLM4J1xP_vEQ" el_class="opacity-hover lb_yt_external"][vc_empty_space height="45px" el_class=""][/vc_column][/vc_row][vc_row css_animation="" row_type="row" use_row_as_full_screen_section="no" type="grid" angled_section="no" text_align="left" background_image_as_pattern="without_pattern"][vc_column][vc_empty_space height="130px" el_class="lb_empty_space lb_padding_150"][vc_row_inner row_type="row" type="full_width" text_align="left" css_animation=""][vc_column_inner width="1/2" css=".vc_custom_1488559927506{padding-right: 15% !important;padding-left: 15% !important;}"][vc_column_text el_class="lb_section_heading single-ipad"]
+<h1>CHORAR, E</h1>
+<h1>DEPOIS AGIR</h1>
 [/vc_column_text][vc_column_text el_class="lb_section_body"]Em Lampedusa e Lesbos, dos principais locais de trânsito em Itália e na Grécia, o Papa Francisco chorou com os imigrantes e refugiados ali amontoados. Ao regressar de Lesbos, trouxe consigo algumas famílias de refugiados sírios para viverem no Vaticano.
 
 &nbsp;
 
-“Curando as feridas dos refugiados, dos deslocados e das vítimas do tráfico” disse ele, “pomos em prática o mandamento da caridade que Jesus nos deixou … A carne deles é a carne de Cristo” (24 de maio de 2013). O Papa quer que a Secção M. e R. ajude a que por todo o mundo se diga e faça o que ele próprio ensina e faz.[/vc_column_text][/vc_column_inner][vc_column_inner width="1/2"][vc_single_image image="56" img_size="full" qode_css_animation="" el_class="lb_behind lb_stretch lb_right"][/vc_column_inner][/vc_row_inner][vc_row_inner row_type="row" type="full_width" text_align="left" css_animation=""][vc_column_inner width="1/2"][vc_single_image image="53" img_size="full" qode_css_animation="" el_class="pull-up mobile-hide lb_stretch lb_left"][/vc_column_inner][vc_column_inner width="1/2" css=".vc_custom_1488559935324{padding-right: 15% !important;padding-left: 15% !important;}"][vc_column_text el_class="lb_section_heading double lb_mr_does"]
-<h1>O QUE FAZ
-A M. e R.</h1>
+“Curando as feridas dos refugiados, dos deslocados e das vítimas do tráfico” disse ele, “pomos em prática o mandamento da caridade que Jesus nos deixou … A carne deles é a carne de Cristo” (24 de maio de 2013). O Papa quer que a Secção M. e R. ajude a que por todo o mundo se diga e faça o que ele próprio ensina e faz.[/vc_column_text][/vc_column_inner][vc_column_inner width="1/2"][vc_single_image image="56" img_size="full" qode_css_animation="" el_class="lb_behind lb_stretch lb_right"][/vc_column_inner][/vc_row_inner][vc_row_inner row_type="row" type="full_width" text_align="left" css_animation=""][vc_column_inner width="1/2"][vc_single_image image="53" img_size="full" qode_css_animation="" el_class="pull-up mobile-hide lb_stretch lb_left"][/vc_column_inner][vc_column_inner width="1/2" css=".vc_custom_1488559935324{padding-right: 15% !important;padding-left: 15% !important;}"][vc_column_text el_class="lb_section_heading double lb_mr_does single-ipad"]
+<h1>O QUE FAZ</h1>
+<h1>A M. e R.</h1>
 [/vc_column_text][vc_column_text el_class="lb_section_body lb_half_section lb_mobile_divider"]A missão da Secção M. e R. é ajudar a Igreja
 
 &nbsp;
@@ -60,9 +60,9 @@ Apoiar e integrar
 Buscar soluções de longo prazo</p>
 &nbsp;
 
-Nas palavras do próprio Jesus, “o que quiserdes que os outros vos façam, fazei-lho vós também” (Lucas 6, 31).[/vc_column_text][/vc_column_inner][/vc_row_inner][vc_empty_space height="130px" el_class="lb_empty_space lb_padding_150"][vc_row_inner row_type="row" type="full_width" text_align="left" css_animation=""][vc_column_inner el_class="lb_column_inner lb_title_two" width="1/2" css=".vc_custom_1488559945158{padding-right: 15% !important;padding-left: 15% !important;}"][vc_column_text el_class="lb_section_heading double double-as-triple"]
-<h1>O QUE VOCÊ
-TAMBÉM PODE FAZER</h1>
+Nas palavras do próprio Jesus, “o que quiserdes que os outros vos façam, fazei-lho vós também” (Lucas 6, 31).[/vc_column_text][/vc_column_inner][/vc_row_inner][vc_empty_space height="130px" el_class="lb_empty_space lb_padding_150"][vc_row_inner row_type="row" type="full_width" text_align="left" css_animation=""][vc_column_inner el_class="lb_column_inner lb_title_two" width="1/2" css=".vc_custom_1488559945158{padding-right: 15% !important;padding-left: 15% !important;}"][vc_column_text el_class="lb_section_heading double double-as-triple single-ipad"]
+<h1>O QUE VOCÊ</h1>
+<h1>TAMBÉM PODE FAZER</h1>
 [/vc_column_text][vc_column_text el_class="lb_section_body lb_line_under"]Apesar dos tremendos desafios, regista-se um progresso na edificação de um mundo mais acolhedor. O P. Fabio Baggio C.S. e o P. Michael Czerny S.J. dirigem a Secção M. e R. em nome do Papa Francisco.
 
 &nbsp;
