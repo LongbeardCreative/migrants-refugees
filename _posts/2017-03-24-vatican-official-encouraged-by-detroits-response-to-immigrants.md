@@ -4,11 +4,11 @@ post_title: >
   Vatican official ‘encouraged’ by
   Detroit’s response to immigrants
 author: mr_admin
-post_date: 2017-04-21 14:30:19
+post_date: 2017-03-24 14:30:19
 post_excerpt: ""
 layout: post
 permalink: >
-  http://migrants-refugees.org/blog/2017/04/21/vatican-official-encouraged-by-detroits-response-to-immigrants/
+  http://migrants-refugees.org/blog/2017/03/24/vatican-official-encouraged-by-detroits-response-to-immigrants/
 published: true
 video_format_choose:
   - youtube
