@@ -1,12 +1,12 @@
 ---
 ID: 229
-post_title: 'Ordenado pero indocumentado: un testimonio personal'
+post_title: 'Ordained but undocumented: a personal testimony'
 author: mr_admin
 post_date: 2017-03-23 08:25:03
 post_excerpt: ""
 layout: post
 permalink: >
-  http://migrants-refugees.org/es/blog/2017/03/23/ordained-but-undocumented-a-personal-testimony/
+  http://migrants-refugees.org/blog/2017/03/23/ordained-but-undocumented-a-personal-testimony/
 published: true
 video_format_choose:
   - youtube
@@ -23,16 +23,16 @@ qode_post_style_masonry_date_image:
 qode_post_style_masonry_gallery:
   - default
 ---
-Ordenado pero indocumentado: un testimonio personal- Las nuevas leyes en materia de inmigración que se están redactando en este país, están provocando un enorme miedo e incertidumbre en las muchas personas que viven indocumentadas. Algunas de estas personas residen en mi diócesis y también en mi parroquia. De hecho, yo soy una de ellas.
+Ordained but undocumented: a personal testimony - The new immigration laws being written in this country are causing a lot of fear and uncertainty to many who are undocumented. We have a number of them in my diocese and also in my own parish. In fact I am one of them.
 
-Durante los últimos 10 años que he vivido en este país lo he hecho solo como inmigrante que carece de los documentos necesarios. Como consecuencia, nunca he podido regresar a mi país, algo que extraño mucho.
+For the last 10 years that I have been living in this country, I have only lived as an immigrant with no proper documents. As a result, I have never been back home, which I miss so much.
 
-Cuando llegué a este país, invitado por el obispo de la diócesis para que estudiara y me convirtiera en sacerdote aquí, tenía todos los documentos en regla. Pero el seminario donde fui a estudiar los extravió.
+When I came to this place, invited by the bishop the diocese to come and study to become a priest here, I had proper documents. But the seminary where I went to study messed up my documents.
 
-Con la ayuda de abogados, mi obispo ha intentado corregir mi situación, pero en estos casi diez años no lo ha conseguido. El resultado final es que debo salir del país por mi propia voluntad. De lo contrario, las autoridades pertinentes vendrán a por mí como lo están haciendo ahora, o tal vez me encuentren mientras voy conduciendo. Ésta no es una manera significativa de vivir.
+With the help of lawyers, my bishop has tried to correct my status but, for almost ten years now, they have not succeeded. The final result is that I should leave the country on my own accord. Or else, the authority will come for me as they are now doing, or they will find me when I am driving on the road. It is not a meaningful way to live life.
 
-Ahora sé lo que padecen los inmigrantes, puesto que es la vida que vivo yo todos los días. Cuando dejo la casa parroquial para ir a visitar a pacientes en el hospital o enfermos en sus hogares o asistir a cualquier reunión, siempre soy consciente de que tal vez no pueda regresar a casa. Vivo al día.
+Now I know what immigrants go through since it is the life I live everyday. When I leave the rectory going to visit patients in the hospital or visit the sick in homes or attend any meetings, I am always aware that I may not come back home. I live one day at a time.
 
-Si logro encontrar el camino de regreso a mi país, me encantaría trabajar con inmigrantes ya que sé qué es lo que han tenido que soportar. Creo que puedo identificarme con sus sufrimientos y entender su lenguaje del miedo, de la incertidumbre y confiar en que todo salga bien.
+If I find my way back to my country, I may love to work with immigrants since I know what they have gone through. I think I can identify with their sufferings and understand their language of fear, uncertainty and hope for the best.
 
-Trabajar con inmigrantes es un don de Dios para las personas como nosotros. Sigan llevando a cabo esta buena obra de esperanza. Su amigo y hermano sacerdote, P. XYZ
+To work with immigrants is a God-sent gift for people like us. Keep doing this good work of hope. Your friend and brother priest, Fr. XYZ
