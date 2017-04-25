@@ -48,7 +48,7 @@ La Sezione MR aiuta la Chiesa intorno al mondo a accompagnare coloro che sono fo
 
 &nbsp;
 
--- vescovi, fedeli, clero, organizzazioni ecclesiastiche, e chiunque altro --
+- vescovi, fedeli, clero, organizzazioni ecclesiastiche, e chiunque altro -
 
 &nbsp;
 
