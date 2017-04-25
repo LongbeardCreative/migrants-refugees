@@ -34,44 +34,44 @@ qode_show-sidebar:
 </ul>
 [/vc_column_text][/vc_accordion_tab][vc_accordion_tab title="Benedict XVI"][vc_column_text]
 <ul>
- 	<li><a class="lb_document_li_a" href="http://w2.vatican.va/content/benedict-xvi/it/messages/migration/documents/hf_ben-xvi_mes_20121012_world-migrants-day.html">"Migrazioni: pellegrinaggio di fede e di speranza"</a>
-<div class="lb_document_li_date">12 ottobre 2012</div></li>
- 	<li><a class="lb_document_li_a" href="http://w2.vatican.va/content/benedict-xvi/it/messages/migration/documents/hf_ben-xvi_mes_20110921_world-migrants-day.html">"Migrazioni e nuova evangelizzazione"</a>
-<div class="lb_document_li_date">21 Settembre 2011</div></li>
- 	<li><a class="lb_document_li_a" href="http://w2.vatican.va/content/benedict-xvi/it/messages/migration/documents/hf_ben-xvi_mes_20100927_world-migrants-day.html">“Una sola famiglia umana”</a>
-<div class="lb_document_li_date">27 settembre 2010</div></li>
- 	<li><a class="lb_document_li_a" href="http://w2.vatican.va/content/benedict-xvi/it/messages/migration/documents/hf_ben-xvi_mes_20091016_world-migrants-day.html">"I migranti e i rifugiati minorenni"</a>
-<div class="lb_document_li_date">16 ottobre 2009</div></li>
- 	<li><a class="lb_document_li_a" href="http://w2.vatican.va/content/benedict-xvi/it/messages/migration/documents/hf_ben-xvi_mes_20080824_world-migrants-day.html">San Paolo migrante, Apostolo delle genti</a>
-<div class="lb_document_li_date">24 agosto 2008</div></li>
- 	<li><a class="lb_document_li_a" href="http://w2.vatican.va/content/benedict-xvi/it/messages/migration/documents/hf_ben-xvi_mes_20071018_world-migrants-day.html">I giovani migranti</a>
-<div class="lb_document_li_date">18 Ottobre 2007</div></li>
- 	<li><a class="lb_document_li_a" href="http://w2.vatican.va/content/benedict-xvi/it/messages/migration/documents/hf_ben-xvi_mes_20061018_world-migrants-day.html">La famiglia migrante</a>
-<div class="lb_document_li_date">18 Ottobre 2006</div></li>
- 	<li><a class="lb_document_li_a" href="http://w2.vatican.va/content/benedict-xvi/it/messages/migration/documents/hf_ben-xvi_mes_20051018_world-migrants-day.html">"Migrazioni: segno dei tempi"</a>
-<div class="lb_document_li_date">18 Ottobre 2005</div></li>
+ 	<li><a class="lb_document_li_a" href="http://w2.vatican.va/content/benedict-xvi/es/messages/migration/documents/hf_ben-xvi_mes_20121012_world-migrants-day.html">(Tema: Migraciones: peregrinación de fe y esperanza)</a>
+<div class="lb_document_li_date">12 de octubre de 2012</div></li>
+ 	<li><a class="lb_document_li_a" href="http://w2.vatican.va/content/benedict-xvi/es/messages/migration/documents/hf_ben-xvi_mes_20110921_world-migrants-day.html">(Tema: Migraciones y nueva evangelización)</a>
+<div class="lb_document_li_date">21 de septiembre de 2011</div></li>
+ 	<li><a class="lb_document_li_a" href="http://w2.vatican.va/content/benedict-xvi/es/messages/migration/documents/hf_ben-xvi_mes_20100927_world-migrants-day.html">“Una sola familia humana”</a>
+<div class="lb_document_li_date">27 de septiembre de 2010</div></li>
+ 	<li><a class="lb_document_li_a" href="http://w2.vatican.va/content/benedict-xvi/es/messages/migration/documents/hf_ben-xvi_mes_20091016_world-migrants-day.html">Tema: Los emigrantes y los refugiados menores de edad</a>
+<div class="lb_document_li_date">16 de octubre de 2009</div></li>
+ 	<li><a class="lb_document_li_a" href="http://w2.vatican.va/content/benedict-xvi/es/messages/migration/documents/hf_ben-xvi_mes_20080824_world-migrants-day.html">San Pablo migrante, Apóstol de los pueblos</a>
+<div class="lb_document_li_date">24 de agosto de 2008</div></li>
+ 	<li><a class="lb_document_li_a" href="http://w2.vatican.va/content/benedict-xvi/es/messages/migration/documents/hf_ben-xvi_mes_20071018_world-migrants-day.html">Los jóvenes migrantes</a>
+<div class="lb_document_li_date">18 de octubre, 2007</div></li>
+ 	<li><a class="lb_document_li_a" href="http://w2.vatican.va/content/benedict-xvi/es/messages/migration/documents/hf_ben-xvi_mes_20061018_world-migrants-day.html">"La familia migrante"</a>
+<div class="lb_document_li_date">18 de octubre de 2006</div></li>
+ 	<li><a class="lb_document_li_a" href="http://w2.vatican.va/content/benedict-xvi/es/messages/migration/documents/hf_ben-xvi_mes_20051018_world-migrants-day.html">"Migraciones: signo de los tiempos"</a>
+<div class="lb_document_li_date">18 de octubre de 2005</div></li>
 </ul>
 [/vc_column_text][/vc_accordion_tab][vc_accordion_tab title="John Paul II"][vc_column_text]
 <ul>
- 	<li><a class="lb_document_li_a" href="http://w2.vatican.va/content/john-paul-ii/it/messages/migration/documents/hf_jp-ii_mes_20041124_world-migration-day-2005.html">L’integrazione interculturale</a>
-<div class="lb_document_li_date">24 Novembre 2004</div></li>
- 	<li><a class="lb_document_li_a" href="http://w2.vatican.va/content/john-paul-ii/it/messages/migration/documents/hf_jp-ii_mes_20031223_world-migration-day-2004.html">Migrazioni in visione di pace</a>
-<div class="lb_document_li_date">15 dicembre 2003</div></li>
- 	<li><a class="lb_document_li_a" href="http://w2.vatican.va/content/john-paul-ii/it/messages/migration/documents/hf_jp-ii_mes_20021202_world-migration-day-2003.html">Per un impegno a vincere ogni razzismo, xenofobia e nazionalismo esasperato</a>
-<div class="lb_document_li_date">24 ottobre 2002</div></li>
- 	<li><a class="lb_document_li_a" href="http://w2.vatican.va/content/john-paul-ii/it/messages/migration/documents/hf_jp-ii_mes_20011018_world-migration-day-2002.html">Migrazioni e dialogo inter-religioso</a>
-<div class="lb_document_li_date">25 Luglio 2001</div></li>
- 	<li><a class="lb_document_li_a" href="http://w2.vatican.va/content/john-paul-ii/it/messages/migration/documents/hf_jp-ii_mes_20010213_world-migration-day-2001.html">La pastorale per i Migranti, via per l'adempimento della missione della Chiesa oggi</a>
-<div class="lb_document_li_date">2 Febbraio 2001</div></li>
- 	<li><a class="lb_document_li_a" href="http://w2.vatican.va/content/john-paul-ii/it/messages/migration/documents/hf_jp-ii_mes_21111999_world-migration-day-2000.html">Messaggio di Giovanni Paolo II</a>
-<div class="lb_document_li_date">21 novembre 1999</div></li>
- 	<li><a class="lb_document_li_a" href="http://w2.vatican.va/content/john-paul-ii/it/messages/migration/documents/hf_jp-ii_mes_22021999_world-migration-day-1999.html">«Giornata Mondiale Del Migrante 1999»</a>
-<div class="lb_document_li_date">2 febbraio 1999</div></li>
- 	<li><a class="lb_document_li_a" href="http://w2.vatican.va/content/john-paul-ii/it/messages/migration/documents/hf_jp-ii_mes_09111997_world-migration-day-1998.html">Per la Giornata Mondiale Dell' Emigrazione 1998</a>
-<div class="lb_document_li_date">9 Novembre 1997</div></li>
- 	<li><a class="lb_document_li_a" href="http://w2.vatican.va/content/john-paul-ii/it/messages/migration/documents/hf_jp-ii_mes_26081996_world-migration-day.html">Per la Giornata Mondiale Dell' Emigrazione 1997</a>
-<div class="lb_document_li_date">21 agosto 1996</div></li>
- 	<li><a class="lb_document_li_a" href="http://w2.vatican.va/content/john-paul-ii/it/messages/migration/documents/hf_jp-ii_mes_25071995_undocumented_migrants.html">Migranti Irregolari</a>
-<div class="lb_document_li_date">25 Luglio 1995</div></li>
+ 	<li><a class="lb_document_li_a" href="http://w2.vatican.va/content/john-paul-ii/es/messages/migration/documents/hf_jp-ii_mes_20041124_world-migration-day-2005.html">La integración intercultural</a>
+<div class="lb_document_li_date">24 de noviembre de 2004</div></li>
+ 	<li><a class="lb_document_li_a" href="http://w2.vatican.va/content/john-paul-ii/es/messages/migration/documents/hf_jp-ii_mes_20031223_world-migration-day-2004.html">MENSAJE DE SU SANTIDAD JUAN PABLO II PARA LA JORNADA MUNDIAL DEL EMIGRANTE Y EL REFUGIADO (2004)</a>
+<div class="lb_document_li_date">15 de diciembre de 2003</div></li>
+ 	<li><a class="lb_document_li_a" href="http://w2.vatican.va/content/john-paul-ii/es/messages/migration/documents/hf_jp-ii_mes_20021202_world-migration-day-2003.html">Para un empeño en vencer todo racismo, xenofobia y nacionalismo exagerado</a>
+<div class="lb_document_li_date">24 de octubre de 2002</div></li>
+ 	<li><a class="lb_document_li_a" href="http://w2.vatican.va/content/john-paul-ii/es/messages/migration/documents/hf_jp-ii_mes_20011018_world-migration-day-2002.html">DEL EMIGRANTE DEL AÑO 2002</a>
+<div class="lb_document_li_date">25 de julio de 2001</div></li>
+ 	<li><a class="lb_document_li_a" href="http://w2.vatican.va/content/john-paul-ii/es/messages/migration/documents/hf_jp-ii_mes_20010213_world-migration-day-2001.html">La pastoral de los emigrantes, camino para cumplir la misión de la Iglesia, hoy</a>
+<div class="lb_document_li_date">2 de febrero, 2001</div></li>
+ 	<li><a class="lb_document_li_a" href="http://w2.vatican.va/content/john-paul-ii/es/messages/migration/documents/hf_jp-ii_mes_21111999_world-migration-day-2000.html">MENSAJE DEL SANTO PADRE</a>
+<div class="lb_document_li_date">21 de noviembre de 1999</div></li>
+ 	<li><a class="lb_document_li_a" href="http://w2.vatican.va/content/john-paul-ii/es/messages/migration/documents/hf_jp-ii_mes_22021999_world-migration-day-1999.html">PARA LA JORNADA MUNDIAL DEL EMIGRANTE 1999</a>
+<div class="lb_document_li_date">2 de febrero de 1999</div></li>
+ 	<li><a class="lb_document_li_a" href="http://w2.vatican.va/content/john-paul-ii/es/messages/migration/documents/hf_jp-ii_mes_09111997_world-migration-day-1998.html">Compromiso cristiano de solidaridad y promoción humana de los emigrantes</a>
+<div class="lb_document_li_date">9 de noviembre del año 1997</div></li>
+ 	<li><a class="lb_document_li_a" href="http://w2.vatican.va/content/john-paul-ii/es/messages/migration/documents/hf_jp-ii_mes_26081996_world-migration-day.html">PARA LA JORNADA MUNDIAL DEL EMIGRANTE DE 1997</a>
+<div class="lb_document_li_date">21 de agosto de 1996</div></li>
+ 	<li><a class="lb_document_li_a" href="http://w2.vatican.va/content/john-paul-ii/es/messages/migration/documents/hf_jp-ii_mes_25071995_undocumented_migrants.html">Emigrantes irregulares</a>
+<div class="lb_document_li_date">25 de julio de 1995</div></li>
 </ul>
 [/vc_column_text][/vc_accordion_tab][/vc_accordion][/vc_column][vc_column width="1/6"][/vc_column][/vc_row]
