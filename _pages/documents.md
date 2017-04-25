@@ -27,7 +27,7 @@ qode_show-sidebar:
  	<li><a class="lb_document_li_a" href="https://w2.vatican.va/content/francesco/en/messages/migration/documents/papa-francesco_20150912_world-migrants-day-2016.html">“Migrants and Refugees Challenge Us. The Response of the Gospel of Mercy”</a>
 <div class="lb_document_li_date">17 January, 2016</div></li>
  	<li><a class="lb_document_li_a" href="https://w2.vatican.va/content/francesco/en/messages/migration/documents/papa-francesco_20140903_world-migrants-day-2015.html">Church without frontiers, Mother to all</a>
-<div class="lb_document_li_date">3 Semptember, 2014</div></li>
+<div class="lb_document_li_date">3 September, 2014</div></li>
  	<li><a class="lb_document_li_a" href="https://w2.vatican.va/content/francesco/en/messages/migration/documents/papa-francesco_20130805_world-migrants-day.html">Migrants and Refugees: Towards a Better World</a>
 <div class="lb_document_li_date">5 August, 2013</div></li>
 </ul>
