@@ -43,7 +43,7 @@ qode_show-sidebar:
  	<li><a class="lb_document_li_a" href="http://w2.vatican.va/content/benedict-xvi/pt/messages/migration/documents/hf_ben-xvi_mes_20091016_world-migrants-day.html">"Os migrantes e os refugiados menores"</a>
 <div class="lb_document_li_date">16 de Outubro de 2009</div></li>
  	<li><a class="lb_document_li_a" href="http://w2.vatican.va/content/benedict-xvi/pt/messages/migration/documents/hf_ben-xvi_mes_20080824_world-migrants-day.html">São Paulo migrante, ‘Apóstolo das gentes’</a>
-<div class="lb_document_li_date">24 de Agosto de 2008/div&gt;</div></li>
+<div class="lb_document_li_date">24 de Agosto de 2008</div></li>
  	<li><a class="lb_document_li_a" href="http://w2.vatican.va/content/benedict-xvi/pt/messages/migration/documents/hf_ben-xvi_mes_20071018_world-migrants-day.html">Os jovens migrantes</a>
 <div class="lb_document_li_date">18 de Outubro de 2007</div></li>
  	<li><a class="lb_document_li_a" href="http://w2.vatican.va/content/benedict-xvi/pt/messages/migration/documents/hf_ben-xvi_mes_20061018_world-migrants-day.html">A família migrante</a>
