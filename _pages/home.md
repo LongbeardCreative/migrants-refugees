@@ -62,7 +62,7 @@ To pursue long-term solutions</p>
 
 In Jesus’ own words, "Do to others as you would have them do to you" (Luke 6:31).[/vc_column_text][/vc_column_inner][/vc_row_inner][vc_empty_space height="130px" el_class="lb_empty_space lb_padding_150"][vc_row_inner row_type="row" type="full_width" text_align="left" css_animation=""][vc_column_inner el_class="lb_column_inner lb_title_two" width="1/2" css=".vc_custom_1488559945158{padding-right: 15% !important;padding-left: 15% !important;}"][vc_column_text el_class="lb_section_heading single"]
 <h1>YOU CAN, TOO</h1>
-[/vc_column_text][vc_column_text el_class="lb_section_body lb_line_under"]Despite the enormous challenges, progress is being made to make for a more welcoming world. Fr Fabio Baggio C.S. and Fr Michael Czerny S.J. manage the M&amp;R Section on behalf of Pope Francis.
+[/vc_column_text][vc_column_text el_class="lb_section_body lb_line_under"]Despite the enormous challenges, progress is being made to make for a more welcoming world. Fr. Fabio Baggio C.S. and Fr. Michael Czerny S.J. manage the M&amp;R Section on behalf of Pope Francis.
 
 &nbsp;
 
