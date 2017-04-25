@@ -1,6 +1,6 @@
 ---
 ID: 262
-post_title: 'Dr.ssa Salome Chege&#8217;s encouragement to refugees'
+post_title: 'Dr. ssa Salome Chege&#8217;s encouragement to refugees'
 author: mr_admin
 post_date: 2017-03-08 09:09:01
 post_excerpt: ""
@@ -25,4 +25,4 @@ qode_post_style_masonry_gallery:
 video_format_link:
   - nTfEEmChMZo
 ---
-Dr.ssa Salome Chege shares her personal story; a message of hope and encouragement to migrants and refugees throughout the world.
+Dr. ssa Salome Chege shares her personal story; a message of hope and encouragement to migrants and refugees throughout the world.
