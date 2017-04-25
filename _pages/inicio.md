@@ -48,7 +48,7 @@ La Sección M y R alienta la Iglesia Universal a asistir holísticamente todos l
 
 &nbsp;
 
-– los Obispos, los fieles, el clero, como también las organizaciones de la Iglesia y todos los demás –
+- los Obispos, los fieles, el clero, como también las organizaciones de la Iglesia y todos los demás -
 
 &nbsp;
 
