@@ -23,13 +23,13 @@ M&amp;R documents</a></div>
 <h1 style="text-align: center;"><span style="color: #000000;">World Migrants Day Addresses</span></h1>
 [/vc_column_text][vc_empty_space][vc_accordion active_tab="false" collapsible="yes" style="accordion" el_class="lb_doc_accordion"][vc_accordion_tab title="Pope Francis"][vc_column_text]
 <ul>
- 	<li><a class="lb_document_li_a" href="https://w2.vatican.va/content/francesco/en/messages/migration/documents/papa-francesco_20160908_world-migrants-day-2017.html" target="_blank" rel="noopener noreferrer">“Child Migrants, the Vulnerable and the Voiceless”</a>
+ 	<li><a class="lb_document_li_a" href="http://w2.vatican.va/content/francesco/en/messages/migration/documents/papa-francesco_20160908_world-migrants-day-2017.html" target="_blank" rel="noopener noreferrer">“Child Migrants, the Vulnerable and the Voiceless”</a>
 <div class="lb_document_li_date">15 January, 2017</div></li>
- 	<li><a class="lb_document_li_a" href="https://w2.vatican.va/content/francesco/en/messages/migration/documents/papa-francesco_20150912_world-migrants-day-2016.html" target="_blank" rel="noopener noreferrer">“Migrants and Refugees Challenge Us. The Response of the Gospel of Mercy”</a>
+ 	<li><a class="lb_document_li_a" href="http://w2.vatican.va/content/francesco/en/messages/migration/documents/papa-francesco_20150912_world-migrants-day-2016.html" target="_blank" rel="noopener noreferrer">“Migrants and Refugees Challenge Us. The Response of the Gospel of Mercy”</a>
 <div class="lb_document_li_date">17 January, 2016</div></li>
- 	<li><a class="lb_document_li_a" href="https://w2.vatican.va/content/francesco/en/messages/migration/documents/papa-francesco_20140903_world-migrants-day-2015.html" target="_blank" rel="noopener noreferrer">Church without frontiers, Mother to all</a>
+ 	<li><a class="lb_document_li_a" href="http://w2.vatican.va/content/francesco/en/messages/migration/documents/papa-francesco_20140903_world-migrants-day-2015.html" target="_blank" rel="noopener noreferrer">Church without frontiers, Mother to all</a>
 <div class="lb_document_li_date">3 September, 2014</div></li>
- 	<li><a class="lb_document_li_a" href="https://w2.vatican.va/content/francesco/en/messages/migration/documents/papa-francesco_20130805_world-migrants-day.html" target="_blank" rel="noopener noreferrer">Migrants and Refugees: Towards a Better World</a>
+ 	<li><a class="lb_document_li_a" href="http://w2.vatican.va/content/francesco/en/messages/migration/documents/papa-francesco_20130805_world-migrants-day.html" target="_blank" rel="noopener noreferrer">Migrants and Refugees: Towards a Better World</a>
 <div class="lb_document_li_date">5 August, 2013</div></li>
 </ul>
 [/vc_column_text][/vc_accordion_tab][vc_accordion_tab title="Benedict XVI"][vc_column_text]
