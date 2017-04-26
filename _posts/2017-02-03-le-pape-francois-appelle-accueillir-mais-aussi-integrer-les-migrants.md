@@ -5,11 +5,11 @@ post_title: >
   accueillir mais aussi à intégrer les
   migrants »
 author: mr_admin
-post_date: 2017-04-26 16:28:25
+post_date: 2017-02-03 16:28:25
 post_excerpt: ""
 layout: post
 permalink: >
-  http://migrants-refugees.org/fr/blog/2017/04/26/le-pape-francois-appelle-accueillir-mais-aussi-integrer-les-migrants/
+  http://migrants-refugees.org/fr/blog/2017/02/03/le-pape-francois-appelle-accueillir-mais-aussi-integrer-les-migrants/
 published: true
 yst_is_cornerstone:
   - ""
