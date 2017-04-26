@@ -55,6 +55,6 @@ Come Gesù ha sempre fatto, la Chiesa chiama i suoi seguaci all’amore e al ser
 
 Padre Michael Czerny, S.I., è un Gesuita canadese ed è sotto segretario della Sezione Migranti e Rifugiati al nuovo Dicastero per il Servizio dello Sviluppo Umano Integrale. In occasione delle celebrazioni della Chiesa per la 103ª Giornata Mondiale del Migrante e del Rifugiato, Catholic Register ha chiesto a padre Czerny di riflettere sul significato della giornata e sulle sfide che il futuro ci può riservare.
 
-http://www.catholicregister.org/features/featureseries/item/24072-fr-czerny-fear-has-no-place-in-dealing-with-refugees
+<a href="http://www.catholicregister.org/features/featureseries/item/24072-fr-czerny-fear-has-no-place-in-dealing-with-refugees">http://www.catholicregister.org/features/featureseries/item/24072-fr-czerny-fear-has-no-place-in-dealing-with-refugees</a>
 
 Italian translation by Giulia Isabel Cirillo
