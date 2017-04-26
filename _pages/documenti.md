@@ -16,7 +16,7 @@ qode_show-sidebar:
 [vc_row css_animation="" row_type="row" use_row_as_full_screen_section="no" type="full_width" angled_section="no" text_align="left" background_image_as_pattern="without_pattern" padding_top="64" padding_bottom="64"][vc_column][vc_column_text el_class=" lb_contact_header"]
 <h1 style="text-align: center;">Documents</h1>
 [/vc_column_text][vc_empty_space height="75px"][vc_row_inner row_type="row" type="grid" text_align="center" css_animation="" el_id="lb_documents_drive"][vc_column_inner][vc_column_text]
-<div><a href="https://drive.google.com/drive/folders/0B2AK2bI01BzsbU1sbmhsU3ZXNEE">[image_hover target="_blank" animation="yes" image="405" hover_image="406" transition_delay="1000"]
+<div class="lb_doc_drive"><a href="https://drive.google.com/drive/folders/0B2AK2bI01BzsbU1sbmhsU3ZXNEE">[image_hover target="_blank" animation="yes" image="423" hover_image="422" transition_delay="1000"]
 M&amp;R documents</a></div>
 [/vc_column_text][vc_empty_space][/vc_column_inner][/vc_row_inner][vc_empty_space][vc_text_separator title="More Resources" css_animation="fadeIn" border="no" background_color="#fed766" title_color="#000000"][vc_empty_space height="75px"][vc_column_text]
 <p style="text-align: center;">Clicking on the logos below will direct you to various resources hosted by these organisations.</p>
