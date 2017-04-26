@@ -16,7 +16,7 @@ yst_is_cornerstone:
   - ""
 ---
 [vc_row css_animation="" row_type="row" use_row_as_full_screen_section="no" type="full_width" angled_section="no" text_align="left" background_image_as_pattern="without_pattern" padding_top="64" padding_bottom="64"][vc_column][vc_column_text el_class=" lb_contact_header"]
-<h1 style="text-align: center;">Documents</h1>
+<h1 style="text-align: center;">Documentos</h1>
 [/vc_column_text][vc_empty_space height="75px"][vc_row_inner row_type="row" type="grid" text_align="center" css_animation="" el_id="lb_documents_drive"][vc_column_inner][vc_column_text]
 <div><a href="https://drive.google.com/drive/folders/0B2AK2bI01BzsbU1sbmhsU3ZXNEE">[image_hover target="_blank" animation="yes" image="420" hover_image="419" transition_delay="1000"]
 M. e R. Documentos</a></div>
