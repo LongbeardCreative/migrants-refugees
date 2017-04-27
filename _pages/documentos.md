@@ -16,15 +16,15 @@ yst_is_cornerstone:
   - ""
 ---
 [vc_row css_animation="" row_type="row" use_row_as_full_screen_section="no" type="full_width" angled_section="no" text_align="left" background_image_as_pattern="without_pattern" padding_top="64" padding_bottom="64"][vc_column][vc_column_text el_class=" lb_contact_header"]
-<h1 style="text-align: center;">Documents</h1>
+<h1 style="text-align: center;">Documentos</h1>
 [/vc_column_text][vc_empty_space height="75px"][vc_row_inner row_type="row" type="grid" text_align="center" css_animation="" el_id="lb_documents_drive"][vc_column_inner][vc_column_text]
 <div class="lb_doc_drive"><a href="https://drive.google.com/drive/folders/0B2AK2bI01BzsbU1sbmhsU3ZXNEE" target="_blank" rel="noopener noreferrer">[image_hover animation="yes" image="420" hover_image="419" transition_delay="1000"]
-M&amp;R Documents</a></div>
+Documentos de M&amp;R</a></div>
 <div class="lb_doc_drive"></div>
-[/vc_column_text][vc_empty_space][/vc_column_inner][/vc_row_inner][vc_empty_space][vc_text_separator title="More Resources" css_animation="fadeIn" border="no" background_color="#fed766" title_color="#000000"][vc_empty_space height="75px"][vc_column_text css=".vc_custom_1493197055376{padding-right: 25px !important;padding-left: 25px !important;}"]
-<p style="text-align: center;">Clicking on the logos below will direct you to various resources provided by these organisations.</p>
+[/vc_column_text][vc_empty_space][/vc_column_inner][/vc_row_inner][vc_empty_space][vc_text_separator title="Mais recursos" css_animation="fadeIn" border="no" background_color="#fed766" title_color="#000000"][vc_empty_space height="75px"][vc_column_text css=".vc_custom_1493282179742{padding-right: 25px !important;padding-left: 25px !important;}"]
+<p style="text-align: center;">Clicando nos logotipos abaixo, você será direcionado para vários recursos fornecidos por essas organizações.</p>
 [/vc_column_text][vc_empty_space][vc_row_inner row_type="row" type="grid" text_align="left" css_animation="" el_id="lb_orgs"][vc_column_inner][qode_elements_holder number_of_columns="three_columns" switch_to_one_column="480"][qode_elements_holder_item item_padding="25px 25px 25px 25px" vertical_alignment="middle" advanced_animations="no"][image_hover target="_blank" animation="yes" image="412" hover_image="417" link="http://www.caritas.org/who-we-are/publications-and-resources/" transition_delay="1000"][/qode_elements_holder_item][qode_elements_holder_item item_padding="25px 25px 25px 25px" vertical_alignment="middle" advanced_animations="no"][image_hover target="_blank" animation="yes" image="413" hover_image="416" link="https://www.icmc.net/resources" transition_delay="1000"][/qode_elements_holder_item][qode_elements_holder_item item_padding="25px 25px 25px 25px" vertical_alignment="middle" advanced_animations="no"][image_hover target="_blank" animation="yes" image="414" hover_image="415" link="https://en.jrs.net/publications" transition_delay="1000"][/qode_elements_holder_item][/qode_elements_holder][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row][vc_row css_animation="" row_type="row" use_row_as_full_screen_section="no" type="grid" angled_section="no" text_align="left" background_image_as_pattern="without_pattern" background_color="#fed766" padding_top="100" padding_bottom="100"][vc_column width="1/6"][/vc_column][vc_column width="2/3"][vc_column_text]
-<h1 style="text-align: center;"><span style="color: #000000;">World Migrants Day Addresses</span></h1>
+<h1 style="text-align: center;"><span style="color: #000000;">Discursos para o Dia Mundial do Migrante e do Refugiado</span></h1>
 [/vc_column_text][vc_empty_space][vc_accordion active_tab="false" collapsible="yes" style="accordion" el_class="lb_doc_accordion"][vc_accordion_tab title="Papa Francisco"][vc_column_text]
 <ul>
  	<li><a class="lb_document_li_a" href="http://w2.vatican.va/content/francesco/pt/messages/migration/documents/papa-francesco_20160908_world-migrants-day-2017.html" target="_blank" rel="noopener noreferrer">"Migrantes de menor idade, vulneráveis e sem voz"</a>
