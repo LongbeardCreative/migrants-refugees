@@ -6,7 +6,7 @@ post_date: 2017-02-09 20:31:23
 post_excerpt: ""
 layout: page
 permalink: >
-  http://migrants-refugees.org/es/contacto/
+  https://migrants-refugees.va/es/contacto/
 published: true
 qode_animate-page-title:
   - 'no'
