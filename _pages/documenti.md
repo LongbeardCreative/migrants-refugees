@@ -6,7 +6,7 @@ post_date: 2017-04-25 01:08:32
 post_excerpt: ""
 layout: page
 permalink: >
-  http://migrants-refugees.org/it/documenti/
+  https://migrants-refugees.va/it/documenti/
 published: true
 qode_animate-page-title:
   - 'no'
