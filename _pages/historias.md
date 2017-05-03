@@ -1,12 +1,12 @@
 ---
 ID: 44
-post_title: Historias
+post_title: Histórias
 author: mr_admin
 post_date: 2017-02-10 15:25:08
 post_excerpt: ""
 layout: page
 permalink: >
-  https://migrants-refugees.va/es/historias/
+  https://migrants-refugees.va/pt/historias/
 published: true
 qode_animate-page-title:
   - 'no'
@@ -18,7 +18,5 @@ qode_header_color_transparency_per_page:
   - "0"
 qode_show-page-title:
   - 'yes'
-yst_is_cornerstone:
-  - ""
 ---
-[vc_row css_animation="" row_type="row" use_row_as_full_screen_section="no" type="full_width" angled_section="no" text_align="left" background_image_as_pattern="without_pattern"][vc_column][vc_empty_space height="23px"][/vc_column][/vc_row]
+[vc_row css_animation="" row_type="row" use_row_as_full_screen_section="no" type="full_width" angled_section="no" text_align="left" background_image_as_pattern="without_pattern"][vc_column][vc_empty_space height="23"][/vc_column][/vc_row]
