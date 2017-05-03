@@ -1,6 +1,6 @@
 ---
 ID: 436
-post_title: Intervista a cura di Giuseppe Sangiorgi
+post_title: '&#8220;Fratelli che vogliono vivere in pace&#8221;'
 author: mr_admin
 post_date: 2017-03-28 09:32:29
 post_excerpt: ""
