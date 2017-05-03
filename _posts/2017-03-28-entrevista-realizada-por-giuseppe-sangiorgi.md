@@ -1,8 +1,6 @@
 ---
 ID: 458
-post_title: >
-  Entrevista realizada por Giuseppe
-  Sangiorgi
+post_title: 'Entrevista al Santo Padre &#8211; libertàcivili'
 author: mr_admin
 post_date: 2017-03-28 10:04:10
 post_excerpt: ""
