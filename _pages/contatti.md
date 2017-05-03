@@ -6,7 +6,7 @@ post_date: 2017-02-09 20:31:23
 post_excerpt: ""
 layout: page
 permalink: >
-  http://migrants-refugees.org/it/contatti/
+  https://migrants-refugees.va/it/contatti/
 published: true
 qode_animate-page-title:
   - 'no'
@@ -14,6 +14,8 @@ qode_show-sidebar:
   - default
 qode_show-page-title:
   - 'yes'
+yst_is_cornerstone:
+  - ""
 ---
 [vc_row css_animation="" row_type="row" use_row_as_full_screen_section="no" type="full_width" angled_section="no" text_align="left" background_image_as_pattern="without_pattern" padding_top="32" padding_bottom="64"][vc_column width="1/4"][/vc_column][vc_column width="1/2"][vc_column_text el_class="lb_contact_header"]
 <h1 style="text-align: center;">CONTATTI</h1>
