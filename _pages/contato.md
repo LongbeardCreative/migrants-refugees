@@ -5,7 +5,7 @@ author: mr_admin
 post_date: 2017-02-09 20:31:23
 post_excerpt: ""
 layout: page
-permalink: http://migrants-refugees.org/pt/contato/
+permalink: https://migrants-refugees.va/pt/contato/
 published: true
 qode_animate-page-title:
   - 'no'
