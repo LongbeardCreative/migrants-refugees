@@ -5,7 +5,7 @@ author: Evan Hennessy
 post_date: 2017-02-09 14:55:22
 post_excerpt: ""
 layout: page
-permalink: http://migrants-refugees.org/it/
+permalink: https://migrants-refugees.va/it/
 published: true
 qode_animate-page-title:
   - 'no'
@@ -30,11 +30,11 @@ qode_header_color_transparency_per_page:
 La Sezione MR aiuta la Chiesa intorno al mondo a accompagnare coloro che sono forzatamente sfollati da conflitti, catastrofi naturali, persecuzioni o povertà estrema, coloro che con difficoltà cercano di mettersi in salvo o sono rimasti bloccati, e coloro che sono vittime di tratta.[/vc_column_text][/vc_column_inner][/vc_row_inner][vc_single_image image="28" img_size="full" alignment="center" qode_css_animation="" el_class="pull-up lb_pope_img"][/vc_column][/vc_row][vc_row css_animation="" el_class="lb_row lb_video_container" row_type="row" use_row_as_full_screen_section="no" type="full_width" angled_section="no" text_align="center" background_image="35" background_image_as_pattern="without_pattern"][vc_column][vc_empty_space height="45" el_class=""][vc_column_text el_class=" lb_pageable_links lb_column_text"]<a href="#about_the_section_page">SULLA SEZIONE</a>[/vc_column_text][vc_empty_space height="20" el_class=""][vc_tta_pageable no_fill_content_area="1" active_section="2" css_animation="fadeIn" el_class="lb_video_reel"][vc_tta_section title="Stories" tab_id="stories_page"][vc_column_text]
 <div id="EJSnlQDUlpA" class="youtube_codegena" style="width: 853px; height: 480px;" data-params="?&amp;theme=dark&amp;autoplay=1&amp;color=white&amp;autohide=2&amp;modestbranding=1&amp;rel=0"><span id="about_subtitle" class="lb_video_subtitle">Stories</span></div>
 [/vc_column_text][vc_column_text el_class="lb_column_text lb_more_videos"]
-<p style="text-align: right;"><a class="lb_more_link" href="http://migrants-refugees.org/it/storie?category=interviews">Altri Video</a></p>
+<p style="text-align: right;"><a class="lb_more_link" href="https://migrants-refugees.va/it/storie?category=interviews">Altri Video</a></p>
 [/vc_column_text][/vc_tta_section][vc_tta_section title="About the Section" tab_id="about_the_section_page"][vc_column_text]
 <div id="hnM4Ee-GSqU" class="youtube_codegena" style="width: 853px; height: 480px;" data-params="?&amp;theme=dark&amp;autoplay=1&amp;color=white&amp;autohide=2&amp;modestbranding=1&amp;rel=0"><span id="about_subtitle" class="lb_video_subtitle">Sulla Sezione</span></div>
 [/vc_column_text][vc_column_text el_class="lb_column_text lb_more_videos"]
-<p style="text-align: right;"><a class="lb_more_link" href="http://migrants-refugees.org/it/storie?category=interviews">Altri Video</a></p>
+<p style="text-align: right;"><a class="lb_more_link" href="https://migrants-refugees.va/it/storie?category=interviews">Altri Video</a></p>
 [/vc_column_text][/vc_tta_section][/vc_tta_pageable][vc_single_image image="219" img_size="100x42" alignment="center" onclick="custom_link" img_link_target="_blank" qode_css_animation="" link="https://www.youtube.com/channel/UCl2EWji335jtLM4J1xP_vEQ" el_class="opacity-hover lb_yt_external"][vc_empty_space height="45px" el_class=""][/vc_column][/vc_row][vc_row css_animation="" row_type="row" use_row_as_full_screen_section="no" type="grid" angled_section="no" text_align="left" background_image_as_pattern="without_pattern"][vc_column][vc_empty_space height="130px" el_class="lb_empty_space lb_padding_150"][vc_row_inner row_type="row" type="full_width" text_align="left" css_animation=""][vc_column_inner width="1/2" css=".vc_custom_1488559927506{padding-right: 15% !important;padding-left: 15% !important;}"][vc_column_text el_class="lb_section_heading double double-as-single"]
 <h1>PIANGERE,</h1>
 <h1>E POI AGIRE</h1>
