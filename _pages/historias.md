@@ -6,7 +6,7 @@ post_date: 2017-02-10 15:25:08
 post_excerpt: ""
 layout: page
 permalink: >
-  http://migrants-refugees.org/es/historias/
+  https://migrants-refugees.va/es/historias/
 published: true
 qode_animate-page-title:
   - 'no'
