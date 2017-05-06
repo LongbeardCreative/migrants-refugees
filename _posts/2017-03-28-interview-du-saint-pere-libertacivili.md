@@ -2,11 +2,11 @@
 ID: 439
 post_title: 'Interview du Saint-Père &#8211; libertàcivili'
 author: mr_admin
-post_date: 2017-05-06 16:19:39
+post_date: 2017-03-28 16:19:39
 post_excerpt: ""
 layout: post
 permalink: >
-  https://migrants-refugees.va/fr/blog/2017/05/06/interview-du-saint-pere-libertacivili/
+  https://migrants-refugees.va/fr/blog/2017/03/28/interview-du-saint-pere-libertacivili/
 published: true
 yst_is_cornerstone:
   - ""
