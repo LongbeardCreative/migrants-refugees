@@ -16,7 +16,7 @@ yst_is_cornerstone:
 video_format_choose:
   - youtube
 video_format_link:
-  - bmTV-TfXspg
+  - jDA6zheQQFs
 gallery_type:
   - slider
 qode_animate-page-title:
