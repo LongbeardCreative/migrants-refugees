@@ -33,10 +33,12 @@ La Section Migrants et Réfugiés aide l’Église partout dans le monde à acco
 <div id="EJSnlQDUlpA" class="youtube_codegena" style="width: 853px; height: 480px;" data-params="?&amp;theme=dark&amp;autoplay=1&amp;color=white&amp;autohide=2&amp;modestbranding=1&amp;rel=0"><span id="about_subtitle" class="lb_video_subtitle">Histoires</span></div>
 [/vc_column_text][vc_column_text el_class="lb_column_text lb_more_videos"]
 <p style="text-align: right;"><a class="lb_more_link" href="https://migrants-refugees.va/fr/stories?category=interviews">Voir plus de vidéos</a></p>
+
 [/vc_column_text][/vc_tta_section][vc_tta_section title="About the Section" tab_id="about_the_section_page"][vc_column_text]
 <div id="AjrR4uF_r8A" class="youtube_codegena" style="width: 853px; height: 480px;" data-params="?&amp;theme=dark&amp;autoplay=1&amp;color=white&amp;autohide=2&amp;modestbranding=1&amp;rel=0"><span id="about_subtitle" class="lb_video_subtitle">À Propos De La Section</span></div>
 [/vc_column_text][vc_column_text el_class="lb_column_text lb_more_videos"]
 <p style="text-align: right;"><a class="lb_more_link" href="https://migrants-refugees.va/fr/stories?category=interviews">View More Videos</a></p>
+
 [/vc_column_text][/vc_tta_section][/vc_tta_pageable][vc_single_image image="447" img_size="100x42" alignment="center" onclick="custom_link" img_link_target="_blank" qode_css_animation="" link="https://www.youtube.com/channel/UCl2EWji335jtLM4J1xP_vEQ" el_class="opacity-hover lb_yt_external"][vc_empty_space height="45px" el_class=""][/vc_column][/vc_row][vc_row css_animation="" row_type="row" use_row_as_full_screen_section="no" type="grid" angled_section="no" text_align="left" background_image_as_pattern="without_pattern"][vc_column][vc_empty_space height="130px" el_class="lb_empty_space lb_padding_150"][vc_row_inner row_type="row" type="full_width" text_align="left" css_animation=""][vc_column_inner width="1/2" css=".vc_custom_1491576440738{padding-right: 15% !important;padding-bottom: 32px !important;padding-left: 15% !important;}"][vc_column_text el_class="lb_section_heading double double-as-quad single-ipad"]
 <h1>PLEUREZ, MAIS</h1>
 <h1>ENSUITE AGISSEZ</h1>
@@ -61,7 +63,8 @@ Le pape a déclaré: « en soignant les blessures des réfugiés, des déplacés
 <p style="padding-left: 30px;">Voir, écouter, accueillir
 Protéger
 Soutenir et intégrer
-Chercher des solutions à long terme</p>
+Chercher des solutions à long terme
+
 &nbsp;
 
 Comme le dit Jésus : « Ce que vous voulez que les autres fassent pour vous, faites-le aussi pour eux » (Luc 6, 31).[/vc_column_text][/vc_column_inner][/vc_row_inner][vc_empty_space height="130px" el_class="lb_empty_space lb_padding_150"][vc_row_inner row_type="row" type="full_width" text_align="left" css_animation=""][vc_column_inner el_class="lb_column_inner lb_title_two" width="1/2" css=".vc_custom_1488559945158{padding-right: 15% !important;padding-left: 15% !important;}"][vc_column_text el_class="lb_section_heading double single-ipad"]
@@ -71,7 +74,7 @@ Comme le dit Jésus : « Ce que vous voulez que les autres fassent pour vous, fa
 
 &nbsp;
 
-<span style="font-weight: 400;">Nous repérons de nombreuses occasions d’opérer des changements fondamentaux. Nous encourageons tout le monde à s’engager en solidarité avec le pape, pour la création de communautés compatissantes et accueillantes autour du monde. Ce site Web donne accès à beaucoup de ressources, et une bonne façon de commencer à en bénéficier est de vous inscrire à la liste d’envois. </span>[/vc_column_text][/vc_column_inner][vc_column_inner width="1/2"][vc_single_image image="55" img_size="full" qode_css_animation="" el_class="lb_overlap"][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row][vc_row css_animation="" el_class="color3_row lb_full_section" row_type="row" use_row_as_full_screen_section="no" type="full_width" anchor="subscribe" angled_section="no" text_align="left" background_image_as_pattern="without_pattern" el_id="sinscrire"][vc_column][vc_row_inner el_class="lb_row_inner subscribe_form" row_type="row" type="grid" text_align="left" css_animation=""][vc_column_inner][vc_empty_space el_class="padding-top"][vc_empty_space el_class="padding-top"][vc_column_text el_class="lb_call_to_action"]
+<span style="font-weight: 400;">Nous repérons de nombreuses occasions d’opérer des changements fondamentaux. Nous encourageons tout le monde à s’engager en solidarité avec le pape, pour la création de communautés compatissantes et accueillantes autour du monde. Ce site Web donne accès à beaucoup de ressources, et une bonne façon de commencer à en bénéficier est de vous inscrire à la liste d’envois. </span>[/vc_column_text][/vc_column_inner][vc_column_inner width="1/2"][vc_single_image image="55" img_size="full" qode_css_animation="" el_class="lb_overlap"][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row][vc_row css_animation="" el_class="color3_row lb_full_section" row_type="row" use_row_as_full_screen_section="no" type="full_width" anchor="sinscrire" angled_section="no" text_align="left" background_image_as_pattern="without_pattern" el_id="sinscrire"][vc_column][vc_row_inner el_class="lb_row_inner subscribe_form" row_type="row" type="grid" text_align="left" css_animation=""][vc_column_inner][vc_empty_space el_class="padding-top"][vc_empty_space el_class="padding-top"][vc_column_text el_class="lb_call_to_action"]
 <h2>INSCRIVEZ-VOUS À LA LISTE DE DIFFUSION DE M et R</h2>
 [/vc_column_text][gravityform id="1" title="false" description="false" ajax="true"][vc_empty_space el_class="padding-bottom"][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row][vc_row css_animation="" row_type="row" use_row_as_full_screen_section="no" type="grid" angled_section="no" text_align="center" background_image="54" background_image_as_pattern="without_pattern"][vc_column][vc_empty_space el_class="padding-top"][vc_column_text el_class="quote_row"]
 <h1 style="text-align: center;"><span style="color: #ffffff;">LES MIGRANTS SONT
