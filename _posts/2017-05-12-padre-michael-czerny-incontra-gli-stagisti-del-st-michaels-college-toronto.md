@@ -5,11 +5,11 @@ post_title: >
   stagisti del St. Michael’s College,
   Toronto
 author: mr_admin
-post_date: 2017-06-01 13:15:22
+post_date: 2017-05-12 13:15:22
 post_excerpt: ""
 layout: post
 permalink: >
-  https://migrants-refugees.va/it/blog/2017/06/01/padre-michael-czerny-incontra-gli-stagisti-del-st-michaels-college-toronto/
+  https://migrants-refugees.va/it/blog/2017/05/12/padre-michael-czerny-incontra-gli-stagisti-del-st-michaels-college-toronto/
 published: true
 yst_is_cornerstone:
   - ""
