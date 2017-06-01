@@ -2,11 +2,11 @@
 ID: 487
 post_title: 'El P. Michael Czerny se reunió con estudiantes del St. Michael&#8217;s College de Toronto'
 author: mr_admin
-post_date: 2017-06-01 13:19:59
+post_date: 2017-05-12 13:19:59
 post_excerpt: ""
 layout: post
 permalink: >
-  https://migrants-refugees.va/es/blog/2017/06/01/el-p-michael-czerny-se-reunio-con-estudiantes-del-st-michaels-college-de-toronto/
+  https://migrants-refugees.va/es/blog/2017/05/12/el-p-michael-czerny-se-reunio-con-estudiantes-del-st-michaels-college-de-toronto/
 published: true
 yst_is_cornerstone:
   - ""
