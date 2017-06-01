@@ -5,11 +5,11 @@ post_title: >
   stagiaires du Collège St. Michael de
   Toronto
 author: mr_admin
-post_date: 2017-06-01 13:10:42
+post_date: 2017-05-12 13:10:42
 post_excerpt: ""
 layout: post
 permalink: >
-  https://migrants-refugees.va/fr/blog/2017/06/01/le-p-michael-czerny-rencontre-des-stagiaires-du-college-st-michael-de-toronto/
+  https://migrants-refugees.va/fr/blog/2017/05/12/le-p-michael-czerny-rencontre-des-stagiaires-du-college-st-michael-de-toronto/
 published: true
 yst_is_cornerstone:
   - ""
