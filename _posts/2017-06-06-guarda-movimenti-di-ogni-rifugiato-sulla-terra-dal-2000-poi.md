@@ -31,6 +31,6 @@ qode_post_style_masonry_gallery:
 ---
 "Grazie a una nuova modalità di visualizzazione, è possibile rilevare il flusso di rifugiati che si è spostato in ogni regione del mondo dal 2000 al 2015. Questo nuovo strumento tratteggia la storia meno conosciuta di alcuni luoghi dell’Africa - e di eventi come quelli che hanno interessato lo Sri Lanka nel 2006 o la Colombia nel 2007 -, rendendola tanto chiara quanto i recenti avvenimenti in Siria. Ogni puntino giallo rappresenta 17 rifugiati che lasciano un paese e ogni puntino rosso indica i rifugiati che arrivano in un altro luogo."
 
-<a href="https://explorables.cmucreatelab.org/explorables/annual-refugees/examples/webgl-timemachine/" target="_blank" rel="noopener noreferrer">Per visualizzare la sequenza temporale del flusso di rifugiati, fai clic qui</a>
+<a href="https://explorables.cmucreatelab.org/explorables/annual-refugees/examples/webgl-timemachine/" target="_blank" rel="noopener noreferrer">Per visualizzare la sequenza temporale del flusso di rifugiati clicca qui</a>
 
-<a href="https://www.fastcompany.com/40423720/watch-the-movements-of-every-refugee-on-earth-since-the-year-2000#v=-81.53355,84.13248,0.382,latLng&amp;t=0.00&amp;l=bdrk,ar" target="_blank" rel="noopener noreferrer">Per leggere tutto l’articolo, fai clic qui</a>
+<a href="https://www.fastcompany.com/40423720/watch-the-movements-of-every-refugee-on-earth-since-the-year-2000#v=-81.53355,84.13248,0.382,latLng&amp;t=0.00&amp;l=bdrk,ar" target="_blank" rel="noopener noreferrer">Per leggere tutto l’articolo clicca qui</a>
