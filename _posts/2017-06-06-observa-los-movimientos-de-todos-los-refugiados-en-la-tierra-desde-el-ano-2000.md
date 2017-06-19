@@ -34,4 +34,4 @@ qode_post_style_masonry_gallery:
 
 <a href="https://explorables.cmucreatelab.org/explorables/annual-refugees/examples/webgl-timemachine/" target="_blank" rel="noopener noreferrer">Para visualizar las secuencias temporales del flujo de refugiados, pincha aquí</a>
 
-<a href="https://www.fastcompany.com/40423720/watch-the-movements-of-every-refugee-on-earth-since-the-year-2000#v=-81.53355,84.13248,0.382,latLng&amp;t=0.00&amp;l=bdrk,ar" target="_blank" rel="noopener noreferrer">Para leer el artículo completo, pincha aquí</a>
+<a href="https://www.fastcompany.com/40423720/watch-the-movements-of-every-refugee-on-earth-since-the-year-2000#v=-81.53355,84.13248,0.382,latLng&amp;t=0.00&amp;l=bdrk,ar" target="_blank" rel="noopener noreferrer">Para leer el artículo completo, haga clic aquí</a>
