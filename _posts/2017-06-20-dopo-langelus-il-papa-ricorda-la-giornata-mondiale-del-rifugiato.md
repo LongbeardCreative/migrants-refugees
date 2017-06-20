@@ -2,7 +2,7 @@
 ID: 483
 post_title: 'Dopo l&#8217;Angelus il Papa ricorda la giornata mondiale del rifugiato'
 author: mr_admin
-post_date: 2017-06-20 13:11:23
+post_date: 2017-06-20 06:00:23
 post_excerpt: ""
 layout: post
 permalink: >
