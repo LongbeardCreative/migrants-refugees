@@ -28,4 +28,12 @@ qode_post_style_masonry_date_image:
 qode_post_style_masonry_gallery:
   - default
 ---
+Quali risposte — immediate, a medio e lungo termine — può dare la Chiesa a livello diocesano, regionale e nazionale, e con il contributo delle organizzazioni...
+
+&nbsp;
+
+<a href="http://www.osservatoreromano.va/it/news/fronteggiare-il-dramma-di-chi-fugge">Leggi l'articolo completo</a>
+
+&nbsp;
+
 Per scaricare l'articolo completo <a href="http://stage.migrants-refugees.org/wp-content/uploads/2017/06/Osservatore-18-giugno-2.pdf">clicca qui</a>
