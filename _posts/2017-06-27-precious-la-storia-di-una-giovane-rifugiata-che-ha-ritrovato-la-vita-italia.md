@@ -5,11 +5,11 @@ post_title: >
   rifugiata che ha ritrovato la vita in
   Italia
 author: mr_admin
-post_date: 2017-06-22 16:59:45
+post_date: 2017-06-27 14:00:45
 post_excerpt: ""
 layout: post
 permalink: >
-  https://migrants-refugees.va/it/blog/2017/06/22/precious-la-storia-di-una-giovane-rifugiata-che-ha-ritrovato-la-vita-italia/
+  https://migrants-refugees.va/it/blog/2017/06/27/precious-la-storia-di-una-giovane-rifugiata-che-ha-ritrovato-la-vita-italia/
 published: true
 yst_is_cornerstone:
   - ""
